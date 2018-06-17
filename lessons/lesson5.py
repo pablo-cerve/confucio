@@ -4,7 +4,7 @@
 LESSON5 = [
     ["CĀNTĪNG",  "餐厅", "comedor, restaurante"],
     ["ZÀI", "在", "estar, a, en"],
-    ["NǍR",  "哪人", "dónde"],
+    ["NǍR",  "哪?", "dónde"],
     ["SÙSHÈ",  "宿舍", "dormitorio"],
     ["NǙ", "女", "mujer, femenino"],
     ["ZUÒ",  "坐", "sentarse"],
@@ -17,11 +17,11 @@ LESSON5 = [
     ["XIǍOJIĚ",  "小姐", "señorita, chica joven"],
     ["ÈR",  "二", "dos"],
     ["CÉNG",  "层", "piso, planta, capa"],
-    ["LÍNG",  "零", "cero"],
+    ["LÍNG",  "O", "cero"],
     ["SÌ",  "四", "cuatro"],
     ["HÀO",  "号", "número, fecha"],
     ["BÚYÒNG",  "不用", "no necesitar"],
-    ["ZHÈR",  "这人", "aquí"],
+    ["ZHÈR",  "这?", "aquí"],
     ["WǍN",  "晚", "tarde"],
     ["LE",  "了", "(partícula de aspecto)"]
 ]

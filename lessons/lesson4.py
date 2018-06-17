@@ -25,5 +25,10 @@ LESSON4 = [
     ["HÀNYǓ", "汉语", "chino (idioma)"],
     ["YĪNGGUÓ", "英国", "Inglaterra, Gran Bretaña"],
     ["JIĀNÁDÀ", "加拿大", "Canadá"],
-    ["XĪBĀNYÁ", "西班牙", "España"]
+    ["XĪBĀNYÁ", "西班牙", "España"],
+    ["MĚIGUÓ", "美国", "Estados Unidos"],
+    ["FǍGUÓ", "法国", "Francia"],
+    ["DÉGUÓ", "德国", "Alemania"],
+    ["RÌBĚN", "日本", "Japón"],
+    ["WŪLĀGUĪ", "乌拉圭", "Uruguay"]
 ]
