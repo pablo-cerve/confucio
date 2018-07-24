@@ -17,7 +17,7 @@ LESSON4 = [
     ["XIĀNSHENG", "先生", "señor"],
     ["YǓYÁN", "语言", "lengua, idioma"],
     ["XUÉYUÀN", "学院", "instituto, universidad, escuela"],
-    ["XUÉ", "学", "aprender, estudiar"],
+    ["XUÉ", "学", "estudio"],
     ["DE", "的", "(partícula que indica la posesión, o que está entre un sustantivo y su modificador)"],
     ["XUÉSHENG", "学生", "estudiante"],
     ["SHÉNME", "什么", "qué (partícula interrogativa)"],
