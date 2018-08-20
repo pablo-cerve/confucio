@@ -18,7 +18,7 @@ LESSON6 = [
     ["YǑU", "有", "tener"],
     ["SHÍJIĀN", "事件", "tiempo"],
     ["SHUŌ", "说", "hablar, decir"],
-    ["YĪ", "一", "uno"]
+    ["YĪ", "一", "uno"],
     ["BIÀN", "遍", "número de veces (de una acción) / por todas partes"],
     ["DǍQIÚ", "打球", "jugar a la pelota"],
     ["DǍ", "打", "jugar"],
