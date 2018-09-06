@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from random import shuffle
-from lessons.aux import get_lesson
+from lessons.auxi import get_lesson
 from word import Word
 
 
