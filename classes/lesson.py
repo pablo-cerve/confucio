@@ -11,8 +11,18 @@ class Lesson:
         self.lesson_id = lesson_id
         self.words = []
         for word_s in get_lesson(lesson_id - 1):
-            pinyin, chinese, definition = word_s
-            word = Word(pinyin, chinese, definition)
+            # TODO: fix
+            if len(word_s) == 3:
+                if isinstance(word_s[2], list):
+                    pinyin, chinese, word_types = word_s
+                    word = Word(pinyin, chinese, "", word_types)
+                else:
+                    pinyin, chinese, definition = word_s
+                    word_types = None
+                    word = Word(pinyin, chinese, definition, word_types)
+            else:
+                pinyin, chinese, definition, word_types = word_s
+                word = Word(pinyin, chinese, definition, word_types)
             self.words.append(word)
         self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
 
@@ -44,12 +54,24 @@ class Lesson:
         print "LECCIÓN %s %s %s" % (self.lesson_id, extra_str, random_str)
 
     def _print_aux(self, title, rand, method_str):
-        print
         self._print_lesson_id(title, rand)
         words_list = self.words if not rand else self._shuffled_words()
         for idx, word in enumerate(words_list):
             func = getattr(word, method_str)
-            print self.index_str(idx, func())
+            if method_str == "str_definition":
+                if word.word_meanings is None:
+                    # TODO: remove
+                    print self.index_str(idx, word.str_definition())
+                else:
+                    estring = ""
+                    for wm_idx, word_meaning in enumerate(word.word_meanings):
+                        word_types_str = "[" + word_meaning.word_type.type + "] " + word_meaning.word_meaning_str
+                        estring += unicode(word_types_str, 'utf-8')
+                        if wm_idx + 1 != len(word.word_meanings):
+                            estring += " --- "
+                    print self.index_str(idx, estring)
+            else:
+                print self.index_str(idx, func())
         print
 
     def _shuffled_words(self):
