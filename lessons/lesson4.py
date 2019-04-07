@@ -6,7 +6,7 @@ LESSON4 = [
     ["GĀOXÌNG",   "高兴", "contento, encantado, felíz", "ADJ"],
     ["GĀO",       "高", "alto", "ADJ"],
     ["KĚYǏ",      "可以", "poder", "VER"],
-    ["JÌNLAI",    "进来", "entrar, venir", "VER"],
+    ["JÌNLÁI",    "进来", "entrar, venir", "VER"],
     ["QǏNGWÈN",   "请问", "¿Podría preguntarle...?", "VER"],
     ["QǏNG",      "请", "por favor, solicitar, pedir", "VER"],
     ["WÈN",       "问", "preguntar", "VER"],
