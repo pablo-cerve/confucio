@@ -7,10 +7,11 @@ from word import Word
 
 
 class Lesson:
-    def __init__(self, lesson_id):
+    def __init__(self, lesson_id, extra=False):
+        self.extra = extra
         self.lesson_id = lesson_id
         self.words = []
-        for word_s in get_lesson(lesson_id - 1):
+        for word_s in get_lesson(lesson_id - 1, extra):
             # TODO: fix
             if len(word_s) == 3:
                 if isinstance(word_s[2], list):
@@ -51,7 +52,10 @@ class Lesson:
     def _print_lesson_id(self, extra_str, rand):
         extra_str = "- " + extra_str
         random_str = "- RANDOM!!" if rand else ""
-        print "LECCIÓN %s %s %s" % (self.lesson_id, extra_str, random_str)
+        lesson_str = str(self.lesson_id)
+        if self.extra:
+            lesson_str += " [extra]"
+        print "LECCIÓN %s %s %s" % (lesson_str, extra_str, random_str)
 
     def _print_aux(self, title, rand, method_str):
         self._print_lesson_id(title, rand)
