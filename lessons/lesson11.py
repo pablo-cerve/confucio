@@ -19,7 +19,7 @@ LESSON11 = [
     ["NǙ'ÉR",      "", "hija", "NOM"],
     ["SUÌSHU",     "", "años (edad)", "NOM"],
     ["SHÙ",        "", "número", "NOM"],
-    ["HÁI",        "", "todavía", "ADV"],
+    ["HÁI",        "", "además / todavía", "ADV"],
     ["FĒN",        "", "minuto", "CLA"],
     ["BÁIBÁI",     "", "adiós", "OTR"],
     ["WÈISHÉNME",  "", "¿por qué?, ¿para qué?", "PI"],
