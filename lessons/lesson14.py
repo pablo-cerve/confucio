@@ -20,7 +20,7 @@ LESSON14 = [
     ["ZHŌNGXUÉ",     "", "liceo, secundario", "NOM"],
     ["DǍGŌNG",       "", "trabajar a tiempo parcial", "VER"],
     ["NÁNFĀNG",      "", "parte sur", "NOM"],
-    ["LǙXÍNG",       "", "viajar", "VER"],
+    ["LǙXÍNG",       "", [["viajar", "VER"], ["viaje", "NOM"]]],
     ["XIǍNG",        "", "echar de menos", "VER"],
     ["LIÚXUÉSHĒNG",  "", "estudiante extranjero", "NOM"],
     ["ZHÙ",          "", "vivir, residir", "VER"],
