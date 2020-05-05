@@ -24,7 +24,7 @@ LESSON16 = [
     ["MÀN",            "", "lento, lentamente", "ADJ"],
     ["BÙXIÍNG",        "", "no estar permitido algo", "VER"],
     ["SHĒNGHUÓ",       "", [["vivir", "VER"], ["vida", "NOM"]]],
-    ["ZÌJǏ",           "", "uno mismo", "PRO"],
+    ["ZÌJǏ",           "", "uno mismo, propio", "PRO"],
     ["XÌNGMÍNG",       "", "nombre", "NOM"],
     ["XÌNGBIÉ",        "", "sexo", "NOM"],
     ["ZHÍYÈ",          "", "profesión", "NOM"],

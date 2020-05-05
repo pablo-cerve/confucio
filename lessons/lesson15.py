@@ -43,5 +43,5 @@ LESSON15 = [
     ["QĪNG",           "", "ligero, pequeño", "ADJ"],
     ["LIÚLÌ",          "", "fluido", "ADJ"],
     ["DǑNG",           "", "entender", "VER"],
-    ["JIÙ",            "", "con exactitud, exactamente", "ADV"]
+    ["JIÙ",            "", "con exactitud, exactamente / ahora mismo", "ADV"]
 ]
