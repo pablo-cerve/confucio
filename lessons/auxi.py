@@ -1,24 +1,24 @@
 
-from lesson1 import LESSON1
-from lesson2 import LESSON2
-from lesson3 import LESSON3
-from lesson4 import LESSON4
-from lesson5 import LESSON5
-from lesson6 import LESSON6
-from lesson7 import LESSON7
-from lesson8 import LESSON8
-from lesson9 import LESSON9
-from lesson10 import LESSON10
-from lesson11 import LESSON11
-from lesson11_extra import LESSON11_EXTRA
-from lesson12 import LESSON12
-from lesson12_extra import LESSON12_EXTRA
-from lesson13 import LESSON13
-from lesson14 import LESSON14
-from lesson15 import LESSON15
-from lesson16 import LESSON16
-from lesson17 import LESSON17
-from lesson18 import LESSON18
+from lessons.book1.lesson1 import LESSON1
+from lessons.book1.lesson2 import LESSON2
+from lessons.book1.lesson3 import LESSON3
+from lessons.book1.lesson4 import LESSON4
+from lessons.book1.lesson5 import LESSON5
+from lessons.book1.lesson6 import LESSON6
+from lessons.book1.lesson7 import LESSON7
+from lessons.book1.lesson8 import LESSON8
+from lessons.book1.lesson9 import LESSON9
+from lessons.book1.lesson10 import LESSON10
+from lessons.book1.lesson11 import LESSON11
+from lessons.book1.lesson11_extra import LESSON11_EXTRA
+from lessons.book1.lesson12 import LESSON12
+from lessons.book1.lesson12_extra import LESSON12_EXTRA
+from lessons.book1.lesson13 import LESSON13
+from lessons.book1.lesson14 import LESSON14
+from lessons.book2.lesson15 import LESSON15
+from lessons.book2.lesson16 import LESSON16
+from lessons.book2.lesson17 import LESSON17
+from lessons.book2.lesson18 import LESSON18
 
 
 LESSONS = [LESSON1, LESSON2, LESSON3, LESSON4, LESSON5, LESSON6, LESSON7, LESSON8, LESSON9, LESSON10,
