@@ -4,23 +4,29 @@
 
 class WordType:
     TYPES_HASH = {
-        "NOM": "Nom.",
-        "ADV": "Adv.",
-        "ADJ": "Adj.",
-        "PRO": "Pron.",
-        "PRE": "Prep.",
-        "VER": "Verbo",
-        "VMO": "Verbo+Obj",
-        "NP":  "Nom.Prop.",
-        "PI":  "P.I.",
-        "CLA": "Clas.",
-        "CON": "Conj.",
-        "NUM": "Num.",
-        "OTR": "Otro",
-        "INT": "Interj.",
-        "FH":  "Frase Hecha",
-        "PT":  "Part.",
-        "VAUX": "Verbo Aux."
+        "ADV":  "adverbio",
+        "ADJ":  "adjetivo",
+        "PRO":  "pronombre",
+        "PRE":  "preposición",
+
+        "NOM":  "nombre",
+        "NP":   "nombre propio",
+
+        "VER":  "verbo",
+        "VMO":  "verbo + objeto",
+        "VMC":   "verbo + complementos",
+        "VAUX": "verbo auxiliar",
+
+        "PT":   "partícula",
+        "PI":   "partícula interrogativa",
+        "PM":   "partícula modal",
+
+        "CLA":  "clasificador",
+        "CON":  "conjunción",
+        "NUM":  "numeral",
+        "INT":  "interjección",
+        "FH":   "frase hecha",
+        "OTR":  "otro"
     }
 
     def __init__(self, key):

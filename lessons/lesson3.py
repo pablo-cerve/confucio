@@ -9,8 +9,9 @@ LESSON3 = [
     ["RÉN",      "人",   "persona, gente", "NOM"],
     ["NÀ",       "那",   "ese/esa, aquel/aquella", "PRO"],
     ["SHÉI",     "谁",   "quién", "PI"],
-    ["LǍOSHĪ",   "老师", "profesor", "NOM"],
+    ["LǍOSHĪ",   "老师", "profesor/a", "NOM"],
     ["ZHŌNGGUÓ", "中国", "China", "NP"],
+
     ["NÍN",      "您",   "usted", "PRO"],
     ["ZHÈ",      "这",   "éste, ésta, esto", "PRO"],
     ["WÀIYǓ",    "外语", "lengua extranjera", "NOM"],

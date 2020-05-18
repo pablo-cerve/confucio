@@ -9,7 +9,7 @@ LESSON13 = [
     ["GÀOSU",        "", "decir, contar", "VER"],
     ["JIÀN",         "", "clasificador para pieza de ropa, parte", "CLA"],
     ["SHÌR",         "", "asunto, cosa, negocio", "NOM"],
-    ["SÀNBÙ",        "", "dar un paseo, caminar", "VER"],
+    ["SÀNBÙ",        "", "dar un paseo, caminar", "VMO"],
     ["BÙ",           "", "paso", "NOM"],
     ["DIÀN",         "", "electricidad", "NOM"],
     ["DIÀNYǏNG",     "", "película", "NOM"],

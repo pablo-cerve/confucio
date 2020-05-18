@@ -14,6 +14,7 @@ LESSON10 = [
     ["BĚNZI",      "", "cuaderno, libreta", "NOM"],
     ["NÀR",        "", "allí", "PRO"],
     ["LIÁNGZHÙ",   "", "nombre de un concierto para violín chino", "NP"],
+
     ["SHĪFU",      "", "trabajador experto / maestro", "NOM"],
     ["XIĀNGJIĀO",  "", "plátano", "NOM"],
     ["PÍNGGUǑ",    "", "manzana", "NOM"],
