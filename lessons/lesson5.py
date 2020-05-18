@@ -11,7 +11,7 @@ LESSON5 = [
     ["XIÈXIÈ",     "谢谢",   "dar las gracias", "VER"],
     ["DUÌBUQǏ",    "对不起", "lo siento, perdone", "FH"],
     ["ZHĪDÀO",     "知道",   "saber", "VER"],
-    ["MÉI GUĀNXI", "没关系", "no importa, no hay problema", "FH"],
+    ["MÉIGUĀNXI",  "没关系", "no importa, no hay problema", "FH"],
     ["ZÀIJIÀN",    "再见",   "¡hasta luego!", "FH"],
     ["ZÀI",        "再",     "otra vez", "ADV"],
     ["XIǍOJIĚ",    "小姐",   "señorita, chica joven", "NOM"],

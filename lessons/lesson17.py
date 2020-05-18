@@ -12,7 +12,7 @@ LESSON17 = [
     ["SHĀNGDIÀN", "", "tienda", "NOM"],
     ["SHĀNG",     "", "comercio, negocios", "NOM"],
     ["DIÀN",      "", "tienda", "NOM"],
-    ["JÍ (LE)",   "", "extremadamente", "ADV"],
+    ["JÍLE",      "", "extremadamente", "ADV"],
     ["YÍDÌNG",    "", "deber, seguramente", "ADV"],
     ["CHÀ",       "", "que no es estándar, pobre, malo", "ADJ"],
     ["KĀISHǏ",    "", "empezar", "VER"],
