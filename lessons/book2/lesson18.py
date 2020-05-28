@@ -29,7 +29,7 @@ LESSON18 = [
     ["JIÀNGUÓMÉN",    "", "lugar en Beijing", "NP"],
     ["MÉN",           "", "puerta, entrada", "NOM"],
 
-    ["LÙ",            "", "línea (de autobús)", "NOM"],
+    ["LÙ",            "", "línea (de autobús) / camino", "NOM"],
     ["GŌNGGÒNGQÌCHĒ", "", "autobús público", "NOM"],
     ["GŌNGGÒNG",      "", "público", "ADJ"],
     ["QÌCHĒ",         "", "automóvil", "NOM"],

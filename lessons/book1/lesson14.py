@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 LESSON14 = [
-    ["ZHŌNGwǓ",      "", "mediodía", "NOM"],
+    ["ZHŌNGWǓ",      "", "mediodía", "NOM"],
     ["GĀNGCÁI",      "", "recién", "ADV"],
     ["YÓUJÚ",        "", "oficina de correos", "NOM"],
     ["YÓU",          "", "enviar por correo", "VER"],

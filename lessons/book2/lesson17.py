@@ -28,7 +28,7 @@ LESSON17 = [
     ["ZǑU",       "", "caminar, ir, andar", "VER"],
 
     ["XIǍOSHÍ",     "", "hora", "NOM"],
-    ["GUÒQÙ",       "", "pasar", "VER"],
+    ["GUÒQÙ",       "", "pasar (el tiempo)", "VER"],
     ["CHÈNSHĀN",    "", "camisa", "NOM"],
     ["LǛ",          "", "verde", "ADJ"],
     ["YÀNGZI",      "", "forma, ejemplo, modelo, patrón", "NOM"],
