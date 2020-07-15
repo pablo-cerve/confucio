@@ -18,7 +18,7 @@ LESSON18 = [
     ["HǍI",           "", "océano, mar, gran lago", "NOM"],
     ["YÓUFÈI",        "", "franqueo, gastos de envío", "NOM"],
     ["FÈI",           "", "gasto, costo", "NOM"],
-    ["QǓ",            "", "tomar, agarrar, recoger", "VER"],
+    ["QǓ",            "", "recoger, agarrar, tomar", "VER"],
     ["TŌNGZHĪDĀN",    "", "carta de aviso", "VER"],
     ["TŌNGZHĪ",       "", [["comunicar, notificar, informar", "VER"], ["notificación", "NOM"]]],
     ["DĀN",           "", "hoja de papel", "NOM"],

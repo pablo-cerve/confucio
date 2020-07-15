@@ -6,7 +6,7 @@ LESSON11_EXTRA = [
     ["FǍYǓ",      "", "francés", "NOM"],
     ["DÉYǓ",      "", "alemán", "NOM"],
     ["RÌYǓ",      "", "japonés", "NOM"],
-    ["XIÀKÈ",     "", "salir de la clase; acabar la clase", "VMO"],
+    ["XIÀKÈ",     "", "salir de la clase / acabar la clase", "VMO"],
     ["CHĪFÀN",    "", "comer, tomar (una comida)", "VMO"],
     ["KĀICHĒ",    "", "conducir un coche", "VMO"],
     ["TIÀOWǓ",    "", "bailar", "VMO"],

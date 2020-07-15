@@ -11,7 +11,7 @@ LESSON12 = [
     ["TÓU",        "头", "cabeza", "NOM"],
     ["TÉNG",       "疼", "doloroso", "ADJ"],
     ["SǍNGZI",     "嗓子", "garganta", "NOM"],
-    ["XIǍNG",      "想", "pensar, querer hacer algo, creer", "VAUX"],
+    ["XIǍNG",      "想", "querer hacer, tener ganas de hacer, creer", "VAUX"],
     ["YĪYUÀN",     "医院", "hospital", "NOM"],
     ["KÀNBÌNG",    "看病", "ir al médico", "VMO"],
     ["BÌNG",       "病", [["enfermedad", "NOM"], ["ponerse enfermo", "VER"]]],

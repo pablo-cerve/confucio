@@ -44,5 +44,5 @@ LESSON17 = [
     ["GŌNGFĒN",     "", "centímetro", "NOM"],
     ["MÁFAN",       "", "molestar, preocupar (a alguien)", "VER"],
     ["SĪCHÓU",      "", "seda", "NOM"],
-    ["XĪFÚ",        "", "ropa occidental / traje", "NOM"]
+    ["XĪFÚ",        "", "traje / ropa occidental", "NOM"]
 ]

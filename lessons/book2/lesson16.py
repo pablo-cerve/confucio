@@ -43,7 +43,7 @@ LESSON16 = [
     ["GUÒQĪ",          "", "haber vencido (un plazo)", "VMO"],
     ["GUÒ",            "", "aprobar (un examen)", "VER"],
     ["QĪ",             "", "período de tiempo", "NOM"],
-    ["FÁKUǍN",         "", [["poner una multa", "VER"], ["multa", "NOM"]]],
+    ["FÁKUǍN",         "", [["poner una multa", "VMO"], ["multa", "NOM"]]],
     ["FÁ",             "", "sancionar, penalizar", "VER"],
     ["KUǍN",           "", "suma (de dinero)", "NOM"],
     ["DIÀNNǍO",        "", "computadora", "NOM"],

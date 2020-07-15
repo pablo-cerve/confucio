@@ -10,7 +10,7 @@ LESSON7 = [
     ["À",        "啊",   "ah, oh", "INT"],
     ["JIÀOSHÒU", "教授", "profesor universitario", "NOM"],
 
-    ["JIÈSHÀO",  "介绍", "presentar", "VER"],
+    ["JIÈSHÀO",  "介绍", [["presentar", "VER"], ["introducción", "NOM"]]],
     ["MÍNGZI",   "名字", "nombre", "NOM"],
     ["ZHŌNGWÉN", "中文", "chino (idioma)", "NOM"],
     ["ZHUĀNYÈ",  "专业", "carrera, especialidad", "NOM"],
