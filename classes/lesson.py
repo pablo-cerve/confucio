@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from random import shuffle
-from lessons.auxi import get_lesson
+from lessons.book import Book
 from word import Word
 
 
@@ -11,7 +11,7 @@ class Lesson:
         self.extra = extra
         self.lesson_id = lesson_id
         self.words = []
-        for word_s in get_lesson(lesson_id - 1, extra):
+        for word_s in Book.get_lesson(lesson_id - 1, extra):
             # TODO: fix
             if len(word_s) == 3:
                 if isinstance(word_s[2], list):
@@ -24,6 +24,8 @@ class Lesson:
             else:
                 pinyin, chinese, definition, word_types = word_s
                 word = Word(pinyin, chinese, definition, word_types)
+
+            word.set_lesson_id(lesson_id)
             self.words.append(word)
         self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
 

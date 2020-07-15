@@ -22,12 +22,25 @@ from lessons.book2.lesson18 import LESSON18
 from lessons.book2.lesson19 import LESSON19
 
 
-LESSONS = [LESSON1, LESSON2, LESSON3, LESSON4, LESSON5, LESSON6, LESSON7, LESSON8, LESSON9, LESSON10,
-           LESSON11, LESSON12, LESSON13, LESSON14, LESSON15, LESSON16, LESSON17, LESSON18, LESSON19]
-LESSONS_EXTRA = [None] * 10 + [LESSON11_EXTRA, LESSON12_EXTRA]
+class Book:
+    LESSONS_1 = [LESSON1, LESSON2, LESSON3, LESSON4, LESSON5, LESSON6, LESSON7, LESSON8, LESSON9, LESSON10,
+                 LESSON11, LESSON12, LESSON13, LESSON14]
+    LESSONS_2 = [LESSON15, LESSON16, LESSON17, LESSON18, LESSON19]
 
+    LESSONS_EXTRA = [None] * 10 + [LESSON11_EXTRA, LESSON12_EXTRA]
 
-def get_lesson(lesson_id, extra=False):
-    if extra:
-        return LESSONS_EXTRA[lesson_id]
-    return LESSONS[lesson_id]
+    LESSONS = LESSONS_1 + LESSONS_2
+
+    @classmethod
+    def get_lesson(cls, lesson_id, extra=False):
+        if extra:
+            return cls.LESSONS_EXTRA[lesson_id]
+        return cls.LESSONS[lesson_id]
+
+    @classmethod
+    def book_lesson_numbers(cls, book_number):
+        if book_number == 1:
+            return range(1, 15)  # [1, 2, ... 14]
+        if book_number == 2:
+            return range(15, 19)  # [15, ... 18]
+        raise ValueError("Invalid book_number: {}.".format(book_number))
