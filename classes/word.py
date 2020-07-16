@@ -14,18 +14,21 @@ class Word:
         '\xc7': 5, 'Ě': 5, 'Ǐ': 5, 'Ǒ': 5, 'Ǔ': 5
     }
 
-    def __init__(self, pinyin, chinese, definition, word_meanings):
+    def __init__(self, pinyin, chinese, definition, word_meanings, lesson_id=None):
         input_list = [pinyin, chinese, definition]
         decoded_list = [self.decode(val) for val in input_list]
         self.pinyin, self.chinese, self.definition = input_list
         self.pinyin_d, self.chinese_d, self.definition_d = decoded_list
         self.pinyin_l, self.chinese_l, self.definition_l = [len(val) for val in decoded_list]
         if isinstance(word_meanings, list):
-            assert(len(word_meanings) == 2)
-            self.word_meanings = [WordMeaning(val[1], val[0]) for val in word_meanings]
+            if isinstance(word_meanings[0], WordMeaning):  # reading from csv
+                self.word_meanings = word_meanings
+            else:
+                assert(len(word_meanings) == 2)
+                self.word_meanings = [WordMeaning(val[1], val[0]) for val in word_meanings]
         else:
             self.word_meanings = [WordMeaning(word_meanings, definition)]
-        self.lesson_id = None  # set with set_lesson_id
+        self.lesson_id = lesson_id  # set with set_lesson_id
 
     @classmethod
     def decode(cls, word):

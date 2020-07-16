@@ -7,10 +7,15 @@ from word import Word
 
 
 class Lesson:
-    def __init__(self, lesson_id, extra=False):
+    def __init__(self, lesson_id, extra=False, words=None):
         self.extra = extra
         self.lesson_id = lesson_id
-        self.words = []
+        self.words = words if words is not None else self.__read_words(lesson_id, extra)
+        self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
+
+    @staticmethod
+    def __read_words(lesson_id, extra):
+        words = []
         for word_s in Book.get_lesson(lesson_id - 1, extra):
             # TODO: fix
             if len(word_s) == 3:
@@ -26,8 +31,8 @@ class Lesson:
                 word = Word(pinyin, chinese, definition, word_types)
 
             word.set_lesson_id(lesson_id)
-            self.words.append(word)
-        self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
+            words.append(word)
+        return words
 
     def print_all(self, rand=False):
         print
