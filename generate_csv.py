@@ -3,12 +3,14 @@ from classes.lesson import Lesson
 from csv_utils.reader import Reader
 from csv_utils.writer import Writer
 
-lesson = Reader(2, 20).generate_lesson()
-Writer(2, 20, lesson).save_csv()
+# Writer(1, 1, Lesson(1)).save_csv()
+Writer(1, 1, Reader(1, 1).generate_lesson()).save_csv()
 
 
 
 # lesson = Lesson(1).print_definition()
+# Reader(2, 20).generate_lesson()
+
 # lesson = Lesson(2).print_definition()
 # lesson = Lesson(3).print_definition()
 # lesson = Lesson(4).print_definition()
