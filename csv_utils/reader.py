@@ -6,16 +6,14 @@ import csv
 from classes.lesson import Lesson
 from classes.word import Word
 from classes.word_meaning import WordMeaning
+from csv_utils.common import Common
 
 
 class Reader:
-    LESSONS_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio/lessons"
-    FIRST_ROW = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2']
-
     def __init__(self, book_number, lesson_number):
         self.book_number = book_number
         self.lesson_number = lesson_number
-        self.path = self.LESSONS_PATH + "/book" + str(book_number) + "/lesson" + str(lesson_number) + ".csv"
+        self.path = Common.lesson_path(book_number, lesson_number) + ".csv"
         print(self.path)
 
     def generate_lesson(self):
@@ -24,7 +22,7 @@ class Reader:
             reader = csv.reader(csvfile, delimiter=',')
             for index, row in enumerate(reader):
                 if index == 0:
-                    assert(row == self.FIRST_ROW)
+                    assert(row == Common.FIRST_ROW)
                     continue
                 word = self.__process_row(row)
                 words.append(word)

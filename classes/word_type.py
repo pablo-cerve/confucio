@@ -7,7 +7,6 @@ class WordType:
         "Adv.":  "adverbio",
         "A":     "adjetivo",
 
-
         "N":     "nombre",
         "NP":    "nombre propio",
 
@@ -16,7 +15,6 @@ class WordType:
 
         "Clas.": "clasificador",
         "Conj.": "conjunción",
-
 
         "EF":    "expresión fija"
     }
