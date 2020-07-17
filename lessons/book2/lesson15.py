@@ -5,7 +5,7 @@ LESSON15 = [
     ["ZǍO",            "", [["temprano", "ADJ"], ["mañana", "NOM"]]],
     ["YÍNHÁNG",        "", "banco", "NOM"],
     ["SHǍO",           "", "poco", "ADJ"],
-    ["PÁIDUÌ",         "", "hacer cola", "VMO"],
+    ["PÁIDUÌ",         "", "hacer cola", "V+O"],
     ["PÁI",            "", [["ordenar", "VER"], ["fila", "NOM"]]],
     ["DUÌ",            "", "fila de personas", "NOM"],
     ["HUÀN",           "", [["cambiar", "VER"], ["cambio", "NOM"]]],

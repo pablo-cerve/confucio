@@ -3,7 +3,7 @@
 
 LESSON6 = [
     ["QÙ",        "去",     "ir", "VER"],
-    ["YÓUYǑNG",   "游泳",   "nadar", "VMO"],
+    ["YÓUYǑNG",   "游泳",   "nadar", "V+O"],
     ["ZUÓTIĀN",   "昨天",   "ayer", "NOM"],
     ["JĪNGJÙ",    "京剧",   "Ópera de Beijing", "NOM"],
     ["ZĚNMEYÀNG", "怎么样", "¿Qué tal? / ¿Cómo?", "PI"],
@@ -21,7 +21,7 @@ LESSON6 = [
     ["SHUŌ",      "说",    "hablar, decir", "VER"],
     ["YĪ",        "一",    "uno", "NUM"],
     ["BIÀN",      "遍",    "número de veces (de una acción)", "CLA"],
-    ["DǍQIÚ",     "打球",  "jugar a la pelota", "VMO"],
+    ["DǍQIÚ",     "打球",  "jugar a la pelota", "V+O"],
     ["DǍ",        "打",    "jugar", "VER"],
     ["QIÚ",       "球",    "pelota", "NOM"],
     ["BÀOQIÀN",   "抱歉",  "arrepentido, apenado", "ADJ"],

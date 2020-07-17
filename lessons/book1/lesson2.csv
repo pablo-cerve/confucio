@@ -1,15 +1,15 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-忙,MÁNG,ocupado,ADJ,,,2
-爸爸,BÀBA,padre,NOM,,,2
-妈妈,MĀMA,madre,NOM,,,2
-他,TĀ,"él, a él",PRO,,,2
-们,MEN,"usado tras los pronombres 我, 你, 他 o ciertos nombres para denotar plural",PRO,,,2
-都,DŌU,"ambos, todos",ADV,,,2
-不,BÙ,no,ADV,,,2
-男,NÁN,masculino,ADJ,,,2
-朋友,PÉNGYOU,amigo,NOM,,,2
-哥哥,GĒGE,hermano mayor,NOM,,,2
-要,YÀO,querer,VER,,,2
-咖啡,KĀFĒI,café,NOM,,,2
-弟弟,DÌDI,hermano menor,NOM,,,2
-喝,HĒ,beber,VER,,,2
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+忙,MÁNG,ocupado,ADJ,,,2,1
+爸爸,BÀBA,padre,NOM,,,2,2
+妈妈,MĀMA,madre,NOM,,,2,3
+他,TĀ,"él, a él",PRO,,,2,4
+们,MEN,"usado tras los pronombres 我, 你, 他 o ciertos nombres para denotar plural",PRO,,,2,5
+都,DŌU,"ambos, todos",ADV,,,2,6
+不,BÙ,no,ADV,,,2,7
+男,NÁN,masculino,ADJ,,,2,8
+朋友,PÉNGYOU,amigo,NOM,,,2,9
+哥哥,GĒGE,hermano mayor,NOM,,,2,10
+要,YÀO,querer,VER,,,2,11
+咖啡,KĀFĒI,café,NOM,,,2,12
+弟弟,DÌDI,hermano menor,NOM,,,2,13
+喝,HĒ,beber,VER,,,2,14

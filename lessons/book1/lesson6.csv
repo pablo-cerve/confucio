@@ -1,25 +1,25 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-去,QÙ,ir,VER,,,6
-游泳,YÓUYǑNG,nadar,VMO,,,6
-昨天,ZUÓTIĀN,ayer,NOM,,,6
-京剧,JĪNGJÙ,Ópera de Beijing,NOM,,,6
-怎么样,ZĚNMEYÀNG,¿Qué tal? / ¿Cómo?,PI,,,6
-有意思,YǑUYÌSI,interesante,FH,,,6
-今天,JĪNTIĀN,hoy,NOM,,,6
-天,TIĀN,día / cielo,NOM,,,6
-天气,TIĀNQÌ,tiempo (atmosférico),NOM,,,6
-太,TÀI,demasiado,ADV,,,6
-时候,SHÍHOU,tiempo (momento),NOM,,,6
-现在,XIÀNZÀI,ahora,NOM,,,6
-明天,MÍNGTIĀN,mañana,NOM,,,6
-有,YǑU,tener,VER,,,6
-事件,SHÍJIĀN,tiempo,NOM,,,6
-说,SHUŌ,"hablar, decir",VER,,,6
-一,YĪ,uno,NUM,,,6
-遍,BIÀN,número de veces (de una acción),CLA,,,6
-打球,DǍQIÚ,jugar a la pelota,VMO,,,6
-打,DǍ,jugar,VER,,,6
-球,QIÚ,pelota,NOM,,,6
-抱歉,BÀOQIÀN,"arrepentido, apenado",ADJ,,,6
-恐怕,KǑNGPÀ,"quizás, tal vez",ADV,,,6
-行,XÍNG,estar bien,VER,,,6
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+去,QÙ,ir,VER,,,6,1
+游泳,YÓUYǑNG,nadar,V+O,,,6,2
+昨天,ZUÓTIĀN,ayer,NOM,,,6,3
+京剧,JĪNGJÙ,Ópera de Beijing,NOM,,,6,4
+怎么样,ZĚNMEYÀNG,¿Qué tal? / ¿Cómo?,PI,,,6,5
+有意思,YǑUYÌSI,interesante,FH,,,6,6
+今天,JĪNTIĀN,hoy,NOM,,,6,7
+天,TIĀN,día / cielo,NOM,,,6,8
+天气,TIĀNQÌ,tiempo (atmosférico),NOM,,,6,9
+太,TÀI,demasiado,ADV,,,6,10
+时候,SHÍHOU,tiempo (momento),NOM,,,6,11
+现在,XIÀNZÀI,ahora,NOM,,,6,12
+明天,MÍNGTIĀN,mañana,NOM,,,6,13
+有,YǑU,tener,VER,,,6,14
+事件,SHÍJIĀN,tiempo,NOM,,,6,15
+说,SHUŌ,"hablar, decir",VER,,,6,16
+一,YĪ,uno,NUM,,,6,17
+遍,BIÀN,número de veces (de una acción),CLA,,,6,18
+打球,DǍQIÚ,jugar a la pelota,V+O,,,6,19
+打,DǍ,jugar,VER,,,6,20
+球,QIÚ,pelota,NOM,,,6,21
+抱歉,BÀOQIÀN,"arrepentido, apenado",ADJ,,,6,22
+恐怕,KǑNGPÀ,"quizás, tal vez",ADV,,,6,23
+行,XÍNG,estar bien,VER,,,6,24

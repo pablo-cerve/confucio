@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 LESSON7 = [
-    ["KĀIXUÉ",   "开学", "empezar las clases", "VMO"],
+    ["KĀIXUÉ",   "开学", "empezar las clases", "V+O"],
     ["KĀI",      "开",   [["empezar, abrir", "VER"], ["abierto", "ADJ"]]],
     ["KÀN",      "看",   "mirar, ver", "VER"],
     ["YÍXIÀ",    "一下", "(se utiliza después de un verbo para indicar una acción rápida, breve, aleatoria, informal)", "OTR"],

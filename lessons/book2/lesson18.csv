@@ -1,49 +1,49 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,JÌ,recordar,VER,,,18
-,CUÒ,incorrecto,ADJ,,,18
-,BĀOGUǑ,"paquete, parcela",NOM,,,18
-,BĀO,envolver,VER,bolsa,NOM,18
-,XIĒ,alguno(s),CLA,,,18
-,YĪNGWÉN,inglés (idioma),NOM,,,18
-,CÍDIǍN,diccionario,NOM,,,18
-,JIÙ,"viejo, pasado, usado",ADJ,,,18
-,XĪN,nuevo,ADJ,,,18
-,WǍNG,hacia,PRE,,,18
-,HÁNGKŌNG,aviación,NOM,,,18
-,KŌNG,"cielo, aire",NOM,,,18
-,HǍIYÙN,transporte marítimo,NOM,,,18
-,HǍI,"océano, mar, gran lago",NOM,,,18
-,YÓUFÈI,"franqueo, gastos de envío",NOM,,,18
-,FÈI,"gasto, costo",NOM,,,18
-,QǓ,"recoger, agarrar, tomar",VER,,,18
-,TŌNGZHĪDĀN,carta de aviso,VER,,,18
-,TŌNGZHĪ,"comunicar, notificar, informar",VER,notificación,NOM,18
-,DĀN,hoja de papel,NOM,,,18
-,HǍIGUĀN,aduana,NOM,,,18
-,BIÉ,no,ADV,,,18
-,HÙZHÀO,pasaporte,NOM,,,18
-,KÈQI,"cortés, atengo",ADJ,,,18
-,JIÀNGUÓMÉN,lugar en Beijing,NP,,,18
-,MÉN,"puerta, entrada",NOM,,,18
-,LÙ,línea (de autobús) / camino,NOM,,,18
-,GŌNGGÒNGQÌCHĒ,autobús público,NOM,,,18
-,GŌNGGÒNG,público,ADJ,,,18
-,QÌCHĒ,automóvil,NOM,,,18
-,CHĒ,vehículo,NOM,,,18
-,JĪNGGUÒ,"pasar, atravesar, pasar por",VER,,,18
-,HǍOXIÀNG,parecer,VER,,,18
-,XIÀNG,parecer,VER,,,18
-,ZÁNMEN,nosotros,PRO,,,18
-,SHÒUPIÀOYUÁN,vendedor de boletos / conductor,NOM,,,18
-,PIÀO,"boleto, entrada",NOM,,,18
-,DÀJIĀ,"todos, todo el mundo",PRO,,,18
-,LǏBIAN,"adentro, interior",NOM,,,18
-,BIAN,lado,NOM,,,18
-,ZHÀN,"estación, parada",NOM,,,18
-,CHÉNGKÈ,pasajero,NOM,,,18
-,CHÉNG,"viajar, tomar",VER,,,18
-,KÈ,"visitante, invitado",NOM,,,18
-,DÌTIĚ,metro,NOM,,,18
-,FÀNGXĪN,"tranquilizarse, relajarse",VMO,,,18
-,ZĀOGĀO,"desastre, muy malo",ADJ,,,18
-,QIÁNMÉN,lugar en Beijing ,NP,,,18
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,JÌ,recordar,VER,,,18,1
+,CUÒ,incorrecto,ADJ,,,18,2
+,BĀOGUǑ,"paquete, parcela",NOM,,,18,3
+,BĀO,envolver,VER,bolsa,NOM,18,4
+,XIĒ,alguno(s),CLA,,,18,5
+,YĪNGWÉN,inglés (idioma),NOM,,,18,6
+,CÍDIǍN,diccionario,NOM,,,18,7
+,JIÙ,"viejo, pasado, usado",ADJ,,,18,8
+,XĪN,nuevo,ADJ,,,18,9
+,WǍNG,hacia,PRE,,,18,10
+,HÁNGKŌNG,aviación,NOM,,,18,11
+,KŌNG,"cielo, aire",NOM,,,18,12
+,HǍIYÙN,transporte marítimo,NOM,,,18,13
+,HǍI,"océano, mar, gran lago",NOM,,,18,14
+,YÓUFÈI,"franqueo, gastos de envío",NOM,,,18,15
+,FÈI,"gasto, costo",NOM,,,18,16
+,QǓ,"recoger, agarrar, tomar",VER,,,18,17
+,TŌNGZHĪDĀN,carta de aviso,VER,,,18,18
+,TŌNGZHĪ,"comunicar, notificar, informar",VER,notificación,NOM,18,19
+,DĀN,hoja de papel,NOM,,,18,20
+,HǍIGUĀN,aduana,NOM,,,18,21
+,BIÉ,no,ADV,,,18,22
+,HÙZHÀO,pasaporte,NOM,,,18,23
+,KÈQI,"cortés, atengo",ADJ,,,18,24
+,JIÀNGUÓMÉN,lugar en Beijing,NP,,,18,25
+,MÉN,"puerta, entrada",NOM,,,18,26
+,LÙ,línea (de autobús) / camino,NOM,,,18,27
+,GŌNGGÒNGQÌCHĒ,autobús público,NOM,,,18,28
+,GŌNGGÒNG,público,ADJ,,,18,29
+,QÌCHĒ,automóvil,NOM,,,18,30
+,CHĒ,vehículo,NOM,,,18,31
+,JĪNGGUÒ,"pasar, atravesar, pasar por",VER,,,18,32
+,HǍOXIÀNG,parecer,VER,,,18,33
+,XIÀNG,parecer,VER,,,18,34
+,ZÁNMEN,nosotros,PRO,,,18,35
+,SHÒUPIÀOYUÁN,vendedor de boletos / conductor,NOM,,,18,36
+,PIÀO,"boleto, entrada",NOM,,,18,37
+,DÀJIĀ,"todos, todo el mundo",PRO,,,18,38
+,LǏBIAN,"adentro, interior",NOM,,,18,39
+,BIAN,lado,NOM,,,18,40
+,ZHÀN,"estación, parada",NOM,,,18,41
+,CHÉNGKÈ,pasajero,NOM,,,18,42
+,CHÉNG,"viajar, tomar",VER,,,18,43
+,KÈ,"visitante, invitado",NOM,,,18,44
+,DÌTIĚ,metro,NOM,,,18,45
+,FÀNGXĪN,"tranquilizarse, relajarse",V+O,,,18,46
+,ZĀOGĀO,"desastre, muy malo",ADJ,,,18,47
+,QIÁNMÉN,lugar en Beijing ,NP,,,18,48

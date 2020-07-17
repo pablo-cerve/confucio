@@ -6,16 +6,16 @@ LESSON11_EXTRA = [
     ["FǍYǓ",      "", "francés", "NOM"],
     ["DÉYǓ",      "", "alemán", "NOM"],
     ["RÌYǓ",      "", "japonés", "NOM"],
-    ["XIÀKÈ",     "", "salir de la clase / acabar la clase", "VMO"],
-    ["CHĪFÀN",    "", "comer, tomar (una comida)", "VMO"],
-    ["KĀICHĒ",    "", "conducir un coche", "VMO"],
-    ["TIÀOWǓ",    "", "bailar", "VMO"],
-    ["CHÀNGGĒ",   "", "cantar (una canción)", "VMO"],
+    ["XIÀKÈ",     "", "salir de la clase / acabar la clase", "V+O"],
+    ["CHĪFÀN",    "", "comer, tomar (una comida)", "V+O"],
+    ["KĀICHĒ",    "", "conducir un coche", "V+O"],
+    ["TIÀOWǓ",    "", "bailar", "V+O"],
+    ["CHÀNGGĒ",   "", "cantar (una canción)", "V+O"],
     ["HUÍDÁ",     "", "responder", "VER"],
     ["LǏWǓ",      "", "regalo, obsequio", "NOM"],
     ["SHǑUBIǍO",  "", "reloj de pulsera", "NOM"],
     ["ZHŌNGBIǍO", "", "reloj de pared", "NOM"],
-    ["XĪYĀN",     "", "fumar", "VMO"],
+    ["XĪYĀN",     "", "fumar", "V+O"],
     ["NÁN",       "", "difícil", "ADJ"],
-    ["DǍDĪ",      "", "tomar un taxi", "VMO"]
+    ["DǍDĪ",      "", "tomar un taxi", "V+O"]
 ]

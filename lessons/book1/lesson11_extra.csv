@@ -1,17 +1,17 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,XĪBĀNYÁYǓ,español,NOM,,,11
-,FǍYǓ,francés,NOM,,,11
-,DÉYǓ,alemán,NOM,,,11
-,RÌYǓ,japonés,NOM,,,11
-,XIÀKÈ,salir de la clase / acabar la clase,VMO,,,11
-,CHĪFÀN,"comer, tomar (una comida)",VMO,,,11
-,KĀICHĒ,conducir un coche,VMO,,,11
-,TIÀOWǓ,bailar,VMO,,,11
-,CHÀNGGĒ,cantar (una canción),VMO,,,11
-,HUÍDÁ,responder,VER,,,11
-,LǏWǓ,"regalo, obsequio",NOM,,,11
-,SHǑUBIǍO,reloj de pulsera,NOM,,,11
-,ZHŌNGBIǍO,reloj de pared,NOM,,,11
-,XĪYĀN,fumar,VMO,,,11
-,NÁN,difícil,ADJ,,,11
-,DǍDĪ,tomar un taxi,VMO,,,11
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,XĪBĀNYÁYǓ,español,NOM,,,11,1
+,FǍYǓ,francés,NOM,,,11,2
+,DÉYǓ,alemán,NOM,,,11,3
+,RÌYǓ,japonés,NOM,,,11,4
+,XIÀKÈ,salir de la clase / acabar la clase,V+O,,,11,5
+,CHĪFÀN,"comer, tomar (una comida)",V+O,,,11,6
+,KĀICHĒ,conducir un coche,V+O,,,11,7
+,TIÀOWǓ,bailar,V+O,,,11,8
+,CHÀNGGĒ,cantar (una canción),V+O,,,11,9
+,HUÍDÁ,responder,VER,,,11,10
+,LǏWǓ,"regalo, obsequio",NOM,,,11,11
+,SHǑUBIǍO,reloj de pulsera,NOM,,,11,12
+,ZHŌNGBIǍO,reloj de pared,NOM,,,11,13
+,XĪYĀN,fumar,V+O,,,11,14
+,NÁN,difícil,ADJ,,,11,15
+,DǍDĪ,tomar un taxi,V+O,,,11,16

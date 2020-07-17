@@ -3,22 +3,6 @@
 
 
 class WordType:
-    TYPES_HASH_BOOK_2 = {
-        "Adv.":  "adverbio",
-        "A":     "adjetivo",
-
-        "N":     "nombre",
-        "NP":    "nombre propio",
-
-        "V":     "verbo",
-        "VO":    "verbo + objeto",
-
-        "Clas.": "clasificador",
-        "Conj.": "conjunción",
-
-        "EF":    "expresión fija"
-    }
-
     TYPES_HASH = {
         "ADV":  "adverbio",
         "ADJ":  "adjetivo",
@@ -29,8 +13,8 @@ class WordType:
         "NP":   "nombre propio",
 
         "VER":  "verbo",
-        "VMO":  "verbo + objeto",
-        "VMC":  "verbo + complementos",
+        "V+O":  "verbo + objeto",
+        "V+C":  "verbo + complementos",
         "VAUX": "verbo auxiliar",
 
         "PT":   "partícula",
@@ -55,8 +39,8 @@ class WordType:
         "NP":   "n.p.",
 
         "VER":  "V",
-        "VMO":  "VO",
-        "VMC":  "verbo + complementos",
+        "V+O":  "VO",
+        "V+C":  "verbo + complementos",
         "VAUX": "V.Aux.",
 
         "PT":   "partícula",
@@ -71,12 +55,7 @@ class WordType:
         "OTR":  "otro"
     }
 
-    def __init__(self, key, book_number=None):
-        if book_number == 2:
-            self.key = key
-            self.type = self.TYPES_HASH_BOOK_2[key]
-            self.book_type = key
-        else:
-            self.key = key
-            self.type = self.TYPES_HASH[key]
-            self.book_type = self.TYPES_HASH_BOOK[key]
+    def __init__(self, key):
+        self.key = key
+        self.type = self.TYPES_HASH[key]
+        self.book_type = self.TYPES_HASH_BOOK[key]

@@ -1,37 +1,37 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-全身,QUÁNSHĒN,todo (el cuerpo),NOM,,,12
-全,QUÁN,"completo, todo",ADJ,,,12
-身,SHĒN,cuerpo,NOM,,,12
-舒服,SHŪFU,"cómodo, bien",ADJ,,,12
-每,MĚI,cada,PRO,,,12
-锻炼,DUÀNLIÀN,hacer ejercicio físico,VER,,,12
-头,TÓU,cabeza,NOM,,,12
-疼,TÉNG,doloroso,ADJ,,,12
-嗓子,SǍNGZI,garganta,NOM,,,12
-想,XIǍNG,"querer hacer, tener ganas de hacer, creer",VAUX,,,12
-医院,YĪYUÀN,hospital,NOM,,,12
-看病,KÀNBÌNG,ir al médico,VMO,,,12
-病,BÌNG,enfermedad,NOM,ponerse enfermo,VER,12
-身体,SHĒNTǏ,"cuerpo, salud",NOM,,,12
-要,YÀO,"deber, querer hacer algo",VAUX,,,12
-吧,BA,(partícula modal),PM,,,12
-还是,HÁISHI,o,CON,,,12
-一起,YÌQǏ,juntos,ADV,,,12
-冷,LĚNG,frío,ADJ,,,12
-穿,CHUĀN,llevar puesto,VER,,,12
-衣服,YĪFU,ropa,NOM,,,12
-休息,XIŪXI,descansar,VER,descanso,NOM,12
-给,GĚI,"a, para",PRE,,,12
-挂号,GUÀHÀO,registrarse (en un hospital),VER,,,12
-有点儿,YǑUDIǍNR,un poco,ADV,,,12
-发炎,FĀYÁN,inflamarse,VMO,,,12
-发烧,FĀSHĀO,tener fiebre,VMO,,,12
-烧,SHĀO,quemar,VER,,,12
-感冒,GǍNMÀO,tener resfriado,VER,resfrío,NOM,12
-住院,ZHÙYUÀN,estar (internado) en el hospital,VMO,,,12
-水,SHUǏ,agua,NOM,,,12
-药,YÀO,medicina,NOM,,,12
-愿意,YUÀNYÌ,estar dispuesto a hacer algo,VAUX,,,12
-中药,ZHŌNGYÀO,medicina tradicional china,NOM,,,12
-西药,XĪYÀO,medicina occidental,NOM,,,12
-西,XĪ,"oeste, occidental",NOM,,,12
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+全身,QUÁNSHĒN,todo (el cuerpo),NOM,,,12,1
+全,QUÁN,"completo, todo",ADJ,,,12,2
+身,SHĒN,cuerpo,NOM,,,12,3
+舒服,SHŪFU,"cómodo, bien",ADJ,,,12,4
+每,MĚI,cada,PRO,,,12,5
+锻炼,DUÀNLIÀN,hacer ejercicio físico,VER,,,12,6
+头,TÓU,cabeza,NOM,,,12,7
+疼,TÉNG,doloroso,ADJ,,,12,8
+嗓子,SǍNGZI,garganta,NOM,,,12,9
+想,XIǍNG,"querer hacer, tener ganas de hacer, creer",VAUX,,,12,10
+医院,YĪYUÀN,hospital,NOM,,,12,11
+看病,KÀNBÌNG,ir al médico,V+O,,,12,12
+病,BÌNG,enfermedad,NOM,ponerse enfermo,VER,12,13
+身体,SHĒNTǏ,"cuerpo, salud",NOM,,,12,14
+要,YÀO,"deber, querer hacer algo",VAUX,,,12,15
+吧,BA,(partícula modal),PM,,,12,16
+还是,HÁISHI,o,CON,,,12,17
+一起,YÌQǏ,juntos,ADV,,,12,18
+冷,LĚNG,frío,ADJ,,,12,19
+穿,CHUĀN,llevar puesto,VER,,,12,20
+衣服,YĪFU,ropa,NOM,,,12,21
+休息,XIŪXI,descansar,VER,descanso,NOM,12,22
+给,GĚI,"a, para",PRE,,,12,23
+挂号,GUÀHÀO,registrarse (en un hospital),VER,,,12,24
+有点儿,YǑUDIǍNR,un poco,ADV,,,12,25
+发炎,FĀYÁN,inflamarse,V+O,,,12,26
+发烧,FĀSHĀO,tener fiebre,V+O,,,12,27
+烧,SHĀO,quemar,VER,,,12,28
+感冒,GǍNMÀO,tener resfriado,VER,resfrío,NOM,12,29
+住院,ZHÙYUÀN,estar (internado) en el hospital,V+O,,,12,30
+水,SHUǏ,agua,NOM,,,12,31
+药,YÀO,medicina,NOM,,,12,32
+愿意,YUÀNYÌ,estar dispuesto a hacer algo,VAUX,,,12,33
+中药,ZHŌNGYÀO,medicina tradicional china,NOM,,,12,34
+西药,XĪYÀO,medicina occidental,NOM,,,12,35
+西,XĪ,"oeste, occidental",NOM,,,12,36

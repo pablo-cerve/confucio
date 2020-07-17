@@ -8,25 +8,28 @@ from csv_utils.common import Common
 class Writer:
     @staticmethod
     def write_lessons(path, lessons):
-        words = []
+        word_arrays = []
         for lesson in lessons:
-            words += lesson.words
-        Writer.write_words(path, words)
+            word_arrays.append(lesson.words)
+        Writer.write_words(path, word_arrays)
 
     @staticmethod
     def write_lesson(lesson):
         lesson_path = Common.lesson_path(lesson)
         lesson_words = lesson.words
-        Writer.write_words(lesson_path, lesson_words)
+        Writer.write_words(lesson_path, [lesson_words])
 
     @staticmethod
-    def write_words(path, words):
+    def write_words(path, word_arrays):
         with open(path, 'w') as csvfile:
             writer = csv.writer(csvfile, delimiter=',')
             writer.writerow(Common.FIRST_ROW)
-            for word in words:
-                row = Writer.__word_row(word)
-                writer.writerow(row)
+            for word_array in word_arrays:
+                count = 1
+                for word in word_array:
+                    row = Writer.__word_row(word) + [count]
+                    writer.writerow(row)
+                    count += 1
 
     @staticmethod
     def __word_row(word):

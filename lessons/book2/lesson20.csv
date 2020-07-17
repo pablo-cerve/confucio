@@ -1,56 +1,56 @@
 HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-新年,XĪNNIÁN,Año nuevo,N,,,20
-火锅,HUǑGUŌ,olla caliente,N,,,20
-火,HUǑ,"fuego, calor",N,,,20
-锅,GUŌ,olla,N,,,20
-饭馆,FÀNGUǍN,restaurante,N,,,20
-因为,YĪNWÈI,porque,Conj.,,,20
-所以,SUǑYǏ,así,Conj.,,,20
-爱,ÀI,amar,V,,,20
-涮羊肉,SHUÀN YÁNGRÒU,loncha fina de cordero en agua hirviendo,N,,,20
-涮,SHUÀN,cocinar una loncha fina de cordero en agua hirviendo,V,,,20
-羊,YÁNG,oveja,N,,,20
-肉,RÒU,carne,N,,,20
-热,RÈ,caliente,A,,,20
-开车,KĀICHĒ,conducir un coche,VO,,,20
-开,KĀI,conducir,V,,,20
-郊区,JIĀOQŪ,"suburbios, alrededores",N,,,20
-或者,HUÒZHĚ,o,Conj.,,,20
-音乐会,YĪNYUÈHUÌ,concierto,N,,,20
-化妆,HUÀZHUĀNG,ponerse maquillaje,VO,,,20
-化,HUÀ,cambiar,V,,,20
-妆,ZHUĀNG,maquillaje,N,,,20
-正式,ZHÈNGSHÌ,formal,A,,,20
-民乐,MÍNYUÈ,música popular con instrumento tradicional,N,,,20
-西方,XĪFĀNG,Oeste,N,,,20
-西,XĪ,Oeste,N,,,20
-民族,MÍNZÚ,nacionalidad,N,,,20
-乐器,YUÈQÌ,instrumento musical,N,,,20
-器,QÌ,"instrumento, utensilio",N,,,20
-演奏,YǍNZÒU,dar una actuación musical,V,,,20
-演,YǍN,tocar,V,,,20
-奏,ZÒU,tocar un instrumento musical,V,,,20
-习惯,XÍGUÀN,estar acostumbrado,V,hábito,N,20
-乐曲,YUÈQǓ,composición musical,N,,,20
-曲,QǓ,"tono, melodía",N,,,20
-出租车,CHŪZŪCHĒ,taxi,N,,,20
-出租,CHŪZŪ,alquilar,V,,,20
-路上,LÙSHANG,sobre el camino,N,,,20
-花儿,HUĀR,flores,N,,,20
-过去,GUÒQÙ,pasado,N,,,20
-照相机,ZHÀOXIÀNGJĪ,cámara de fotos,N,,,20
-照相,ZHÀOXIÀNG,hacer una foto,VO,,,20
-机,JĪ,máquina,N,,,20
-旁边,PÁNGBIĀN,al lado,N,,,20
-出发,CHŪFĀ,"salir, irse",V,,,20
-篇,PIĀN,clasificador de artículos,Clas.,,,20
-文章,WÉNZHĀNG,"ensayo, artículo",N,,,20
-恭喜,GŌNGXǏ,felicitaciones,EF,,,20
-火车,HUǑCHĒ,tren,N,,,20
-又,YÒU,de nuevo,Adv.,,,20
-着急,ZHÁOJÍ,nervioso,VO,nervioso,A,20
+新年,XĪNNIÁN,Año nuevo,NOM,,,20
+火锅,HUǑGUŌ,olla caliente,NOM,,,20
+火,HUǑ,"fuego, calor",NOM,,,20
+锅,GUŌ,olla,NOM,,,20
+饭馆,FÀNGUǍN,restaurante,NOM,,,20
+因为,YĪNWÈI,porque,CON,,,20
+所以,SUǑYǏ,así,CON,,,20
+爱,ÀI,amar,VER,,,20
+涮羊肉,SHUÀN YÁNGRÒU,loncha fina de cordero en agua hirviendo,NOM,,,20
+涮,SHUÀN,cocinar una loncha fina de cordero en agua hirviendo,VER,,,20
+羊,YÁNG,oveja,NOM,,,20
+肉,RÒU,carne,NOM,,,20
+热,RÈ,caliente,ADJ,,,20
+开车,KĀICHĒ,conducir un coche,V+O,,,20
+开,KĀI,conducir,VER,,,20
+郊区,JIĀOQŪ,"suburbios, alrededores",NOM,,,20
+或者,HUÒZHĚ,o,CON,,,20
+音乐会,YĪNYUÈHUÌ,concierto,NOM,,,20
+化妆,HUÀZHUĀNG,ponerse maquillaje,V+O,,,20
+化,HUÀ,cambiar,VER,,,20
+妆,ZHUĀNG,maquillaje,NOM,,,20
+正式,ZHÈNGSHÌ,formal,ADJ,,,20
+民乐,MÍNYUÈ,música popular con instrumento tradicional,NOM,,,20
+西方,XĪFĀNG,Oeste,NOM,,,20
+西,XĪ,Oeste,NOM,,,20
+民族,MÍNZÚ,nacionalidad,NOM,,,20
+乐器,YUÈQÌ,instrumento musical,NOM,,,20
+器,QÌ,"instrumento, utensilio",NOM,,,20
+演奏,YǍNZÒU,dar una actuación musical,VER,,,20
+演,YǍN,tocar,VER,,,20
+奏,ZÒU,tocar un instrumento musical,VER,,,20
+习惯,XÍGUÀN,estar acostumbrado,VER,hábito,NOM,20
+乐曲,YUÈQǓ,composición musical,NOM,,,20
+曲,QǓ,"tono, melodía",NOM,,,20
+出租车,CHŪZŪCHĒ,taxi,NOM,,,20
+出租,CHŪZŪ,alquilar,VER,,,20
+路上,LÙSHANG,sobre el camino,NOM,,,20
+花儿,HUĀR,flores,NOM,,,20
+过去,GUÒQÙ,pasado,NOM,,,20
+照相机,ZHÀOXIÀNGJĪ,cámara de fotos,NOM,,,20
+照相,ZHÀOXIÀNG,hacer una foto,V+O,,,20
+机,JĪ,máquina,NOM,,,20
+旁边,PÁNGBIĀN,al lado,NOM,,,20
+出发,CHŪFĀ,"salir, irse",VER,,,20
+篇,PIĀN,clasificador de artículos,CLA,,,20
+文章,WÉNZHĀNG,"ensayo, artículo",NOM,,,20
+恭喜,GŌNGXǏ,felicitaciones,FH,,,20
+火车,HUǑCHĒ,tren,NOM,,,20
+又,YÒU,de nuevo,ADV,,,20
+着急,ZHÁOJÍ,nervioso,V+O,nervioso,ADJ,20
 春江花月夜,CHŪN JIĀNG HUĀ YUÈ YÈ,nombre de un famoso musical tradicional chino,NP,,,20
-春,CHŪN,primavera,N,,,20
-江,JIĀNG,río,N,,,20
-月,YUÈ,luna,N,,,20
-夜,YÈ,noche,N,,,20
+春,CHŪN,primavera,NOM,,,20
+江,JIĀNG,río,NOM,,,20
+月,YUÈ,luna,NOM,,,20
+夜,YÈ,noche,NOM,,,20

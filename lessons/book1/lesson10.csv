@@ -1,32 +1,32 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,GUĀNGPÁN,CD,NOM,,,10
-,CHÁNGCHÁNG,"a menudo, frecuentemente",ADV,,,10
-,CHÁNG,"a menudo, frecuentemente",ADV,,,10
-,GĒN,con,PRE,seguir,VER,10
-,SHĀNGCHǍNG,centro comercial,NOM,,,10
-,SHĀNG,"comercio, negocio",NOM,,,10
-,YǑUMÍNG,famoso,ADJ,,,10
-,SHŪ,libro,NOM,,,10
-,BÀOZHǏ,"diario, periódico",NOM,,,10
-,BĚNZI,"cuaderno, libreta",NOM,,,10
-,NÀR,allí,PRO,,,10
-,LIÁNGZHÙ,nombre de un concierto para violín chino,NP,,,10
-,SHĪFU,trabajador experto / maestro,NOM,,,10
-,XIĀNGJIĀO,plátano,NOM,,,10
-,PÍNGGUǑ,manzana,NOM,,,10
-,ZĚNME,"cómo, por qué",PI,,,10
-,RÓNGYÌ,fácil,ADJ,,,10
-,JĪN,clasificador de peso (medio kilo),CLA,,,10
-,QIÁN,dinero,NOM,,,10
-,KUÀI,clasificador para unidades básicas de moneda china (oral),CLA,,,10
-,MÁO,clasificador de unidades de moneda china (oral),CLA,cabello,NOM,10
-,GUÌ,"caro, apreciado",ADJ,,,10
-,FĒN,clasificador de unidades de moneda china (oral y escrito),CLA,,,10
-,SÒNG,regalar,VER,,,10
-,GĚI,dar,VER,,,10
-,ZHǍO,dar cambio / buscar,VER,,,10
-,YUÁN,clasificador para unidades básicas de moneda china (escrito),CLA,,,10
-,JIǍO,clasificador de unidades de moneda china (escrito),CLA,,,10
-,YĪNYUÈ,música,NOM,,,10
-,WÈISHÉNME,¿por qué? / ¿para qué?,PI,,,10
-,YÍNWÈI,porque,CON,,,10
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,GUĀNGPÁN,CD,NOM,,,10,1
+,CHÁNGCHÁNG,"a menudo, frecuentemente",ADV,,,10,2
+,CHÁNG,"a menudo, frecuentemente",ADV,,,10,3
+,GĒN,con,PRE,seguir,VER,10,4
+,SHĀNGCHǍNG,centro comercial,NOM,,,10,5
+,SHĀNG,"comercio, negocio",NOM,,,10,6
+,YǑUMÍNG,famoso,ADJ,,,10,7
+,SHŪ,libro,NOM,,,10,8
+,BÀOZHǏ,"diario, periódico",NOM,,,10,9
+,BĚNZI,"cuaderno, libreta",NOM,,,10,10
+,NÀR,allí,PRO,,,10,11
+,LIÁNGZHÙ,nombre de un concierto para violín chino,NP,,,10,12
+,SHĪFU,trabajador experto / maestro,NOM,,,10,13
+,XIĀNGJIĀO,plátano,NOM,,,10,14
+,PÍNGGUǑ,manzana,NOM,,,10,15
+,ZĚNME,"cómo, por qué",PI,,,10,16
+,RÓNGYÌ,fácil,ADJ,,,10,17
+,JĪN,clasificador de peso (medio kilo),CLA,,,10,18
+,QIÁN,dinero,NOM,,,10,19
+,KUÀI,clasificador para unidades básicas de moneda china (oral),CLA,,,10,20
+,MÁO,clasificador de unidades de moneda china (oral),CLA,cabello,NOM,10,21
+,GUÌ,"caro, apreciado",ADJ,,,10,22
+,FĒN,clasificador de unidades de moneda china (oral y escrito),CLA,,,10,23
+,SÒNG,regalar,VER,,,10,24
+,GĚI,dar,VER,,,10,25
+,ZHǍO,dar cambio / buscar,VER,,,10,26
+,YUÁN,clasificador para unidades básicas de moneda china (escrito),CLA,,,10,27
+,JIǍO,clasificador de unidades de moneda china (escrito),CLA,,,10,28
+,YĪNYUÈ,música,NOM,,,10,29
+,WÈISHÉNME,¿por qué? / ¿para qué?,PI,,,10,30
+,YÍNWÈI,porque,CON,,,10,31

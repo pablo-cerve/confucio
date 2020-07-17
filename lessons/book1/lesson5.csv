@@ -1,23 +1,23 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-餐厅,CĀNTĪNG,"comedor, restaurante",NOM,,,5
-在,ZÀI,estar,VER,en,PRE,5
-哪儿,NǍR,dónde,PI,,,5
-宿舍,SÙSHÈ,dormitorio,NOM,,,5
-女,NǙ,mujer,NOM,femenino,ADJ,5
-坐,ZUÒ,sentarse,VER,,,5
-谢谢,XIÈXIÈ,dar las gracias,VER,,,5
-对不起,DUÌBUQǏ,"lo siento, disculpe, perdone",FH,,,5
-知道,ZHĪDÀO,saber,VER,,,5
-没关系,MÉIGUĀNXI,"no importa, no hay problema",FH,,,5
-再见,ZÀIJIÀN,¡hasta luego!,FH,,,5
-再,ZÀI,otra vez,ADV,,,5
-小姐,XIǍOJIĚ,"señorita, chica joven",NOM,,,5
-二,ÈR,dos,NUM,,,5
-层,CÉNG,"piso, planta",CLA,,,5
-零,LÍNG,cero,NUM,,,5
-四,SÌ,cuatro,NUM,,,5
-号,HÀO,"número, fecha",NOM,,,5
-不用,BÚYÒNG,no necesitar,ADV,,,5
-这儿,ZHÈR,aquí,PRO,,,5
-晚,WǍN,tarde,ADJ,,,5
-了,LE,partícula de aspecto,PT,,,5
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+餐厅,CĀNTĪNG,"comedor, restaurante",NOM,,,5,1
+在,ZÀI,estar,VER,en,PRE,5,2
+哪儿,NǍR,dónde,PI,,,5,3
+宿舍,SÙSHÈ,dormitorio,NOM,,,5,4
+女,NǙ,mujer,NOM,femenino,ADJ,5,5
+坐,ZUÒ,sentarse,VER,,,5,6
+谢谢,XIÈXIÈ,dar las gracias,VER,,,5,7
+对不起,DUÌBUQǏ,"lo siento, disculpe, perdone",FH,,,5,8
+知道,ZHĪDÀO,saber,VER,,,5,9
+没关系,MÉIGUĀNXI,"no importa, no hay problema",FH,,,5,10
+再见,ZÀIJIÀN,¡hasta luego!,FH,,,5,11
+再,ZÀI,otra vez,ADV,,,5,12
+小姐,XIǍOJIĚ,"señorita, chica joven",NOM,,,5,13
+二,ÈR,dos,NUM,,,5,14
+层,CÉNG,"piso, planta",CLA,,,5,15
+零,LÍNG,cero,NUM,,,5,16
+四,SÌ,cuatro,NUM,,,5,17
+号,HÀO,"número, fecha",NOM,,,5,18
+不用,BÚYÒNG,no necesitar,ADV,,,5,19
+这儿,ZHÈR,aquí,PRO,,,5,20
+晚,WǍN,tarde,ADJ,,,5,21
+了,LE,partícula de aspecto,PT,,,5,22

@@ -1,16 +1,16 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-她,TĀ,"ella, su",PRO,,,3
-是,SHÌ,"ser, estar",VER,,,3
-哪,NǍ,"cuál, de qué",PI,,,3
-国,GUÓ,"país, nación",NOM,,,3
-人,RÉN,"persona, gente",NOM,,,3
-那,NÀ,"ese/esa, aquel/aquella",PRO,,,3
-谁,SHÉI,quién,PI,,,3
-老师,LǍOSHĪ,profesor/a,NOM,,,3
-中国,ZHŌNGGUÓ,China,NP,,,3
-您,NÍN,usted,PRO,,,3
-这,ZHÈ,"éste, ésta, esto",PRO,,,3
-外语,WÀIYǓ,lengua extranjera,NOM,,,3
-医生,YĪSHĒNG,médico,NOM,,,3
-奶奶,NǍINAI,abuela paterna,NOM,,,3
-外婆,WÀIPÓ,abuela materna,NOM,,,3
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+她,TĀ,"ella, su",PRO,,,3,1
+是,SHÌ,"ser, estar",VER,,,3,2
+哪,NǍ,"cuál, de qué",PI,,,3,3
+国,GUÓ,"país, nación",NOM,,,3,4
+人,RÉN,"persona, gente",NOM,,,3,5
+那,NÀ,"ese/esa, aquel/aquella",PRO,,,3,6
+谁,SHÉI,quién,PI,,,3,7
+老师,LǍOSHĪ,profesor/a,NOM,,,3,8
+中国,ZHŌNGGUÓ,China,NP,,,3,9
+您,NÍN,usted,PRO,,,3,10
+这,ZHÈ,"éste, ésta, esto",PRO,,,3,11
+外语,WÀIYǓ,lengua extranjera,NOM,,,3,12
+医生,YĪSHĒNG,médico,NOM,,,3,13
+奶奶,NǍINAI,abuela paterna,NOM,,,3,14
+外婆,WÀIPÓ,abuela materna,NOM,,,3,15

@@ -1,39 +1,39 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,GŪNIANG,"chica, niña",NOM,,,13
-,TĪNGSHUŌ,oír decir,VER,,,13
-,TĪNG,escuchar,VER,,,13
-,DÉ,"tener, conseguir, agarrar",VER,,,13
-,GÀOSU,"decir, contar",VER,,,13
-,JIÀN,"clasificador para pieza de ropa, parte",CLA,,,13
-,SHÌR,"asunto, cosa, negocio",NOM,,,13
-,SÀNBÙ,"dar un paseo, caminar",VMO,,,13
-,BÙ,paso,NOM,,,13
-,DIÀN,electricidad,NOM,,,13
-,DIÀNYǏNG,película,NOM,,,13
-,DIÀNYǏNGYUÀN,cine,NOM,,,13
-,YǏNGZI,sombra,NOM,,,13
-,KĚSHÌ,pero,CON,,,13
-,ZHǍO,buscar,VER,,,13
-,FÁNGZI,casa,NOM,,,13
-,ZŪ,alquilar,VER,,,13
-,JIĀN,"clasificador para habitación, casa, etc.",CLA,,,13
-,CHÚFÁNG,cocina,NOM,,,13
-,CÈSUǑ,baño,NOM,,,13
-,FÁNGZŪ,(dinero del) alquiler,NOM,,,13
-,GŌNGSĪ,empresa,NOM,,,13
-,KĀFĒI,café,NOM,,,13
-,SÙSHÈ,"dormitorio, habitación",NOM,,,13
-,BÀN,hacer / hacer frente a,VER,,,13
-,DǍDIÀNHUÀ,llamar por teléfono,VMO,,,13
-,DIÀNHUÀ,llamada telefónica / teléfono,NOM,,,13
-,RÀNG,"permitir, dejar",VER,,,13
-,BĀNGZHÙ,ayudar,VER,ayuda,NOM,13
-,WÉI,hola,OTR,,,13
-,WÈI,clasificador personas (manera educada),CLA,,,13
-,JĪNGLǏ,gerente,NOM,,,13
-,KĚNÉNG,"quizás, puede que",VAUX,,,13
-,CHĪFÀN,"comer, tomar (una comida)",VMO,,,13
-,FÀN,comida,NOM,,,13
-,DĚNG,esperar,VER,,,13
-,QǏNG,"invitar, solicitar, pedir",VER,,,13
-,JIĀMĚI,(nombre de inmobiliaria),NP,,,13
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,GŪNIANG,"chica, niña",NOM,,,13,1
+,TĪNGSHUŌ,oír decir,VER,,,13,2
+,TĪNG,escuchar,VER,,,13,3
+,DÉ,"tener, conseguir, agarrar",VER,,,13,4
+,GÀOSU,"decir, contar",VER,,,13,5
+,JIÀN,"clasificador para pieza de ropa, parte",CLA,,,13,6
+,SHÌR,"asunto, cosa, negocio",NOM,,,13,7
+,SÀNBÙ,"dar un paseo, caminar",V+O,,,13,8
+,BÙ,paso,NOM,,,13,9
+,DIÀN,electricidad,NOM,,,13,10
+,DIÀNYǏNG,película,NOM,,,13,11
+,DIÀNYǏNGYUÀN,cine,NOM,,,13,12
+,YǏNGZI,sombra,NOM,,,13,13
+,KĚSHÌ,pero,CON,,,13,14
+,ZHǍO,buscar,VER,,,13,15
+,FÁNGZI,casa,NOM,,,13,16
+,ZŪ,alquilar,VER,,,13,17
+,JIĀN,"clasificador para habitación, casa, etc.",CLA,,,13,18
+,CHÚFÁNG,cocina,NOM,,,13,19
+,CÈSUǑ,baño,NOM,,,13,20
+,FÁNGZŪ,(dinero del) alquiler,NOM,,,13,21
+,GŌNGSĪ,empresa,NOM,,,13,22
+,KĀFĒI,café,NOM,,,13,23
+,SÙSHÈ,"dormitorio, habitación",NOM,,,13,24
+,BÀN,hacer / hacer frente a,VER,,,13,25
+,DǍDIÀNHUÀ,llamar por teléfono,V+O,,,13,26
+,DIÀNHUÀ,llamada telefónica / teléfono,NOM,,,13,27
+,RÀNG,"permitir, dejar",VER,,,13,28
+,BĀNGZHÙ,ayudar,VER,ayuda,NOM,13,29
+,WÉI,hola,OTR,,,13,30
+,WÈI,clasificador personas (manera educada),CLA,,,13,31
+,JĪNGLǏ,gerente,NOM,,,13,32
+,KĚNÉNG,"quizás, puede que",VAUX,,,13,33
+,CHĪFÀN,"comer, tomar (una comida)",V+O,,,13,34
+,FÀN,comida,NOM,,,13,35
+,DĚNG,esperar,VER,,,13,36
+,QǏNG,"invitar, solicitar, pedir",VER,,,13,37
+,JIĀMĚI,(nombre de inmobiliaria),NP,,,13,38

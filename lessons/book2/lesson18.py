@@ -48,7 +48,7 @@ LESSON18 = [
     ["CHÉNG",         "", "viajar, tomar", "VER"],
     ["KÈ",            "", "visitante, invitado", "NOM"],
     ["DÌTIĚ",         "", "metro", "NOM"],
-    ["FÀNGXĪN",       "", "tranquilizarse, relajarse", "VMO"],
+    ["FÀNGXĪN",       "", "tranquilizarse, relajarse", "V+O"],
     ["ZĀOGĀO",        "", "desastre, muy malo", "ADJ"],
     ["QIÁNMÉN",       "", "lugar en Beijing ", "NP"]
 ]

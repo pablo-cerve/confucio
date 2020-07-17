@@ -1,41 +1,41 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,ZHŌNGGUÓHUÀ,pintura tradicional china,NOM,,,19
-,HUÀ,pintar,VER,"cuadro, pintura",NOM,19
-,HUÀR,"cuadro, pintura",NOM,,,19
-,YÓUHUÀ,pintura al óleo,NOM,,,19
-,YÓU,aceite,NOM,,,19
-,YÍYÀNG,mismo,ADJ,,,19
-,KĀIMÉN,abrir la puerta / abrir negocio,VMO,,,19
-,GUĀNMÉN,cerrar la puerta / cerrar negocio,VMO,,,19
-,MĚISHÙGUǍN,galería de arte,NOM,,,19
-,LǍO,"viejo, con experiencia",ADJ,,,19
-,HUÀJIĀ,"pintor, artista",NOM,,,19
-,JIĀ,especialista,NOM,,,19
-,BÙGǍNDĀNG,(respuesta de modestia ante un cumplido),FH,,,19
-,ÀIHÀO,"gustar, tener algo como hobby",VER,hobby,NOM,19
-,CHÀNGGĒ,cantar (una canción),VER,,,19
-,CHÀNG,cantar,VER,,,19
-,MǍMǍHŪHŪ,"regular, mediocre",ADJ,,,19
-,MǍHU,"descuidado, casual",ADJ,,,19
-,HǓ,tigre,NOM,,,19
-,FÚ,"clasificador de cuadros, pinturas, etc.",CLA,,,19
-,XÚ BĒIHÓNG,nombre de un famoso pintor chino,NP,,,19
-,DIÀNTĪ,ascensor,NOM,,,19
-,KĀI WÁNXIÀO,hacer una broma,VMO,,,19
-,CÁILIÀO,material,NOM,,,19
-,ZHǏ,papel,NOM,,,19
-,BÙ,tela,NOM,,,19
-,ZHǓYÀO,principal,ADJ,,,19
-,MÒ,tinta china,NOM,,,19
-,YÓUCǍI,pintura / maquillaje teatral,NOM,,,19
-,BIÉDE,otro,PRO,,,19
-,KÒNGBÁI,espacio en blanco ,NOM,,,19
-,ZHǏ,solamente,ADV,,,19
-,PǏ,clasificador de caballos,CLA,,,19
-,XIǍNGXIÀNG,imaginar,VER,imaginación,NOM,19
-,PǍO,correr,VER,,,19
-,TĀ,él (para animales) / eso (para cosas),PRO,,,19
-,FĒNG,viento,NOM,,,19
-,XIĀ,camarón,NOM,,,19
-,YÓU,nadar,VER,,,19
-,QÍ BÁISHÍ,nombre de un pintor chino,NP,,,19
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,ZHŌNGGUÓHUÀ,pintura tradicional china,NOM,,,19,1
+,HUÀ,pintar,VER,"cuadro, pintura",NOM,19,2
+,HUÀR,"cuadro, pintura",NOM,,,19,3
+,YÓUHUÀ,pintura al óleo,NOM,,,19,4
+,YÓU,aceite,NOM,,,19,5
+,YÍYÀNG,mismo,ADJ,,,19,6
+,KĀIMÉN,abrir la puerta / abrir negocio,V+O,,,19,7
+,GUĀNMÉN,cerrar la puerta / cerrar negocio,V+O,,,19,8
+,MĚISHÙGUǍN,galería de arte,NOM,,,19,9
+,LǍO,"viejo, con experiencia",ADJ,,,19,10
+,HUÀJIĀ,"pintor, artista",NOM,,,19,11
+,JIĀ,especialista,NOM,,,19,12
+,BÙGǍNDĀNG,(respuesta de modestia ante un cumplido),FH,,,19,13
+,ÀIHÀO,"gustar, tener algo como hobby",VER,hobby,NOM,19,14
+,CHÀNGGĒ,cantar (una canción),VER,,,19,15
+,CHÀNG,cantar,VER,,,19,16
+,MǍMǍHŪHŪ,"regular, mediocre",ADJ,,,19,17
+,MǍHU,"descuidado, casual",ADJ,,,19,18
+,HǓ,tigre,NOM,,,19,19
+,FÚ,"clasificador de cuadros, pinturas, etc.",CLA,,,19,20
+,XÚ BĒIHÓNG,nombre de un famoso pintor chino,NP,,,19,21
+,DIÀNTĪ,ascensor,NOM,,,19,22
+,KĀI WÁNXIÀO,hacer una broma,V+O,,,19,23
+,CÁILIÀO,material,NOM,,,19,24
+,ZHǏ,papel,NOM,,,19,25
+,BÙ,tela,NOM,,,19,26
+,ZHǓYÀO,principal,ADJ,,,19,27
+,MÒ,tinta china,NOM,,,19,28
+,YÓUCǍI,pintura / maquillaje teatral,NOM,,,19,29
+,BIÉDE,otro,PRO,,,19,30
+,KÒNGBÁI,espacio en blanco ,NOM,,,19,31
+,ZHǏ,solamente,ADV,,,19,32
+,PǏ,clasificador de caballos,CLA,,,19,33
+,XIǍNGXIÀNG,imaginar,VER,imaginación,NOM,19,34
+,PǍO,correr,VER,,,19,35
+,TĀ,él (para animales) / eso (para cosas),PRO,,,19,36
+,FĒNG,viento,NOM,,,19,37
+,XIĀ,camarón,NOM,,,19,38
+,YÓU,nadar,VER,,,19,39
+,QÍ BÁISHÍ,nombre de un pintor chino,NP,,,19,40

@@ -1,29 +1,29 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-家,JIĀ,"familia, hogar",NOM,,,8
-几,JǏ,cuántos,PI,,,8
-照片,ZHÀOPIÀN,fotografía,NOM,,,8
-和,HÉ,y,CON,,,8
-个,GÈ,clasificador de uso general,CLA,,,8
-姐姐,JIĚJIE,hermana mayor,NOM,,,8
-两,LIǍNG,dos,NUM,,,8
-一共,YÍGÒNG,en total,ADV,,,8
-还,HÁI,además / todavía,ADV,,,8
-妹妹,MÈIMEI,hermana menor,NOM,,,8
-小,XIǍO,"pequeño, menor",ADJ,,,8
-狗,GǑU,perro,NOM,,,8
-当然,DĀNGRÁN,"obvio, como debe ser",ADJ,,,8
-张,ZHĀNG,clasificador para objetos planos,CLA,,,8
-真,ZHĒN,realmente,ADV,real / verdadero,ADJ,8
-可爱,KĚÀI,"adorable, agradable / precioso",ADJ,,,8
-爱,ÀI,amor,NOM,amar,VER,8
-没,MÉI,no haber,VER,,,8
-做,ZUÒ,hacer,VER,,,8
-工作,GŌNGZUÒ,trabajo,NOM,trabajar,VER,8
-大,DÀ,"grande, voluminoso",ADJ,,,8
-多少,DUŌSHǍO,"cuánto, cuántos",PI,,,8
-多,DUŌ,mucho,ADJ,,,8
-少,SHǍO,poco,ADJ,,,8
-喜欢,XǏHUAN,"gustar, preferir",VER,,,8
-外国,WÀIGUÓ,país extranjero,NOM,,,8
-百,BǍI,cien,NUM,,,8
-口,KǑU,boca,NOM,,,8
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+家,JIĀ,"familia, hogar",NOM,,,8,1
+几,JǏ,cuántos,PI,,,8,2
+照片,ZHÀOPIÀN,fotografía,NOM,,,8,3
+和,HÉ,y,CON,,,8,4
+个,GÈ,clasificador de uso general,CLA,,,8,5
+姐姐,JIĚJIE,hermana mayor,NOM,,,8,6
+两,LIǍNG,dos,NUM,,,8,7
+一共,YÍGÒNG,en total,ADV,,,8,8
+还,HÁI,además / todavía,ADV,,,8,9
+妹妹,MÈIMEI,hermana menor,NOM,,,8,10
+小,XIǍO,"pequeño, menor",ADJ,,,8,11
+狗,GǑU,perro,NOM,,,8,12
+当然,DĀNGRÁN,"obvio, como debe ser",ADJ,,,8,13
+张,ZHĀNG,clasificador para objetos planos,CLA,,,8,14
+真,ZHĒN,realmente,ADV,real / verdadero,ADJ,8,15
+可爱,KĚÀI,"adorable, agradable / precioso",ADJ,,,8,16
+爱,ÀI,amor,NOM,amar,VER,8,17
+没,MÉI,no haber,VER,,,8,18
+做,ZUÒ,hacer,VER,,,8,19
+工作,GŌNGZUÒ,trabajo,NOM,trabajar,VER,8,20
+大,DÀ,"grande, voluminoso",ADJ,,,8,21
+多少,DUŌSHǍO,"cuánto, cuántos",PI,,,8,22
+多,DUŌ,mucho,ADJ,,,8,23
+少,SHǍO,poco,ADJ,,,8,24
+喜欢,XǏHUAN,"gustar, preferir",VER,,,8,25
+外国,WÀIGUÓ,país extranjero,NOM,,,8,26
+百,BǍI,cien,NUM,,,8,27
+口,KǑU,boca,NOM,,,8,28

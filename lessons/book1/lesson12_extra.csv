@@ -1,9 +1,9 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
-,RÈ,calor,NOM,caliente,ADJ,12
-,YÁ,diente,NOM,,,12
-,DÙZI,"abdomen, estómago, vientre",NOM,,,12
-,XIĚ,sangre,NOM,,,12
-,LIÁNGKUAI,fresco,ADJ,,,12
-,SHĒNGHUÓ,vida,NOM,vivir,VER,12
-,ZHÙ,"residir, vivir",VER,,,12
-,ZHŌNGWǓ,mediodía,NOM,,,12
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,RÈ,calor,NOM,caliente,ADJ,12,1
+,YÁ,diente,NOM,,,12,2
+,DÙZI,"abdomen, estómago, vientre",NOM,,,12,3
+,XIĚ,sangre,NOM,,,12,4
+,LIÁNGKUAI,fresco,ADJ,,,12,5
+,SHĒNGHUÓ,vida,NOM,vivir,VER,12,6
+,ZHÙ,"residir, vivir",VER,,,12,7
+,ZHŌNGWǓ,mediodía,NOM,,,12,8

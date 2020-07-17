@@ -4,7 +4,7 @@ sys.path.append('.')
 
 class Common:
     LESSONS_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio/lessons"
-    FIRST_ROW = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LECCION']
+    FIRST_ROW = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LECCION', 'NUM']
 
     @staticmethod
     def book_lesson_path(book_number, lesson_id, lesson_extra=False):
