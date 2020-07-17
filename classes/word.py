@@ -20,14 +20,7 @@ class Word:
         self.pinyin, self.chinese, self.definition = input_list
         self.pinyin_d, self.chinese_d, self.definition_d = decoded_list
         self.pinyin_l, self.chinese_l, self.definition_l = [len(val) for val in decoded_list]
-        if isinstance(word_meanings, list):
-            if isinstance(word_meanings[0], WordMeaning):  # reading from csv
-                self.word_meanings = word_meanings
-            else:
-                assert(len(word_meanings) == 2)
-                self.word_meanings = [WordMeaning(val[1], val[0]) for val in word_meanings]
-        else:
-            self.word_meanings = [WordMeaning(word_meanings, definition)]
+        self.word_meanings = word_meanings
         self.number = word_number
         self.lesson_number = lesson_number
 
