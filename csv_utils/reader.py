@@ -30,10 +30,10 @@ class Reader:
         return lesson
 
     def __process_row(self, row):
-        hanzi, pinyin, definition1, word_type1, definition2, word_type2, _ = row
+        hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _ = row
 
-        word_meanings = [WordMeaning(word_type1, definition1, self.book_number)]
+        word_meanings = [WordMeaning(word_type1, definition1)]
         if len(definition2) > 0:
-            word_meanings.append(WordMeaning(word_type2, definition2, self.book_number))
+            word_meanings.append(WordMeaning(word_type2, definition2))
 
         return Word(pinyin, hanzi, definition1, word_meanings, self.lesson_number)

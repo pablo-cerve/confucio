@@ -14,4 +14,4 @@ for lesson_number in range(1, 20):
         Writer.write_lesson(Lesson(lesson_number, True))
 
 
-# Writer.write_lesson(Reader(20).generate_lesson())
+Writer.write_lesson(Reader(20).generate_lesson())
