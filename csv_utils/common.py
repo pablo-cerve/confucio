@@ -3,12 +3,13 @@ sys.path.append('.')
 
 
 class Common:
-    LESSONS_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio/lessons"
+    LESSONS_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio/lessons/"
+    GENERATED_PATH = LESSONS_PATH + "generated/"
     FIRST_ROW = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LECCION', 'NUM']
 
     @staticmethod
     def book_path(book_number):
-        return Common.LESSONS_PATH + "/book" + str(book_number) + "/"
+        return Common.LESSONS_PATH + "book" + str(book_number) + "/"
 
     @staticmethod
     def book_lesson_path(book_number, lesson_number, lesson_extra=False):
