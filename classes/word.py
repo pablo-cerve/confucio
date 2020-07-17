@@ -14,7 +14,7 @@ class Word:
         '\xc7': 5, 'Ě': 5, 'Ǐ': 5, 'Ǒ': 5, 'Ǔ': 5
     }
 
-    def __init__(self, pinyin, chinese, definition, word_meanings, lesson_number=None):
+    def __init__(self, pinyin, chinese, definition, word_meanings, word_number, lesson_number):
         input_list = [pinyin, chinese, definition]
         decoded_list = [self.decode(val) for val in input_list]
         self.pinyin, self.chinese, self.definition = input_list
@@ -28,7 +28,11 @@ class Word:
                 self.word_meanings = [WordMeaning(val[1], val[0]) for val in word_meanings]
         else:
             self.word_meanings = [WordMeaning(word_meanings, definition)]
-        self.lesson_number = lesson_number  # set with set_lesson_number
+        self.number = word_number
+        self.lesson_number = lesson_number
+
+    def keys(self):
+        return [word_meaning.word_type.key for word_meaning in self.word_meanings]
 
     @classmethod
     def decode(cls, word):
@@ -59,9 +63,6 @@ class Word:
 
     def str_definition(self):
         return self.definition_d
-
-    def set_lesson_number(self, lesson_number):
-        self.lesson_number = lesson_number
 
     @classmethod
     def sorted(cls, word_list):

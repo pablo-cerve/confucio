@@ -7,10 +7,10 @@ from csv_utils.common import Common
 
 class Writer:
     @staticmethod
-    def write_lessons(path, lessons):
+    def write_lessons(path, lessons, word_keys=None):
         word_arrays = []
         for lesson in lessons:
-            word_arrays.append(lesson.words)
+            word_arrays.append(lesson.get_words(word_keys))
         Writer.write_words(path, word_arrays)
 
     @staticmethod
@@ -25,16 +25,14 @@ class Writer:
             writer = csv.writer(csvfile, delimiter=',')
             writer.writerow(Common.FIRST_ROW)
             for word_array in word_arrays:
-                count = 1
                 for word in word_array:
-                    row = Writer.__word_row(word) + [count]
+                    row = Writer.__word_row(word)
                     writer.writerow(row)
-                    count += 1
 
     @staticmethod
     def __word_row(word):
         definition1, word_type1, definition2, word_type2 = Writer.__word_attributes(word)
-        row = [word.chinese, word.pinyin, definition1, word_type1, definition2, word_type2, word.lesson_number]
+        row = [word.chinese, word.pinyin, definition1, word_type1, definition2, word_type2, word.lesson_number, word.number]
         return row
 
     @staticmethod

@@ -18,6 +18,17 @@ class Lesson:
         self.words = Reader(self.book_number, lesson_number, extra).generate_words()
         self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
 
+    def get_words(self, word_keys=None):
+        if word_keys is None:
+            return self.words
+
+        words = []
+        set_word_keys = set(word_keys)
+        for word in self.words:
+            if set(word.keys()) & set_word_keys:
+                words.append(word)
+        return words
+
     def print_all(self, rand=False):
         print
         self._print_lesson_number("completa", rand)

@@ -23,15 +23,15 @@ class Reader:
                 if index == 0:
                     assert(row == Common.FIRST_ROW)
                     continue
-                word = self.__process_row(row)
+                word = self.__process_row(row, len(words) + 1)
                 words.append(word)
         return words
 
-    def __process_row(self, row):
+    def __process_row(self, row, word_number):
         hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _ = row
 
         word_meanings = [WordMeaning(word_type1, definition1)]
         if len(definition2) > 0:
             word_meanings.append(WordMeaning(word_type2, definition2))
 
-        return Word(pinyin, hanzi, definition1, word_meanings, self.lesson_number)
+        return Word(pinyin, hanzi, definition1, word_meanings, word_number, self.lesson_number)
