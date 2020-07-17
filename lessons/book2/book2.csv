@@ -1,0 +1,275 @@
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+,ZǍO,temprano,ADJ,mañana,NOM,15,1
+,YÍNHÁNG,banco,NOM,,,15,2
+,SHǍO,poco,ADJ,,,15,3
+,PÁIDUÌ,hacer cola,V+O,,,15,4
+,PÁI,ordenar,VER,fila,NOM,15,5
+,DUÌ,fila de personas,NOM,,,15,6
+,HUÀN,cambiar,VER,cambio,NOM,15,7
+,YĪNGBÀNG,libras esterlinas,NOM,,,15,8
+,RÉNMÍNBÌ,RMB,NOM,,,15,9
+,RÉNMÍN,pueblo,NOM,,,15,10
+,DĚI,"tener que, deber de, necesidad",VAUX,,,15,11
+,YÒNG,utilizar,VER,,,15,12
+,GĀNG,recién,ADV,,,15,13
+,CÓNG,desde,PRE,,,15,14
+,DÀO,hasta,PRE,,,15,15
+,FĒICHÁNG,extremadamente,ADV,,,15,16
+,CÌ,clasificador de acciones,CLA,,,15,17
+,CĀNGUĀN,visitar,VER,,,15,18
+,BĪNGMǍOYǑNG,guerreros de terracota,NOM,,,15,19
+,BĪNG,"soldado, luchador",NOM,,,15,20
+,MÍNGXÌNPIÀN,postal,NOM,,,15,21
+,XÌN,carta,NOM,,,15,22
+,GĀI,tocarle hacer una cosa,VER,,,15,23
+,GŌNGZUÒRÉNYUÁN,empleado,NOM,,,15,24
+,RÉNYUÁN,personal,NOM,,,15,25
+,QIĀN,mil,NUM,,,15,26
+,SHǓ,contar,VER,,,15,27
+,WÁNGFǓJǏNG,zona comercial de Beijing,NP,,,15,28
+,XĪĀN,capital de la provincia de Shaanxi,NP,,,15,29
+,HǍOJIǓBÚJIÀN,¡cuánto tiempo sin verte!,FH,,,15,30
+,HǍOJIǓ,hace mucho tiempo,ADV,,,15,31
+,JIÀN,ver,VER,,,15,32
+,FĀZHǍN,desarrollar,VER,,,15,33
+,KUÀI,rápido,ADJ,,,15,34
+,HUÀ,"dialecto, idioma",NOM,,,15,35
+,PǓTŌNGHUÀ,lengua común (mandarín),NOM,,,15,36
+,NIÁNQĪNG,joven,ADJ,,,15,37
+,QĪNG,"ligero, pequeño",ADJ,,,15,38
+,LIÚLÌ,fluido,ADJ,,,15,39
+,DǑNG,entender,VER,,,15,40
+,JIÙ,"con exactitud, exactamente / ahora mismo",ADV,,,15,41
+,BǍ,(indicar que la acción tiene efecto sobre el objeto),PRE,,,16,1
+,WÀNG,olvidar,VER,,,16,2
+,TÚSHŪGUǍN,biblioteca,NOM,,,16,3
+,TÚSHŪ,libros,NOM,,,16,4
+,GUǍN,tienda / un lugar para actividades culturales,NOM,,,16,5
+,BÀNGŌNGSHÌ,oficina,NOM,,,16,6
+,BÀNGŌNG,trabajar (en una oficina),VER,,,16,7
+,SHÌ,habitación,NOM,,,16,8
+,SHÀNG,arriba / subir / última / anterior,OTR,,,16,9
+,XIÀ,abajo / bajar / próximo,OTR,,,16,10
+,XIĀN,primero / antes,ADV,,,16,11
+,JIÈZHŪZHÈNG,carné de biblioteca,NOM,,,16,12
+,JIÈ,tomar prestado / prestar,VER,,,16,13
+,ZHÈNG,certificado / tarjeta,NOM,,,16,14
+,YÍHUÌR,un rato,OTR,,,16,15
+,DÀI,traer / llevar,VER,,,16,16
+,TIÁN,rellenar,VER,,,16,17
+,BIǍO,formulario / tabla / lista,NOM,,,16,18
+,NÁ,agarrar,VER,,,16,19
+,MÀN,"lento, lentamente",ADJ,,,16,20
+,BÙXIÍNG,no estar permitido algo,VER,,,16,21
+,SHĒNGHUÓ,vivir,VER,vida,NOM,16,22
+,ZÌJǏ,"uno mismo, propio",PRO,,,16,23
+,XÌNGMÍNG,nombre,NOM,,,16,24
+,XÌNGBIÉ,sexo,NOM,,,16,25
+,ZHÍYÈ,profesión,NOM,,,16,26
+,JIĀO,"entregar / pagar (el alquiler, etc.)",VER,,,16,27
+,CHÁNG,largo,ADJ,,,16,28
+,JIǓ,largo (tiempo),ADJ,,,16,29
+,KǍOSHÌ,hacer un examen,VER,examen,NOM,16,30
+,KǍO,hacer un examen,VER,examen,NOM,16,31
+,BÚCUÒ,no estar mal,ADJ,,,16,32
+,FĀNYÌ,traducir / interpretar,VER,traductor / intérprete,NOM,16,33
+,XĪN,nuevo,ADJ,,,16,34
+,KÈBĚN,libro de texto,NOM,,,16,35
+,CHŪ,salir,VER,fuera,ADV,16,36
+,HUÁN,devolver,VER,,,16,37
+,GUÒQĪ,haber vencido (un plazo),V+O,,,16,38
+,GUÒ,aprobar (un examen),VER,,,16,39
+,QĪ,período de tiempo,NOM,,,16,40
+,FÁKUǍN,poner una multa,V+O,multa,NOM,16,41
+,FÁ,"sancionar, penalizar",VER,,,16,42
+,KUǍN,suma (de dinero),NOM,,,16,43
+,DIÀNNǍO,computadora,NOM,,,16,44
+,DIÀN,electricidad,NOM,,,16,45
+,NǍO,cerebro,NOM,,,16,46
+,CHÁ,"comprobar, buscar",VER,,,16,47
+,SHÍYÒNG,práctico,ADJ,,,16,48
+,QÍPÁO,vestido en estilo chino,NOM,,,17,1
+,BǏ,que (indica comparación),PRE,,,17,2
+,MÀI,vender,VER,,,17,3
+,MǍI,comprar,VER,,,17,4
+,ZHŌNGSHÌ,estilo chino,ADJ,,,17,5
+,SHÌ,"tipo, estilo",NOM,,,17,6
+,YǏJĪNG,ya,ADV,,,17,7
+,SHĀNGDIÀN,tienda,NOM,,,17,8
+,SHĀNG,"comercio, negocios",NOM,,,17,9
+,DIÀN,tienda,NOM,,,17,10
+,JÍLE,extremadamente,ADV,,,17,11
+,YÍDÌNG,"deber, seguramente",ADV,,,17,12
+,CHÀ,"que no es estándar, pobre, malo",ADJ,,,17,13
+,KĀISHǏ,empezar,VER,,,17,14
+,TÀIJÍQUÁN,taichi,NOM,,,17,15
+,TÀO,"juego, conjunto",CLA,,,17,16
+,SHUÀI,guapo (chico),ADJ,,,17,17
+,YÁNSÈ,color,NOM,,,17,18
+,HĒI,negro,ADJ,,,17,19
+,HÓNG,rojo,ADJ,,,17,20
+,BÁI,blanco,ADJ,,,17,21
+,PIÁNYI,barato,ADJ,,,17,22
+,GŌNGYUÁN,parque,NOM,,,17,23
+,ZǑU,"caminar, ir, andar",VER,,,17,24
+,XIǍOSHÍ,hora,NOM,,,17,25
+,GUÒQÙ,pasar (el tiempo),VER,,,17,26
+,CHÈNSHĀN,camisa,NOM,,,17,27
+,LǛ,verde,ADJ,,,17,28
+,YÀNGZI,"forma, ejemplo, modelo, patrón",NOM,,,17,29
+,SHÒUHUÒYUÁN,"dependiente, vendedor",NOM,,,17,30
+,SHÒU,vender,VER,,,17,31
+,HUÒ,bienes,NOM,,,17,32
+,SHÌ,"probarse, intentar",VER,,,17,33
+,JUÉDE,"sentir, pensar",VER,,,17,34
+,HÉSHÌ,"adecuado, apropiado, correcto",ADJ,,,17,35
+,DUǍN,corto,ADJ,,,17,36
+,CHÁNG,largo,ADJ,,,17,37
+,GĀO,"elevado, alto",ADJ,,,17,38
+,GŌNGFĒN,centímetro,NOM,,,17,39
+,MÁFAN,"molestar, preocupar (a alguien)",VER,,,17,40
+,SĪCHÓU,seda,NOM,,,17,41
+,XĪFÚ,traje / ropa occidental,NOM,,,17,42
+,JÌ,recordar,VER,,,18,1
+,CUÒ,incorrecto,ADJ,,,18,2
+,BĀOGUǑ,"paquete, parcela",NOM,,,18,3
+,BĀO,envolver,VER,bolsa,NOM,18,4
+,XIĒ,alguno(s),CLA,,,18,5
+,YĪNGWÉN,inglés (idioma),NOM,,,18,6
+,CÍDIǍN,diccionario,NOM,,,18,7
+,JIÙ,"viejo, pasado, usado",ADJ,,,18,8
+,XĪN,nuevo,ADJ,,,18,9
+,WǍNG,hacia,PRE,,,18,10
+,HÁNGKŌNG,aviación,NOM,,,18,11
+,KŌNG,"cielo, aire",NOM,,,18,12
+,HǍIYÙN,transporte marítimo,NOM,,,18,13
+,HǍI,"océano, mar, gran lago",NOM,,,18,14
+,YÓUFÈI,"franqueo, gastos de envío",NOM,,,18,15
+,FÈI,"gasto, costo",NOM,,,18,16
+,QǓ,"recoger, agarrar, tomar",VER,,,18,17
+,TŌNGZHĪDĀN,carta de aviso,VER,,,18,18
+,TŌNGZHĪ,"comunicar, notificar, informar",VER,notificación,NOM,18,19
+,DĀN,hoja de papel,NOM,,,18,20
+,HǍIGUĀN,aduana,NOM,,,18,21
+,BIÉ,no,ADV,,,18,22
+,HÙZHÀO,pasaporte,NOM,,,18,23
+,KÈQI,"cortés, atengo",ADJ,,,18,24
+,JIÀNGUÓMÉN,lugar en Beijing,NP,,,18,25
+,MÉN,"puerta, entrada",NOM,,,18,26
+,LÙ,línea (de autobús) / camino,NOM,,,18,27
+,GŌNGGÒNGQÌCHĒ,autobús público,NOM,,,18,28
+,GŌNGGÒNG,público,ADJ,,,18,29
+,QÌCHĒ,automóvil,NOM,,,18,30
+,CHĒ,vehículo,NOM,,,18,31
+,JĪNGGUÒ,"pasar, atravesar, pasar por",VER,,,18,32
+,HǍOXIÀNG,parecer,VER,,,18,33
+,XIÀNG,parecer,VER,,,18,34
+,ZÁNMEN,nosotros,PRO,,,18,35
+,SHÒUPIÀOYUÁN,vendedor de boletos / conductor,NOM,,,18,36
+,PIÀO,"boleto, entrada",NOM,,,18,37
+,DÀJIĀ,"todos, todo el mundo",PRO,,,18,38
+,LǏBIAN,"adentro, interior",NOM,,,18,39
+,BIAN,lado,NOM,,,18,40
+,ZHÀN,"estación, parada",NOM,,,18,41
+,CHÉNGKÈ,pasajero,NOM,,,18,42
+,CHÉNG,"viajar, tomar",VER,,,18,43
+,KÈ,"visitante, invitado",NOM,,,18,44
+,DÌTIĚ,metro,NOM,,,18,45
+,FÀNGXĪN,"tranquilizarse, relajarse",V+O,,,18,46
+,ZĀOGĀO,"desastre, muy malo",ADJ,,,18,47
+,QIÁNMÉN,lugar en Beijing ,NP,,,18,48
+,ZHŌNGGUÓHUÀ,pintura tradicional china,NOM,,,19,1
+,HUÀ,pintar,VER,"cuadro, pintura",NOM,19,2
+,HUÀR,"cuadro, pintura",NOM,,,19,3
+,YÓUHUÀ,pintura al óleo,NOM,,,19,4
+,YÓU,aceite,NOM,,,19,5
+,YÍYÀNG,mismo,ADJ,,,19,6
+,KĀIMÉN,abrir la puerta / abrir negocio,V+O,,,19,7
+,GUĀNMÉN,cerrar la puerta / cerrar negocio,V+O,,,19,8
+,MĚISHÙGUǍN,galería de arte,NOM,,,19,9
+,LǍO,"viejo, con experiencia",ADJ,,,19,10
+,HUÀJIĀ,"pintor, artista",NOM,,,19,11
+,JIĀ,especialista,NOM,,,19,12
+,BÙGǍNDĀNG,(respuesta de modestia ante un cumplido),FH,,,19,13
+,ÀIHÀO,"gustar, tener algo como hobby",VER,hobby,NOM,19,14
+,CHÀNGGĒ,cantar (una canción),VER,,,19,15
+,CHÀNG,cantar,VER,,,19,16
+,MǍMǍHŪHŪ,"regular, mediocre",ADJ,,,19,17
+,MǍHU,"descuidado, casual",ADJ,,,19,18
+,HǓ,tigre,NOM,,,19,19
+,FÚ,"clasificador de cuadros, pinturas, etc.",CLA,,,19,20
+,XÚ BĒIHÓNG,nombre de un famoso pintor chino,NP,,,19,21
+,DIÀNTĪ,ascensor,NOM,,,19,22
+,KĀI WÁNXIÀO,hacer una broma,V+O,,,19,23
+,CÁILIÀO,material,NOM,,,19,24
+,ZHǏ,papel,NOM,,,19,25
+,BÙ,tela,NOM,,,19,26
+,ZHǓYÀO,principal,ADJ,,,19,27
+,MÒ,tinta china,NOM,,,19,28
+,YÓUCǍI,pintura / maquillaje teatral,NOM,,,19,29
+,BIÉDE,otro,PRO,,,19,30
+,KÒNGBÁI,espacio en blanco ,NOM,,,19,31
+,ZHǏ,solamente,ADV,,,19,32
+,PǏ,clasificador de caballos,CLA,,,19,33
+,XIǍNGXIÀNG,imaginar,VER,imaginación,NOM,19,34
+,PǍO,correr,VER,,,19,35
+,TĀ,él (para animales) / eso (para cosas),PRO,,,19,36
+,FĒNG,viento,NOM,,,19,37
+,XIĀ,camarón,NOM,,,19,38
+,YÓU,nadar,VER,,,19,39
+,QÍ BÁISHÍ,nombre de un pintor chino,NP,,,19,40
+新年,XĪNNIÁN,Año nuevo,NOM,,,20,1
+火锅,HUǑGUŌ,olla caliente,NOM,,,20,2
+火,HUǑ,"fuego, calor",NOM,,,20,3
+锅,GUŌ,olla,NOM,,,20,4
+饭馆,FÀNGUǍN,restaurante,NOM,,,20,5
+因为,YĪNWÈI,porque,CON,,,20,6
+所以,SUǑYǏ,así,CON,,,20,7
+爱,ÀI,amar,VER,,,20,8
+涮羊肉,SHUÀN YÁNGRÒU,loncha fina de cordero en agua hirviendo,NOM,,,20,9
+涮,SHUÀN,cocinar una loncha fina de cordero en agua hirviendo,VER,,,20,10
+羊,YÁNG,oveja,NOM,,,20,11
+肉,RÒU,carne,NOM,,,20,12
+热,RÈ,caliente,ADJ,,,20,13
+开车,KĀICHĒ,conducir un coche,V+O,,,20,14
+开,KĀI,conducir,VER,,,20,15
+郊区,JIĀOQŪ,"suburbios, alrededores",NOM,,,20,16
+或者,HUÒZHĚ,o,CON,,,20,17
+音乐会,YĪNYUÈHUÌ,concierto,NOM,,,20,18
+化妆,HUÀZHUĀNG,ponerse maquillaje,V+O,,,20,19
+化,HUÀ,cambiar,VER,,,20,20
+妆,ZHUĀNG,maquillaje,NOM,,,20,21
+正式,ZHÈNGSHÌ,formal,ADJ,,,20,22
+民乐,MÍNYUÈ,música popular con instrumento tradicional,NOM,,,20,23
+西方,XĪFĀNG,Oeste,NOM,,,20,24
+西,XĪ,Oeste,NOM,,,20,25
+民族,MÍNZÚ,nacionalidad,NOM,,,20,26
+乐器,YUÈQÌ,instrumento musical,NOM,,,20,27
+器,QÌ,"instrumento, utensilio",NOM,,,20,28
+演奏,YǍNZÒU,dar una actuación musical,VER,,,20,29
+演,YǍN,tocar,VER,,,20,30
+奏,ZÒU,tocar un instrumento musical,VER,,,20,31
+习惯,XÍGUÀN,estar acostumbrado,VER,hábito,NOM,20,32
+乐曲,YUÈQǓ,composición musical,NOM,,,20,33
+曲,QǓ,"tono, melodía",NOM,,,20,34
+出租车,CHŪZŪCHĒ,taxi,NOM,,,20,35
+出租,CHŪZŪ,alquilar,VER,,,20,36
+路上,LÙSHANG,sobre el camino,NOM,,,20,37
+花儿,HUĀR,flores,NOM,,,20,38
+过去,GUÒQÙ,pasado,NOM,,,20,39
+照相机,ZHÀOXIÀNGJĪ,cámara de fotos,NOM,,,20,40
+照相,ZHÀOXIÀNG,hacer una foto,V+O,,,20,41
+机,JĪ,máquina,NOM,,,20,42
+旁边,PÁNGBIĀN,al lado,NOM,,,20,43
+出发,CHŪFĀ,"salir, irse",VER,,,20,44
+篇,PIĀN,clasificador de artículos,CLA,,,20,45
+文章,WÉNZHĀNG,"ensayo, artículo",NOM,,,20,46
+恭喜,GŌNGXǏ,felicitaciones,FH,,,20,47
+火车,HUǑCHĒ,tren,NOM,,,20,48
+又,YÒU,de nuevo,ADV,,,20,49
+着急,ZHÁOJÍ,nervioso,V+O,nervioso,ADJ,20,50
+春江花月夜,CHŪN JIĀNG HUĀ YUÈ YÈ,nombre de un famoso musical tradicional chino,NP,,,20,51
+春,CHŪN,primavera,NOM,,,20,52
+江,JIĀNG,río,NOM,,,20,53
+月,YUÈ,luna,NOM,,,20,54
+夜,YÈ,noche,NOM,,,20,55

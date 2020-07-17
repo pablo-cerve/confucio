@@ -7,13 +7,15 @@ class Common:
     FIRST_ROW = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LECCION', 'NUM']
 
     @staticmethod
+    def book_path(book_number):
+        return Common.LESSONS_PATH + "/book" + str(book_number) + "/"
+
+    @staticmethod
     def book_lesson_path(book_number, lesson_id, lesson_extra=False):
-        path = Common.LESSONS_PATH + "/book" + str(book_number) + "/"
         filename = "lesson" + str(lesson_id) + ("_extra" if lesson_extra else "") + ".csv"
-        return path + filename
+        return Common.book_path(book_number) + filename
 
     @staticmethod
     def lesson_path(lesson):
-        path = Common.LESSONS_PATH + "/book" + str(lesson.book_number) + "/"
         filename = "lesson" + str(lesson.lesson_id) + ("_extra" if lesson.extra else "") + ".csv"
-        return path + filename
+        return Common.book_path(lesson.book_number) + filename
