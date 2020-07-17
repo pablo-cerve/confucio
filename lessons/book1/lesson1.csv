@@ -1,8 +1,8 @@
-HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2
-你,NǏ,tú,PRO,,
-好,HǍO,"bien, bueno, vale",ADJ,,
-吗,MA,partícula interrogativa para preguntas que esperan la respuesta sí/no,PI,,
-我,WǑ,"yo, mi, me",PRO,,
-很,HĚN,muy,ADV,,
-呢,NE,partícula modal para preguntas elípticas,PT,,
-也,YĚ,"también, además",ADV,,
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
+你,NǏ,tú,PRO,,,1
+好,HǍO,"bien, bueno, vale",ADJ,,,1
+吗,MA,partícula interrogativa para preguntas que esperan la respuesta sí/no,PI,,,1
+我,WǑ,"yo, mi, me",PRO,,,1
+很,HĚN,muy,ADV,,,1
+呢,NE,partícula modal para preguntas elípticas,PT,,,1
+也,YĚ,"también, además",ADV,,,1

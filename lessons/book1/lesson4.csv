@@ -1,0 +1,30 @@
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION
+认识,RÈNSHI,conocer (a alguien),VER,,,4
+高兴,GĀOXÌNG,"contento, encantado, feliz",ADJ,,,4
+高,GĀO,alto,ADJ,,,4
+可以,KĚYǏ,poder,VAUX,,,4
+进来,JÌNLÁI,"entrar, venir",VMC,,,4
+请问,QǏNGWÈN,¿Podría preguntarle...?,VER,,,4
+请,QǏNG,"por favor, solicitar, pedir",VER,,,4
+问,WÈN,preguntar,VER,,,4
+记者,JÌZHĚ,periodista,NOM,,,4
+贵姓,GUÌXÌNG,¿Cómo se llama? (se apellida),FH,,,4
+姓,XÌNG,apellido,NOM,apellidar,VER,4
+叫,JIÀO,llamar(se),VER,,,4
+先生,XIĀNSHENG,señor,NOM,,,4
+语言,YǓYÁN,"lengua, idioma",NOM,,,4
+学院,XUÉYUÀN,"instituto, universidad, escuela",NOM,,,4
+学,XUÉ,estudio,NOM,"estudiar, aprender",VER,4
+的,DE,"partícula que indica la posesión, o que está entre un sustantivo y su modificador",PT,,,4
+学生,XUÉSHENG,estudiante,NOM,,,4
+什么,SHÉNME,qué,PI,,,4
+学习,XUÉXÍ,"estudiar, aprender",VER,,,4
+汉语,HÀNYǓ,chino (idioma),NOM,,,4
+英国,YĪNGGUÓ,"Inglaterra, Gran Bretaña",NP,,,4
+加拿大,JIĀNÁDÀ,Canadá,NP,,,4
+西班牙,XĪBĀNYÁ,España,NP,,,4
+美国,MĚIGUÓ,Estados Unidos,NP,,,4
+法国,FǍGUÓ,Francia,NP,,,4
+德国,DÉGUÓ,Alemania,NP,,,4
+日本,RÌBĚN,Japón,NP,,,4
+乌拉圭,WŪLĀGUĪ,Uruguay,NP,,,4

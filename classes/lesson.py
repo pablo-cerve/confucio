@@ -10,8 +10,13 @@ class Lesson:
     def __init__(self, lesson_id, extra=False, words=None):
         self.extra = extra
         self.lesson_id = lesson_id
+        self.book_number = Lesson.book_number(lesson_id)
         self.words = words if words is not None else self.__read_words(lesson_id, extra)
         self.max_lenghts = [max([word.pinyin_l for word in self.words]), max([word.chinese_l for word in self.words])]
+
+    @staticmethod
+    def book_number(lesson_id):
+        return 1 if lesson_id < 15 else 2
 
     @staticmethod
     def __read_words(lesson_id, extra):

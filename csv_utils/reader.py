@@ -10,10 +10,10 @@ from csv_utils.common import Common
 
 
 class Reader:
-    def __init__(self, book_number, lesson_number):
-        self.book_number = book_number
+    def __init__(self, lesson_number):
         self.lesson_number = lesson_number
-        self.path = Common.lesson_path(book_number, lesson_number) + ".csv"
+        self.book_number = Lesson.book_number(lesson_number)
+        self.path = Common.book_lesson_path(self.book_number, lesson_number)
         print(self.path)
 
     def generate_lesson(self):
@@ -30,7 +30,7 @@ class Reader:
         return lesson
 
     def __process_row(self, row):
-        hanzi, pinyin, definition1, word_type1, definition2, word_type2 = row
+        hanzi, pinyin, definition1, word_type1, definition2, word_type2, _ = row
 
         word_meanings = [WordMeaning(word_type1, definition1, self.book_number)]
         if len(definition2) > 0:
