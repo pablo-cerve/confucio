@@ -1,7 +1,7 @@
 import string
 from classes.lesson import Lesson
 from classes.word import Word
-from lessons.book import Book
+from classes.book import Book
 
 
 class SortAlpha:
@@ -47,8 +47,8 @@ class SortAlpha:
         word_type = word.word_meanings[0].word_type.book_type
         word_type_str = word_type + " " * (word_type_chars - len(word_type))
 
-        space_str = (" " if len(str(word.lesson_id)) == 1 else "")
-        lesson_str = space_str + str(word.lesson_id)
+        space_str = (" " if len(str(word.lesson_number)) == 1 else "")
+        lesson_str = space_str + str(word.lesson_number)
 
         print word_str + " " + word_type_str + " " + lesson_str
 

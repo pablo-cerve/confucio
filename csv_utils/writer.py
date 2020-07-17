@@ -34,7 +34,7 @@ class Writer:
     @staticmethod
     def __word_row(word):
         definition1, word_type1, definition2, word_type2 = Writer.__word_attributes(word)
-        row = [word.chinese, word.pinyin, definition1, word_type1, definition2, word_type2, word.lesson_id]
+        row = [word.chinese, word.pinyin, definition1, word_type1, definition2, word_type2, word.lesson_number]
         return row
 
     @staticmethod

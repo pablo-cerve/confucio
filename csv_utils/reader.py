@@ -3,20 +3,19 @@ sys.path.append('.')
 
 import csv
 
-from classes.lesson import Lesson
 from classes.word import Word
 from classes.word_meaning import WordMeaning
 from csv_utils.common import Common
 
 
 class Reader:
-    def __init__(self, lesson_number):
+    def __init__(self, book_number, lesson_number, lesson_extra=False):
+        self.book_number = book_number
         self.lesson_number = lesson_number
-        self.book_number = Lesson.book_number(lesson_number)
-        self.path = Common.book_lesson_path(self.book_number, lesson_number)
+        self.path = Common.book_lesson_path(self.book_number, lesson_number, lesson_extra)
         print(self.path)
 
-    def generate_lesson(self):
+    def generate_words(self):
         words = []
         with open(self.path) as csvfile:
             reader = csv.reader(csvfile, delimiter=',')
@@ -26,8 +25,7 @@ class Reader:
                     continue
                 word = self.__process_row(row)
                 words.append(word)
-        lesson = Lesson(self.lesson_number, False, words)
-        return lesson
+        return words
 
     def __process_row(self, row):
         hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _ = row

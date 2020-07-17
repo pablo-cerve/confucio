@@ -1,6 +1,5 @@
 
 from classes.lesson import Lesson
-from csv_utils.reader import Reader
 
 lesson = Lesson(1).print_definition()
 lesson = Lesson(2).print_definition()
@@ -23,8 +22,7 @@ lesson = Lesson(16).print_definition()
 lesson = Lesson(17).print_definition()
 lesson = Lesson(18).print_definition()
 lesson = Lesson(19).print_definition()
-lesson = Lesson(19).print_definition()
-Reader(2, 20).generate_lesson().print_definition()
+lesson = Lesson(20).print_definition()
 
 # lesson.print_all()
 # lesson.print_pinyin()
