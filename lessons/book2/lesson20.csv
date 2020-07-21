@@ -5,15 +5,15 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 锅,GUŌ,olla,NOM,,,20,4
 饭馆,FÀNGUǍN,restaurante,NOM,,,20,5
 因为,YĪNWÈI,porque,CON,,,20,6
-所以,SUǑYǏ,así,CON,,,20,7
-爱,ÀI,amar,VER,,,20,8
+所以,SUǑYǏ,"así, por eso",CON,,,20,7
+爱,ÀI,amar,VER,amor,NOM,20,8
 涮羊肉,SHUÀN YÁNGRÒU,loncha fina de cordero en agua hirviendo,NOM,,,20,9
-涮,SHUÀN,cocinar una loncha fina de cordero en agua hirviendo,VER,,,20,10
+涮,SHUÀN,"remojar, revolver (comida, ropa, piso, etc.)",VER,,,20,10
 羊,YÁNG,oveja,NOM,,,20,11
 肉,RÒU,carne,NOM,,,20,12
 热,RÈ,caliente,ADJ,,,20,13
 开车,KĀICHĒ,conducir un coche,V+O,,,20,14
-开,KĀI,conducir,VER,,,20,15
+开,KĀI,conducir,VER,abierto,ADJ,20,15
 郊区,JIĀOQŪ,"suburbios, alrededores",NOM,,,20,16
 或者,HUÒZHĚ,o,CON,,,20,17
 音乐会,YĪNYUÈHUÌ,concierto,NOM,,,20,18
@@ -21,16 +21,16 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 化,HUÀ,cambiar,VER,,,20,20
 妆,ZHUĀNG,maquillaje,NOM,,,20,21
 正式,ZHÈNGSHÌ,formal,ADJ,,,20,22
-民乐,MÍNYUÈ,música popular con instrumento tradicional,NOM,,,20,23
-西方,XĪFĀNG,Oeste,NOM,,,20,24
-西,XĪ,Oeste,NOM,,,20,25
-民族,MÍNZÚ,nacionalidad,NOM,,,20,26
-乐器,YUÈQÌ,instrumento musical,NOM,,,20,27
-器,QÌ,"instrumento, utensilio",NOM,,,20,28
+日常 ,RÌCHÁNG,"normal, diario, cotidiano",ADJ,,,20,23
+民乐,MÍNYUÈ,música popular,NOM,,,20,24
+西方,XĪFĀNG,Oeste,NOM,occidental,ADJ,20,25
+民族,MÍNZÚ,"nacionalidad, etnia",NOM,,,20,26
+国籍,GUÓJÍ,"nacionalidad, ciudadanía",NOM,,,20,27
+乐器,YUÈQÌ,instrumento musical,NOM,,,20,28
 演奏,YǍNZÒU,dar una actuación musical,VER,,,20,29
-演,YǍN,tocar,VER,,,20,30
+演,YǍN,"tocar, interpretar",VER,,,20,30
 奏,ZÒU,tocar un instrumento musical,VER,,,20,31
-习惯,XÍGUÀN,estar acostumbrado,VER,hábito,NOM,20,32
+习惯,XÍGUÀN,estar acostumbrado,VER,"costumbre, hábito",NOM,20,32
 乐曲,YUÈQǓ,composición musical,NOM,,,20,33
 曲,QǓ,"tono, melodía",NOM,,,20,34
 出租车,CHŪZŪCHĒ,taxi,NOM,,,20,35
