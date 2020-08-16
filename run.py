@@ -23,6 +23,7 @@ lesson = Lesson(17).print_definition()
 lesson = Lesson(18).print_definition()
 lesson = Lesson(19).print_definition()
 lesson = Lesson(20).print_definition()
+lesson = Lesson(21).print_definition()
 
 # lesson.print_all()
 # lesson.print_pinyin()
