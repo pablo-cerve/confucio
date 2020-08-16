@@ -133,13 +133,13 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 ,XIǍNGXIÀNG,imaginar,VER,imaginación,NOM,19,34
 ,PǍO,correr,VER,,,19,35
 ,YÓU,nadar,VER,,,19,39
-爱,ÀI,amar,VER,,,20,8
-涮,SHUÀN,cocinar una loncha fina de cordero en agua hirviendo,VER,,,20,10
-开,KĀI,conducir,VER,,,20,15
+爱,ÀI,amar,VER,amor,NOM,20,8
+涮,SHUÀN,"remojar, revolver (comida, ropa, piso, etc.)",VER,,,20,10
+开,KĀI,conducir,VER,abierto,ADJ,20,15
 化,HUÀ,cambiar,VER,,,20,20
 演奏,YǍNZÒU,dar una actuación musical,VER,,,20,29
-演,YǍN,tocar,VER,,,20,30
+演,YǍN,"tocar, interpretar",VER,,,20,30
 奏,ZÒU,tocar un instrumento musical,VER,,,20,31
-习惯,XÍGUÀN,estar acostumbrado,VER,hábito,NOM,20,32
+习惯,XÍGUÀN,estar acostumbrado,VER,"costumbre, hábito",NOM,20,32
 出租,CHŪZŪ,alquilar,VER,,,20,36
-出发,CHŪFĀ,"salir, irse",VER,,,20,44
+出发,CHŪFĀ,"partir, salir",VER,,,20,44

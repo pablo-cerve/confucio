@@ -39,7 +39,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 花儿,HUĀR,flores,NOM,,,20,38
 过去,GUÒQÙ,pasado,NOM,,,20,39
 照相机,ZHÀOXIÀNGJĪ,cámara de fotos,NOM,,,20,40
-照相,ZHÀOXIÀNG,hacer una foto,V+O,,,20,41
+照相,ZHÀOXIÀNG,tomar una foto,V+O,,,20,41
 机器,JĪQÌ,máquina,NOM,,,20,42
 旁边,PÁNGBIĀN,al lado,NOM,,,20,43
 出发,CHŪFĀ,"partir, salir",VER,,,20,44
@@ -48,7 +48,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 恭喜,GŌNGXǏ,felicitaciones,FH,,,20,47
 火车,HUǑCHĒ,tren,NOM,,,20,48
 又,YÒU,"de nuevo, otra vez",ADV,,,20,49
-着急,ZHÁOJÍ,"estar nervioso/ansioso",V+O,"nervioso, ansioso",ADJ,20,50
+着急,ZHÁOJÍ,estar nervioso/ansioso,V+O,"nervioso, ansioso",ADJ,20,50
 春江花月夜,CHŪN JIĀNG HUĀ YUÈ YÈ,nombre de un famoso musical tradicional chino,NP,,,20,51
 春,CHŪN,primavera,NOM,,,20,52
 江,JIĀNG,río,NOM,,,20,53

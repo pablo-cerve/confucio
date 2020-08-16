@@ -67,5 +67,8 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 ,MǍHU,"descuidado, casual",ADJ,,,19,18
 ,ZHǓYÀO,principal,ADJ,,,19,27
 热,RÈ,caliente,ADJ,,,20,13
+开,KĀI,conducir,VER,abierto,ADJ,20,15
 正式,ZHÈNGSHÌ,formal,ADJ,,,20,22
-着急,ZHÁOJÍ,nervioso,V+O,nervioso,ADJ,20,50
+日常 ,RÌCHÁNG,"normal, diario, cotidiano",ADJ,,,20,23
+西方,XĪFĀNG,Oeste,NOM,occidental,ADJ,20,25
+着急,ZHÁOJÍ,estar nervioso/ansioso,V+O,"nervioso, ansioso",ADJ,20,50
