@@ -16,3 +16,46 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 同事,TÓNGSHÌ,compañero de trabajo,NOM,,,21,15
 记者,JÌZHĚ,periodista,NOM,,,21,16
 大学生,DÀXUÉSHĒNG,universitario,NOM,,,21,17
+学校,XUÉXIÀO,"escuela, institución educativa",NOM,,,21,18
+水平,SHUǏPÍNG,nivel,NOM,,,21,19
+教练,JIÀOLIÀN,"entrenador, instructor",NOM,,,21,20
+去年,QÙNIÁN,año pasado,NOM,,,21,21
+明年,MÍNGNIÁN,año próximo,NOM,,,21,22
+以后,YǏHÒU,"después, más tarde",NOM,,,21,23
+提高,TÍGĀO,"mejorar, aumentar, elevar",VER,,,21,24
+提,TÍ,elevar,VER,,,21,25
+踢,TĪ,"patear, dar una patada",VER,,,21,26
+左边,ZUǑBIAN,lado izquierdo,NOM,,,21,27
+右边,YÒUBIAN,lado derecho,NOM,,,21,28
+上边,SHÀNGBIAN,"encima, encima de",NOM,,,21,29
+下边,XIÀBIAN,"debajo, debajo de",NOM,,,21,30
+前边,QIÁNBIAN,"delante, enfrente",NOM,,,21,31
+后边,HÒUBIAN,"atrás, detrás",NOM,,,21,32
+北边,BĚIBIAN,Norte,NOM,,,21,33
+东边,DŌNGBIAN,Este,NOM,,,21,34
+南边,NÁNBIAN,Sur,NOM,,,21,35
+西边,XĪBIAN,Oeste,NOM,,,21,36
+离,LÍ,separar,PRE,,,21,37
+距离,JÙLÍ,distancia,NOM,distar,VER,21,38
+离开,LÍKĀI,"dejar, irse",VER,,,21,39
+离婚,LÍHŪN,divorcio,VER,,,21,40
+分手,FĒNSHǑU,terminar (relación),VER,,,21,41
+区,QŪ,"distrito, sección, área, región",NOM,,,21,42
+远,YUǍN,lejano,ADJ,,,21,43
+近,JÌN,cercano,ADJ,,,21,44
+花园小区,HUĀYUÁN XIǍOQŪ,barrio jardín,NP,,,21,45
+花园,HUĀYUÁN,jardín,NOM,,,21,46
+车站,CHĒZHÀN,parada de autobús,NOM,,,21,47
+拐,GUǍI,"doblar, girar",VER,,,21,48
+书店,SHŪDIÀN,librería,NOM,,,21,49
+平方米,PÍNGFĀNGMǏ,metro cuadrado,CLA,,,21,50
+平方,PÍNGFĀNG,cuadrado (de una cantidad),CLA,,,21,51
+米,MǏ,metro,CLA,arroz,NOM,21,52
+卫生间,WÈISHĒNGJIĀN,cuarto de baño,NOM,,,21,53
+卫生,WÈISHĒNG,"higiene, salud, sanidad",NOM,"higiénico, sanitario",ADJ,21,54
+客厅,KÈTĪNG,"living, sala de estar",NOM,,,21,55
+卧室,WÒSHÌ,dormitorio,NOM,,,21,56
+卧,WÒ,acostarse,VER,,,21,57
+阳台,YÁNGTÁI,balcón,NOM,,,21,58
+里边,LǏBIAN,"interior, adentro",NOM,,,21,59
+外边,WÀIBIAN,"exterior, afuera",NOM,,,21,60
