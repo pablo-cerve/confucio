@@ -3,7 +3,7 @@ sys.path.append('.')
 
 
 class Book:
-    LAST_LESSON = 20
+    LAST_LESSON = 21
 
     @staticmethod
     def book_lesson_numbers(book_number):

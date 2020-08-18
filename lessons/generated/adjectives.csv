@@ -72,3 +72,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 日常 ,RÌCHÁNG,"normal, diario, cotidiano",ADJ,,,20,23
 西方,XĪFĀNG,Oeste,NOM,occidental,ADJ,20,25
 着急,ZHÁOJÍ,estar nervioso/ansioso,V+O,"nervioso, ansioso",ADJ,20,50
+不同,BÙTÓNG,diferente,ADJ,,,21,3
+远,YUǍN,lejano,ADJ,,,21,43
+近,JÌN,cercano,ADJ,,,21,44
+卫生,WÈISHĒNG,"higiene, salud, sanidad",NOM,"higiénico, sanitario",ADJ,21,54
