@@ -716,3 +716,32 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 阳台,YÁNGTÁI,balcón,NOM,,,21,58
 里边,LǏBIAN,"interior, adentro",NOM,,,21,59
 外边,WÀIBIAN,"exterior, afuera",NOM,,,21,60
+过,GUO,(indica una experiencia pasada),PTV,,,22,1
+越剧,YUÈJÙ,ópera de Shaoxing,NOM,,,22,2
+剧,JÙ,"ópera, obra dramática, obra de teatro",NOM,,,22,3
+虽然,SUĪRÁN,aunque,CON,,,22,4
+但是,DÀNSHÌ,"pero, mientras, todavía, aún, sin embargo",CON,,,22,5
+剧团,JÙTUÁN,"compañía de ópera, grupo de teatro",NOM,,,22,6
+地方戏,DÌFĀNGXÌ,ópera regional,NOM,,,22,7
+戏,XÌ,"drama, obra, función, espectáculo",NOM,,,22,8
+上演,SHÀNGYǍN,"representar, interpretar",VER,,,22,9
+演,YǍN,"actuar, representar, interpretar",VER,,,22,10
+古典,GǓDIǍN,clásico,ADJ,,,22,11
+小说,XIǍOSHUŌ,"novela, ficción",NOM,,,22,12
+遍,BIÀN,número de veces (de acción),CLA,,,22,13
+部,BÙ,"clasificador de películas, piezas de literatura",CLA,,,22,14
+爱情,ÀIQÍNG,amor,NOM,,,22,15
+故事,GÙSHI,"historia, cuento",NOM,,,22,16
+讲,JIǍNG,"contar (una historia, cuento)",VER,,,22,17
+感人,GǍNRÉN,"conmovedor, emotivo",ADJ,,,22,18
+座位,ZUÒWÈI,asiento,NOM,,,22,19
+排,PÁI,"línea, fila",NOM,,,22,20
+打的,DǍDĪ,tomar un taxi,V+O,,,22,21
+打车,DǍCHĒ,tomar un taxi,V+O,,,22,22
+见,JIÀN,"ver, encontrarse con",VER,,,22,23
+长安大戏院,CHÁNGĀN DÀ XÌYUÀN,teatro de Changan,NP,,,22,24
+戏院,XÌYUÀN,teatro,NOM,,,22,25
+红楼梦,HÓNGLÓU MÈNG,famosa novela china,NP,,,22,26
+梦,MÈNG,sueño,NOM,soñar,VER,22,27
+梦想,MÈNGXIǍNG,"esperanza, ilusión",NOM,"esperanzar, ilusionar",VER,22,28
+困,KÙN,cansado,ADJ,estar cansado,VER,22,29

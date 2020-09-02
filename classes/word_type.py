@@ -18,6 +18,7 @@ class WordType:
         "VAUX": "verbo auxiliar",
 
         "PT":   "partícula",
+        "PTV":  "partícula verbal",
         "PI":   "partícula interrogativa",
         "PM":   "partícula modal",
 
@@ -44,6 +45,7 @@ class WordType:
         "VAUX": "V.Aux.",
 
         "PT":   "partícula",
+        "PTV":  "partícula verbal",
         "PI":   "PrI",
         "PM":   "PtM",
 
