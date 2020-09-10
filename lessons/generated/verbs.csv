@@ -49,6 +49,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 ,XIĚ,escribir,VER,,,11,28
 ,SHUÌ,dormir,VER,sueño,NOM,11,32
 ,QǏ,"levantarse, ponerse en pie, elevar",VER,,,11,34
+,HUÍDÁ,responder,VER,,,11sup,10
 锻炼,DUÀNLIÀN,hacer ejercicio físico,VER,,,12,6
 病,BÌNG,enfermedad,NOM,ponerse enfermo,VER,12,13
 穿,CHUĀN,llevar puesto,VER,,,12,20
@@ -56,6 +57,8 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 挂号,GUÀHÀO,registrarse (en un hospital),VER,,,12,24
 烧,SHĀO,quemar,VER,,,12,28
 感冒,GǍNMÀO,tener resfriado,VER,resfrío,NOM,12,29
+,SHĒNGHUÓ,vida,NOM,vivir,VER,12sup,6
+,ZHÙ,"residir, vivir",VER,,,12sup,7
 ,TĪNGSHUŌ,oír decir,VER,,,13,2
 ,TĪNG,escuchar,VER,,,13,3
 ,DÉ,"tener, conseguir, agarrar",VER,,,13,4
@@ -143,6 +146,8 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 习惯,XÍGUÀN,estar acostumbrado,VER,"costumbre, hábito",NOM,20,32
 出租,CHŪZŪ,alquilar,VER,,,20,36
 出发,CHŪFĀ,"partir, salir",VER,,,20,44
+添,TIĀN,añadir,VER,,,20sup,10
+完,WÁN,terminar,VER,,,20sup,12
 赢,YÍNG,ganar,VER,,,21,5
 输,SHŪ,perder,VER,,,21,6
 平,PÍNG,empatar,VER,,,21,7

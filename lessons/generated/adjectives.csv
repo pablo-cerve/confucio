@@ -22,10 +22,13 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 ,YǑUMÍNG,famoso,ADJ,,,10,7
 ,RÓNGYÌ,fácil,ADJ,,,10,17
 ,GUÌ,"caro, apreciado",ADJ,,,10,22
+,NÁN,difícil,ADJ,,,11sup,15
 全,QUÁN,"completo, todo",ADJ,,,12,2
 舒服,SHŪFU,"cómodo, bien",ADJ,,,12,4
 疼,TÉNG,doloroso,ADJ,,,12,8
 冷,LĚNG,frío,ADJ,,,12,19
+,RÈ,calor,NOM,caliente,ADJ,12sup,1
+,LIÁNGKUAI,fresco,ADJ,,,12sup,5
 ,ZĀNG,sucio,ADJ,,,14,10
 ,GĀNJÌNG,limpio,ADJ,,,14,11
 ,DUÌ,correcto,ADJ,,,14,24
@@ -72,6 +75,8 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 日常 ,RÌCHÁNG,"normal, diario, cotidiano",ADJ,,,20,23
 西方,XĪFĀNG,Oeste,NOM,occidental,ADJ,20,25
 着急,ZHÁOJÍ,estar nervioso/ansioso,V+O,"nervioso, ansioso",ADJ,20,50
+幸福,XÌNGFÚ,feliz,ADJ,,,20sup,5
+多余,DUŌYÚ,"redundante, innecesario",ADJ,,,20sup,13
 不同,BÙTÓNG,diferente,ADJ,,,21,3
 远,YUǍN,lejano,ADJ,,,21,43
 近,JÌN,cercano,ADJ,,,21,44
