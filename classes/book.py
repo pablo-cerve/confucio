@@ -3,7 +3,7 @@ sys.path.append('.')
 
 
 class Book:
-    LAST_LESSON = 22
+    LAST_LESSON = 23
     EXTRA_LESSONS = {
         1: [11, 12],
         2: [20]

@@ -83,9 +83,11 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 卫生,WÈISHĒNG,"higiene, salud, sanidad",NOM,"higiénico, sanitario",ADJ,21,54
 古典,GǓDIǍN,clásico,ADJ,,,22,11
 感人,GǍNRÉN,"conmovedor, emotivo",ADJ,,,22,18
-困,KÙN,cansado,ADJ,estar cansado,VER,22,29
+困,KÙN,soñolento,ADJ,estar con sueño,VER,22,29
 特别,TÈBIÉ,"especial, particular",ADJ,,,22,34
 优美,YŌUMĚI,"elegante, fino, exquisito",ADJ,,,22,35
 难,NÁN,"difícil, complicado, duro",ADJ,,,22,46
 容易,RÓNGYÌ,"fácil, accesible",ADJ,,,22,47
 简单,JIǍNDĀN,"simple, sencillo",ADJ,,,22,48
+高,GĀO,alto,ADJ,,,23,5
+低,DĪ,bajo,ADJ,,,23,6

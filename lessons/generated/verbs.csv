@@ -66,7 +66,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 ,ZHǍO,buscar,VER,,,13,15
 ,ZŪ,alquilar,VER,,,13,17
 ,BÀN,hacer / hacer frente a,VER,,,13,25
-,RÀNG,"permitir, dejar",VER,,,13,28
+,RÀNG,"permitir, dejar, pedir",VER,,,13,28
 ,BĀNGZHÙ,ayudar,VER,ayuda,NOM,13,29
 ,DĚNG,esperar,VER,,,13,36
 ,QǏNG,"invitar, solicitar, pedir",VER,,,13,37
@@ -157,8 +157,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 提,TÍ,elevar,VER,,,21,25
 踢,TĪ,"patear, dar una patada",VER,,,21,26
 距离,JÙLÍ,distancia,NOM,distar,VER,21,38
-离开,LÍKĀI,"dejar, irse",VER,,,21,39
-离婚,LÍHŪN,divorciarse,VER,,,21,40
+离开,LÍKĀI,"dejar, irse, alejarse de",VER,,,21,39
 分手,FĒNSHǑU,terminar (relación),VER,,,21,41
 拐,GUǍI,"doblar, girar",VER,,,21,48
 卧,WÒ,acostarse,VER,,,21,57
@@ -168,6 +167,15 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 见,JIÀN,"ver, encontrarse con",VER,,,22,23
 梦,MÈNG,sueño,NOM,soñar,VER,22,27
 梦想,MÈNGXIǍNG,"esperanza, ilusión",NOM,"esperanzar, ilusionar",VER,22,28
-困,KÙN,cansado,ADJ,estar cansado,VER,22,29
+困,KÙN,soñolento,ADJ,estar con sueño,VER,22,29
 访问,FǍNGWÈN,"visitar, pasar a ver",VER,,,22,43
 参观,CĀNGUĀN,visitar,VER,,,22,44
+爬,PÁ,"escalar, arrastrarse",VER,,,23,1
+打算,DǍSUAN,plan,NOM,planificar,VER,23,7
+提,TÍ,llevar en la mano,VER,,,23,8
+抗,KÁNG,cargar en la espalda,VER,,,23,9
+背,BĒI,llevar en la espalda,VER,,,23,10
+飞,FĒI,volar,VER,,,23,12
+建议,JIÀNYÌ,"propuesta, sugerencia",NOM,"proponer, sugerir",VER,23,20
+导,DǍO,guiar,VER,,,23,33
+游,YÓU,"viajar, recorrer",VER,,,23,34
