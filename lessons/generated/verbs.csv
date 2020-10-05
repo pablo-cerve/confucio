@@ -170,6 +170,13 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 困,KÙN,soñolento,ADJ,estar con sueño,VER,22,29
 访问,FǍNGWÈN,"visitar, pasar a ver",VER,,,22,43
 参观,CĀNGUĀN,visitar,VER,,,22,44
+研究,YÁNJIŪ,"estudiar, investigar",VER,,,22sup,1
+相爱,XIĀNGÀI,enamorarse,VER,,,22sup,9
+骗,PIÀN,"estafar, engañar",VER,,,22sup,10
+哭,KŪ,llorar,VER,,,22sup,13
+笑,XIÀO,"reír, sonreír",VER,,,22sup,14
+死,SǏ,"morir, estar muerto",VER,,,22sup,15
+回忆,HUÍYÌ,"recordar, rememorar",VER,,,22sup,16
 爬,PÁ,"escalar, arrastrarse",VER,,,23,1
 打算,DǍSUAN,plan,NOM,planificar,VER,23,7
 提,TÍ,llevar en la mano,VER,,,23,8
@@ -179,3 +186,13 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 建议,JIÀNYÌ,"propuesta, sugerencia",NOM,"proponer, sugerir",VER,23,20
 导,DǍO,guiar,VER,,,23,33
 游,YÓU,"viajar, recorrer",VER,,,23,34
+加,JIĀ,"añadir, aumentar",VER,,,23,43
+拍,PĀI,"dar una palmada, tomar",VER,,,23,47
+帮,BĀNG,"ayudar, auxiliar",VER,,,23,55
+站,ZHÀN,estar de pie,VER,,,23,56
+起,QǏ,levantar(se),VER,,,23,57
+起飞,QǏFĒI,despegar,VER,,,23sup,3
+害怕,HÀIPÀ,temer,VER,miedo,NOM,23sup,10
+死,SǏ,morir,VER,,,23sup,13
+装,ZHUĀNG,"fingir, aparentar, simular",VER,,,23sup,14
+动,DÒNG,mover(se),VER,movimiento,NOM,23sup,15

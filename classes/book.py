@@ -6,7 +6,7 @@ class Book:
     LAST_LESSON = 23
     EXTRA_LESSONS = {
         1: [11, 12],
-        2: [20]
+        2: [20, 22, 23]
     }
     EXTRA_STR = "sup"
 

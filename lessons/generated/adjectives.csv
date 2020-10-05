@@ -89,5 +89,11 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 难,NÁN,"difícil, complicado, duro",ADJ,,,22,46
 容易,RÓNGYÌ,"fácil, accesible",ADJ,,,22,47
 简单,JIǍNDĀN,"simple, sencillo",ADJ,,,22,48
+悲伤,BĒISHĀNG,"triste, apenado",ADJ,,,22sup,6
+聪明,CŌNGMING,"inteligente, brillante",ADJ,,,22sup,7
 高,GĀO,alto,ADJ,,,23,5
 低,DĪ,bajo,ADJ,,,23,6
+累,LÈI,cansado,ADJ,,,23,44
+渴,KĚ,sediento,ADJ,sed,NOM,23sup,6
+饿,È,hambriento,ADJ,hambre,NOM,23sup,7
+危险,WĒIXIǍN,peligroso,ADJ,,,23sup,16
