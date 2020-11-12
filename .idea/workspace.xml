@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/book2/lesson24.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/generated/book_2.csv" afterPath="$PROJECT_DIR$/lessons/generated/book_2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/generated/book_complete.csv" afterPath="$PROJECT_DIR$/lessons/generated/book_complete.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/book2/lesson23.csv" afterPath="$PROJECT_DIR$/lessons/book2/lesson23.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/book1/lesson6.csv" afterPath="$PROJECT_DIR$/lessons/book1/lesson6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/generated/verbs.csv" afterPath="$PROJECT_DIR$/lessons/generated/verbs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/book2/lesson24.csv" afterPath="$PROJECT_DIR$/lessons/book2/lesson24.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -29,101 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="book.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson23.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/book2/lesson23.csv">
+      <file leaf-file-name="lesson24.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/book2/lesson24.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson22.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons/book2/lesson22.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67596567">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson14.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/book1/lesson14.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson6.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/book1/lesson6.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson17.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/book2/lesson17.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adjectives.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/generated/adjectives.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="7" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verbs.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/generated/verbs.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="9" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson5.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/book1/lesson5.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.03218884">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -144,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lessons/lesson11.py" />
         <option value="$PROJECT_DIR$/lessons/lesson10.py" />
         <option value="$PROJECT_DIR$/lessons/lesson9.py" />
         <option value="$PROJECT_DIR$/lessons/lesson8.py" />
@@ -192,9 +107,10 @@
         <option value="$PROJECT_DIR$/lessons/book2/lesson22.csv" />
         <option value="$PROJECT_DIR$/classes/book.py" />
         <option value="$PROJECT_DIR$/lessons/book2/lesson23sup.csv" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/lessons/book2/lesson23.csv" />
         <option value="$PROJECT_DIR$/lessons/book1/lesson6.csv" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/lessons/book2/lesson24.csv" />
       </list>
     </option>
   </component>
@@ -762,7 +678,13 @@
       <option name="project" value="LOCAL" />
       <updated>1601970186262</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added lesson24">
+      <created>1605062672264</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605062672264</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -771,6 +693,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17367458" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15419847" sideWeight="0.5401112" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4717286" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -780,7 +703,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20193861" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -822,7 +744,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Writer class to generate csv from lesson" />
     <MESSAGE value="Generated lesson1.csv" />
     <MESSAGE value="Improved Writer + generated every lesson csv" />
     <MESSAGE value="Removed WordType.TYPES_HASH_BOOK_2 and improved word types" />
@@ -847,20 +768,14 @@
     <MESSAGE value="Added lesson 22sup and lesson23 (1/2) + Run generate.py" />
     <MESSAGE value="Added lesson23 (2/2) and lesson23 sup + Run generate.py" />
     <MESSAGE value="lesson23 change" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson23 change" />
+    <MESSAGE value="Added lesson24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lesson24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lessons/book2/lesson16.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1149,17 +1064,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/book1/lesson5.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4828326">
           <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
@@ -1191,7 +1098,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/book1/lesson14.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2918455">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding />
         </state>
@@ -1199,7 +1106,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/book1/lesson6.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5472103">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
@@ -1216,7 +1123,23 @@
     <entry file="file://$PROJECT_DIR$/lessons/book2/lesson22.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67596567">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/book2/lesson24.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03218884">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -29,6 +29,7 @@ Lesson(22).print_definition()
 Lesson(22, True).print_definition()
 Lesson(23).print_definition()
 Lesson(23, True).print_definition()
+Lesson(24).print_definition()
 
 # lesson.print_all()
 # lesson.print_pinyin()
