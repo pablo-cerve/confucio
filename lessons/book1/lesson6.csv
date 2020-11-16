@@ -10,7 +10,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 天气,TIĀNQÌ,tiempo (atmosférico),NOM,,,6,9
 太,TÀI,demasiado,ADV,,,6,10
 时候,SHÍHOU,tiempo (momento),NOM,,,6,11
-现在,XIÀNZÀI,ahora,NOM,,,6,12
+现在,XIÀNZÀI,ahora,NOM,ahora,ADV,6,12
 明天,MÍNGTIĀN,mañana,NOM,,,6,13
 有,YǑU,tener,VER,,,6,14
 时间,SHÍJIĀN,tiempo,NOM,,,6,15
