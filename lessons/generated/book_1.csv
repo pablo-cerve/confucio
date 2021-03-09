@@ -35,7 +35,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 医生,YĪSHĒNG,médico,NOM,,,3,13
 奶奶,NǍINAI,abuela paterna,NOM,,,3,14
 外婆,WÀIPÓ,abuela materna,NOM,,,3,15
-认识,RÈNSHI,conocer (a alguien),VER,,,4,1
+认识,RÈNSHI,"conocer (a alguien), reconocer (a alguien)",VER,,,4,1
 高兴,GĀOXÌNG,"contento, encantado, feliz",ADJ,,,4,2
 高,GĀO,alto,ADJ,,,4,3
 可以,KĚYǏ,poder,VAUX,,,4,4
@@ -97,10 +97,10 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 天气,TIĀNQÌ,tiempo (atmosférico),NOM,,,6,9
 太,TÀI,demasiado,ADV,,,6,10
 时候,SHÍHOU,tiempo (momento),NOM,,,6,11
-现在,XIÀNZÀI,ahora,NOM,,,6,12
+现在,XIÀNZÀI,ahora,NOM,ahora,ADV,6,12
 明天,MÍNGTIĀN,mañana,NOM,,,6,13
 有,YǑU,tener,VER,,,6,14
-事件,SHÍJIĀN,tiempo,NOM,,,6,15
+时间,SHÍJIĀN,tiempo,NOM,,,6,15
 说,SHUŌ,"hablar, decir",VER,,,6,16
 一,YĪ,uno,NUM,,,6,17
 遍,BIÀN,número de veces (de una acción),CLA,,,6,18
