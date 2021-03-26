@@ -3,7 +3,7 @@ sys.path.append('.')
 
 
 class Book:
-    LAST_LESSON = 23
+    LAST_LESSON = 24
     EXTRA_LESSONS = {
         1: [11, 12],
         2: [20, 22, 23]
@@ -15,7 +15,7 @@ class Book:
         if book_number == 1:
             numbers = range(1, 15)  # [1, 2, ... 14]
         elif book_number == 2:
-            numbers = range(15, Book.LAST_LESSON + 1) # [15, ... Book.LAST_LESSON]
+            numbers = range(15, Book.LAST_LESSON + 1)  # [15, ... Book.LAST_LESSON]
         else:
             raise ValueError("Invalid book_number: {}.".format(book_number))
         numbers = ["0" + str(number) if number < 10 else str(number) for number in numbers]

@@ -15,10 +15,10 @@ def print_lessons(filename, lesson_numbers, word_keys=None):
     Writer.write_lessons(path, lessons, word_keys)
 
 
-print_lessons("book_1.csv", Book.book_lesson_numbers(1))
-print_lessons("book_2.csv", Book.book_lesson_numbers(2))
-print_lessons("book_complete.csv", Book.all_lesson_numbers())
+print_lessons("libro1.csv", Book.book_lesson_numbers(1))
+print_lessons("libro2.csv", Book.book_lesson_numbers(2))
+print_lessons("palabras-l1-a-l24.csv", Book.all_lesson_numbers())
 
-print_lessons("verbs.csv", Book.all_lesson_numbers(), ['VER'])
-print_lessons("adverbs.csv", Book.all_lesson_numbers(), ['ADV'])
-print_lessons("adjectives.csv", Book.all_lesson_numbers(), ['ADJ'])
+print_lessons("verbos.csv", Book.all_lesson_numbers(), ['VER'])
+print_lessons("adverbios.csv", Book.all_lesson_numbers(), ['ADV'])
+print_lessons("adjetivos.csv", Book.all_lesson_numbers(), ['ADJ'])
