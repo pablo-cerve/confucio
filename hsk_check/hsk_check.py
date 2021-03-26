@@ -23,7 +23,9 @@ class HSKCheck:
         # assert(len(my_words) == 600)
 
         official_not_my = list(set(official_words) - set(my_words))
-        print("official_not_my - " + str(len(official_not_my)))
+        official_not_my_length = len(official_not_my)
+        print("official_not_my - " + str(official_not_my_length))
+        assert(official_not_my_length == 0)
         cls.print_array(official_not_my)
 
         print
@@ -35,14 +37,17 @@ class HSKCheck:
     @classmethod
     def compare_with_images(cls):
         my_pinyin = cls.get_my_words(1)
-
         print(len(my_pinyin))
 
         words = cls.get_images()
+        print(len(words))
+
+        print(words)
         for idx, word in enumerate(words):
             pinyin = my_pinyin[idx]
-            pinyin = unicode(pinyin, 'utf-8')
-            print(word, pinyin)
+            print(idx, pinyin, word.upper())
+
+    ######################################################################
 
     @classmethod
     def print_array(cls, array):
@@ -60,11 +65,10 @@ class HSKCheck:
 
     @classmethod
     def get_my_words(cls, column_number):
-        file = CSVReader(cls.MY_FILE_PATH, cls.MY_FILE_FILENAME)
+        lines = CSVReader(cls.MY_FILE_PATH, cls.MY_FILE_FILENAME).lines
         array = []
-        file.read_line() # skip headers line
-        while file.continue_reading:
-            line = file.read_line()
+        lines.pop(0)
+        for line in lines:
             word = line[column_number].strip()
             array.append(word)
         return array
@@ -72,21 +76,20 @@ class HSKCheck:
     @classmethod
     def get_images(cls):
         words = []
-        for folder_name in os.listdir(cls.IMAGES_PATH):
+        for folder_name in sorted(os.listdir(cls.IMAGES_PATH)):
             if ".DS_Store" in folder_name:
                 continue
-            print(folder_name)
-            for image_name in os.listdir(cls.IMAGES_PATH + "/" + folder_name):
-                if ".DS_Store" in folder_name:
+            # print(folder_name)
+            for image_name in sorted(os.listdir(cls.IMAGES_PATH + "/" + folder_name)):
+                if ".DS" in image_name:
                     continue
-                print(image_name)
                 word_start = image_name.find("-") + 1
                 word_end = image_name.find("_")
                 word = image_name[word_start:word_end]
-                # print(word)
+                print(word)
                 words.append(word)
         return words
 
 
-# HSKCheck.compare_with_official()
+HSKCheck.compare_with_official()
 HSKCheck.compare_with_images()
