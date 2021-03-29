@@ -12,7 +12,7 @@ class HSKCheck:
     MY_FILE_FILENAME = "hsk3.csv"
 
     OFFICIAL_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/official_list"
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/palabras"
+    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/palabras/oficiales"
 
     @classmethod
     def compare_with_official(cls):
@@ -20,7 +20,7 @@ class HSKCheck:
         assert(len(official_words) == 600)
 
         my_words = cls.get_my_words(0)
-        # assert(len(my_words) == 600)
+        assert(len(my_words) == 600)
 
         official_not_my = list(set(official_words) - set(my_words))
         official_not_my_length = len(official_not_my)
@@ -32,6 +32,7 @@ class HSKCheck:
 
         my_not_official = list(set(my_words) - set(official_words))
         print("my_not_official - " + str(len(my_not_official)))
+        assert(official_not_my_length == 0)
         cls.print_array(my_not_official)
 
     @classmethod
@@ -45,7 +46,7 @@ class HSKCheck:
         print(words)
         for idx, word in enumerate(words):
             pinyin = my_pinyin[idx]
-            print(idx, pinyin, word.upper())
+            print(idx + 1, pinyin, word.upper())
 
     ######################################################################
 
