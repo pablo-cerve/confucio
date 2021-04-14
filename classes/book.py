@@ -35,7 +35,7 @@ class Book:
 
     @staticmethod
     def book_number(lesson_number):
-        if isinstance(lesson_number, basestring):
+        if isinstance(lesson_number, str):
             lesson_number = lesson_number.replace(Book.EXTRA_STR, "")
             lesson_number = int(lesson_number)
         if 1 <= lesson_number <= 14:

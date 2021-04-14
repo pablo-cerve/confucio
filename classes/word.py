@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
+sys.path.append('.')
+
 import unicodedata
-from word_meaning import WordMeaning
+from classes.word_meaning import WordMeaning
 
 
 class Word:
@@ -29,7 +32,7 @@ class Word:
 
     @classmethod
     def decode(cls, word):
-        return word.decode("utf-8")
+        return word  # .decode("utf-8")
 
     @classmethod
     def min_lenght(cls, word, min_len=0):

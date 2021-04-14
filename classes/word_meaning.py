@@ -1,5 +1,5 @@
 
-from word_type import WordType
+from classes.word_type import WordType
 
 
 class WordMeaning:

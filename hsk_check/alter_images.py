@@ -22,11 +22,11 @@ class AlterImages:
     @classmethod
     def change_images_names(cls):
         cls.change_images_names_folder('/001-100/', 1)
-        cls.change_images_names_folder('/101-200/', 100)
-        cls.change_images_names_folder('/201-300/', 200)
-        cls.change_images_names_folder('/301-400/', 300)
-        cls.change_images_names_folder('/401-500/', 400)
-        cls.change_images_names_folder('/501-600/', 500)
+        cls.change_images_names_folder('/101-200/', 101)
+        cls.change_images_names_folder('/201-300/', 201)
+        cls.change_images_names_folder('/301-400/', 301)
+        cls.change_images_names_folder('/401-500/', 401)
+        cls.change_images_names_folder('/501-600/', 501)
 
     ######################################################################
 
@@ -71,5 +71,5 @@ class AlterImages:
         return str_number + filename[index:]
 
 
-AlterImages.reduce_images_size()
-# AlterImages.change_images_names()
+# AlterImages.reduce_images_size()
+AlterImages.change_images_names()
