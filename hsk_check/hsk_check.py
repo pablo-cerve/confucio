@@ -26,28 +26,7 @@ class HSKCheck:
 
         assert(official_words == my_words)
         print("compare_with_official - SUCCESS!")
-
-        # official_not_my = list(set(official_words) - set(my_words))
-        # official_not_my_length = len(official_not_my)
-        # print("official_not_my - " + str(official_not_my_length))
-        # assert(official_not_my_length == 0)
-        # cls.print_array(official_not_my)
-        #
-        # print
-        #
-        # my_not_official = list(set(my_words) - set(official_words))
-        # my_not_official_length = len(my_not_official)
-        # print("my_not_official - " + str(my_not_official_length))
-        # assert(my_not_official_length == 0)
-        # cls.print_array(my_not_official)
-
-        # prev = 1
-        # for idx, word in enumerate(official_words):
-        #     my_word = my_words[idx]
-        #     if my_word != word:
-        #         if idx != prev + 1:
-        #             print(idx, word, my_word)
-        #         prev = idx
+        # cls.compare_with_official_diff(official_words, my_words)
 
     @classmethod
     def compare_with_images(cls):
@@ -62,17 +41,44 @@ class HSKCheck:
 
         assert(my_pinyin == words)
         print("compare_with_images - SUCCESS!")
-
-        # for idx, word in enumerate(words):
-        #     pinyin = my_pinyin[idx]
-        #     word_upper = word.upper()
-        #     pinyin_un = unidecode.unidecode(pinyin)
-        #     word_un = unidecode.unidecode(word_upper)
-        #     if pinyin_un != word_un:
-        #         print(idx + 1, pinyin_un, word_un)
-        #         assert(pinyin_un == word_un)
+        # cls.compare_with_images_diff(my_pinyin, words)
 
     ######################################################################
+
+    @classmethod
+    def compare_with_official_diff(cls, official_words, my_words):
+        official_not_my = list(set(official_words) - set(my_words))
+        official_not_my_length = len(official_not_my)
+        print("official_not_my - " + str(official_not_my_length))
+        assert(official_not_my_length == 0)
+        cls.print_array(official_not_my)
+
+        print
+
+        my_not_official = list(set(my_words) - set(official_words))
+        my_not_official_length = len(my_not_official)
+        print("my_not_official - " + str(my_not_official_length))
+        assert(my_not_official_length == 0)
+        cls.print_array(my_not_official)
+
+        prev = 1
+        for idx, word in enumerate(official_words):
+            my_word = my_words[idx]
+            if my_word != word:
+                if idx != prev + 1:
+                    print(idx, word, my_word)
+                prev = idx
+
+    @classmethod
+    def compare_with_images_diff(cls, my_pinyin, words):
+        for idx, word in enumerate(words):
+            pinyin = my_pinyin[idx]
+            word_upper = word.upper()
+            pinyin_un = unidecode.unidecode(pinyin)
+            word_un = unidecode.unidecode(word_upper)
+            if pinyin_un != word_un:
+                print(idx + 1, pinyin_un, word_un)
+                assert(pinyin_un == word_un)
 
     @classmethod
     def print_array(cls, array):
