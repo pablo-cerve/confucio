@@ -4,7 +4,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 矮,ǍI,bajo (de estatura),ADJ,,,10,2,,,3
 爱,ÀI,amar,VER,amor,NOM,,,20,8,4
 爱,ÀI,amar,VER,amor,NOM,,,20,8,4
-爱好,ÀIHÀO,"hobby, interés",NOM,"tener algo como hobby, tener interés en algo",VER,17,5,19,14,5
+爱好,ÀIHÀO,"tener algo como hobby, tener interés en algo",VER,"hobby, interés",NOM,17,5,19,14,5
 安静,ĀNJÌNG,"tranquilo, calmado, silencioso",ADJ,tranquilizarse,VER,8,8,,,6
 八,BĀ,ocho,NUM,,,,,,,7
 把,BǍ,(indicar que la acción tiene efecto sobre el objeto),PRE,clas. para objetos con mango,CLA,2,14,16,1,8
@@ -25,14 +25,14 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 杯子,BĒIZI,"taza, vidrio",NOM,,,,,,,23
 北方,BĚIFĀNG,"Norte, parte Norte de un país",NOM,,,1,11,,,24
 北京,BĚIJĪNG,Beijing,NP,,,,,9,34,25
-被,BÈI,(se utiliza para indicar la voz pasiva),PRE,cubrir (con),VER,20,2,,,26
+被,BÈI,(utilizado para indicar la voz pasiva),PRE,cubrir (con),VER,20,2,,,26
 本,BĚN,"clas. para libros, archivos, etc.",CLA,,,,,,,27
 鼻子,BÍZI,nariz,NOM,,,16,10,,,28
 比,BǏ,que (indica comparación),PRE,,,,,17,2,29
 比较,BǏJIÀO,"comparativamente, relativamente, bastante",ADV,"comparar, contrastar",VER,9,8,,,30
 比赛,BǏSÀI,"partido, competición",NOM,"jugar un partido, competir",VER,4,1,21,12,31
 笔记本,BǏJÌBĚN,"(computadora) notebook, libreta",NOM,,,11,17,,,32
-必须,BÌXŪ,"deber, tener que",ADV,,,17,12,,,33
+必须,BÌXŪ,"deber, tener que",VER,,,17,12,,,33
 变化,BIÀNHUÀ,cambiar,VER,cambio,NOM,8,15,24,11,34
 别,BIÉ,no,ADV,,,,,18,22,35
 别人,BIÉREN,otras personas,NOM,,,16,15,,,36
@@ -52,7 +52,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 唱歌,CHÀNGGĒ,cantar (una canción),VER,,,,,19,15,50
 超市,CHĀOSHÌ,supermercado,NOM,,,4,12,,,51
 衬衫,CHÈNSHĀN,camisa,NOM,,,3,7,17,27,52
-成绩,CHÉNGJÌ,"nota, resultado, logro",NOM,,,20,8,,,53
+成绩,CHÉNGJÌ,"resultado, logro",NOM,,,20,8,,,53
 城市,CHÉNGSHÌ,"ciudad, pueblo",NOM,,,16,1,24,33,54
 吃,CHĪ,comer,VER,,,,,9,24,55
 迟到,CHÍDÀO,estar atrasado / llegar tarde,VER,,,7,8,,,56
@@ -78,7 +78,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 蛋糕,DÀNGĀO,"pastel, torta",NOM,,,4,13,9,25,76
 当然,DĀNGRÁN,"obvio, como debe ser, naturalmente",ADJ,,,5,7,8,13,77
 到,DÀO,"llegar, alcanzar",VER,hasta,PRE,,,11,11,78
-地（助词）,DE,partícula (después de una frase adverbial),PT,,,18,17,,,79
+地（助词）,DE,partícula (utilizada para conectar un modificador adverbial y el verbo que modifica),PT,,,18,17,,,79
 的,DE,"partícula que indica la posesión, o que está entre un sustantivo y su modificador",PT,,,,,4,17,80
 得（助词）,DE,"partícula (después de un verbo indica efecto, grado, etc.)",PT,,,,,13,4,81
 灯,DĒNG,"luz, lámpara",NOM,,,11,5,,,82
@@ -102,13 +102,13 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 都,DŌU,"ambos, todos",ADV,,,,,2,6,100
 读,DÚ,"leer, leer en voz alta, ir a la escuela",VER,,,,,,,101
 短,DUǍN,corto,ADJ,,,19,3,17,36,102
-段,DUÀN,cla. para secciones o períodos,CLA,"párrafo, pasaje, sección, parte",NOM,18,6,,,103
+段,DUÀN,"párrafo, pasaje, sección, parte",NOM,,,18,6,,,103
 锻炼,DUÀNLIÀN,hacer ejercicio físico,VER,,,6,10,12,6,104
 对（形容词）,DUÌ,correcto,ADJ,,,,,14,24,105
 对（介词）,DUÌ,"acerca de, relativo a",PRE,,,,,,,106
 对不起,DUÌBUQǏ,"lo siento, disculpe, perdone",FH,,,,,5,8,107
 多,DUŌ,"muchos, mucho, más",ADJ,,,,,8,23,108
-多么,DUŌME,"muy, mucho, en gran parte",ADV,,,20,14,,,109
+多么,DUŌME,"cómo, qué, cuánto",ADV,,,20,14,,,109
 多少,DUŌSHǍO,"cuánto, cuántos",PI,,,,,8,22,110
 饿,È,hambriento,ADJ,dar hambre,VER,4,11,23sup,7,111
 儿子,ÉRZI,hijo,NOM,,,,,9,43,112
@@ -124,7 +124,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 放心,FÀNGXĪN,"tranquilizarse, relajarse",V+O,,,9,5,18,46,122
 飞机,FĒIJĪ,avión,NOM,,,,,23,11,123
 非常,FĒICHÁNG,extremadamente,ADV,,,,,15,16,124
-分,FĒN,clas. de unidades de moneda china (oral y escrito),CLA,distinguir (lo bueno y lo malo),,20,10,10,23,125
+分,FĒN,clas. de unidades de moneda china (oral y escrito),CLA,minuto,CLA,20,10,10,23,125
 分钟,FĒNZHŌNG,minuto,CLA,,,,,,,126
 服务员,FÚWÙYUÁN,"mozo, moza",NOM,,,,,,,127
 附近,FÙJÌN,"cercano, próximo",ADJ,,,10,15,,,128
@@ -152,12 +152,12 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 故事,GÙSHI,"historia, cuento, trama",NOM,,,14,13,22,16,150
 刮风,GUĀFĒNG,ventoso,ADJ,,,14,10,,,151
 关,GUĀN,"cerrar, apagar / involucrar",VER,,,11,10,,,152
-关系,GUĀNXÌ,relación,NOM,estar relacionado,VER,16,14,,,153
+关系,GUĀNXÌ,"conexiones, relaciones, relación",NOM,estar relacionado,VER,16,14,,,153
 关心,GUĀNXĪN,"precuparse por, sentir afecto por, interesarse en",VER,,,20,6,,,154
 关于,GUĀNYÚ,"sobre, respecto a, acerca de",PRE,,,18,11,,,155
 贵,GUÌ,"caro, apreciado, valioso",ADJ,,,,,10,22,156
 国家,GUÓJIĀ,"país, nación, estado",NOM,,,18,13,21,4,157
-过（动词）,GUÒ,"pasar (cierto tiempo o lugar) / celebrar (cumpleaños, festividad)",VER,,,19,9,,,158
+过（动词）,GUÒ,"cruzar, pasar / celebrar (cumpleaños, festividad)",VER,,,19,9,,,158
 过去,GUÒQÙ,pasado,NOM,"pasar (el tiempo, pasar por)",VER,13,7,17,26,159
 过（助词） ,GUO,(indica una experiencia pasada),PTV,,,,,22,1,160
 还（副词）,HÁI,además / todavía,ADV,,,,,8,9,161
@@ -194,14 +194,14 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 或者,HUÒZHĚ,o,CON,,,3,14,20,17,192
 几乎,JĪHŪ,"casi, prácticamente",ADV,,,8,14,,,193
 机场,JĪCHǍNG,aeropuerto,NOM,,,,,,,194
-机会,JĪHUÌ,"oportunidad, chance",NOM,,,18,12,,,195
+机会,JĪHUÌ,"chance, oportunidad",NOM,,,18,12,,,195
 鸡蛋,JĪDÀN,huevo (de gallina),NOM,,,,,,,196
 极,JÍ,extremadamente,ADV,,,15,15,,,197
 几,JǏ,"cuántos, cuánto",PI,algunos,NUM,,,8,2,198
 记得,JÌDE,recordar,V+O,,,3,6,,,199
 季节,JÌJIÉ,temporada,NOM,,,5,6,,,200
 家,JIĀ,"familia, hogar",NOM,,,,,8,1,201
-检查,JIǍNCHÁ,"chequear, examinar, revisar",VER,,,16,12,,,202
+检查,JIǍNCHÁ,"chequear, revisar, examinar",VER,,,16,12,,,202
 简单,JIǍNDĀN,"simple, sencillo",ADJ,,,14,16,22,48,203
 见面,JIÀNMIÀN,"encontrarse, verse",V+O,,,8,7,,,204
 件,JIÀN,"clas. para pieza de ropa, parte",CLA,,,,,13,6,205
@@ -241,12 +241,12 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 看,KÀN,"mirar, ver",VER,,,,,7,3,239
 看见,KÀNJIÀN,"mirar, echar un vistazo",V+O,,,,,,,240
 考试,KǍOSHÌ,hacer un examen,VER,examen,NOM,,,16,30,241
-可爱,KĚÀI,"adorable, precioso",ADJ,,,16,7,8,16,242
+可爱,KĚÀI,"adorable, agradable, precioso",ADJ,,,16,7,8,16,242
 可能,KĚNÉNG,"quizás, puede que",VAUX,,,,,13,33,243
 可以,KĚYǏ,"poder, puede que",VAUX,,,,,4,4,244
 渴,KĚ,sediento,ADJ,sed,NOM,17,16,23sup,6,245
 刻,KÈ,un cuarto (de hora),CLA,trimestre,NOM,7,11,11,6,246
-客人,KÈRÉN,"cliente, invitado, visitante",NOM,,,4,16,,,247
+客人,KÈREN,"cliente, invitado, visitante",NOM,,,4,16,,,247
 课,KÈ,clase / lección,NOM,,,,,9,4,248
 空调,KŌNGTIÁO,aire acondicionado,NOM,,,11,9,,,249
 口,KǑU,bocado / boca,NOM,,,11 / 17,15 / 15,8,28,250
@@ -313,7 +313,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 男,NÁN,hombre,NOM,masculino,ADJ,,,2,8,311
 南,NÁN,sur,NOM,,,1,10,,,312
 难,NÁN,"difícil, complicado, duro",ADJ,,,2,6,22,46,313
-难过,NÁNGUÒ,triste,ADJ,,,20,3,,,314
+难过,NÁNGUÒ,"difícil, triste, malo",ADJ,,,20,3,,,314
 呢,NE,partícula modal para preguntas elípticas,PT,,,,,1,6,315
 能,NÉNG,poder hacer algo (habilidad física o posiblidad de hacerlo),VAUX,,,,,11,10,316
 你,NǏ,tú,PRO,,,,,1,1,317
@@ -366,7 +366,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 热情,RÈQÍNG,"cordial, entusiasta",ADJ,entusiasmo,NOM,4,6,,,364
 人,RÉN,"persona, gente",NOM,,,,,3,5,365
 认识,RÈNSHI,"conocer (a alguien), reconocer (a alguien)",VER,,,,,4,1,366
-认为,RÈNWÉI,"pensar, creer",VER,,,16,3,,,367
+认为,RÈNWÉI,"pensar, considerar, creer, sentir",VER,,,16,3,,,367
 认真,RÈNZHĒN,"serio, concienzudo",ADJ,tomar seriamente,VER,4,15,,,368
 日,RÌ,"día, sol",NOM,,,,,,,369
 容易,RÓNGYÌ,"fácil, accesible",ADJ,,,2,5,22,47,370
@@ -391,7 +391,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 时间,SHÍJIĀN,tiempo,NOM,,,,,6,15,389
 世界,SHÌJIÈ,mundo,NOM,,,15,18,,,390
 事情,SHÌQING,"asunto, cosa, negocio",NOM,,,,,,,391
-试,SHÌ,"intentar, probar",VER,,,20,12,17,33,392
+试,SHÌ,"probarse, intentar",VER,,,20,12,17,33,392
 是,SHÌ,"ser, estar",VER,,,,,3,2,393
 手表,SHǑUBIǍO,reloj de pulsera,NOM,,,,,11sup,12,394
 手机,SHǑUJĪ,"celular, teléfono, auricular",NOM,,,,,,,395
@@ -401,7 +401,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 舒服,SHŪFU,"cómodo, reconfortante, bien",ADJ,,,3,15,12,4,399
 树,SHÙ,árbol,NOM,,,2,4,23sup,12,400
 数学,SHÙXUÉ,matemáticas,NOM,,,10,5,,,401
-刷牙,SHUĀYÁ,cepillarse los dientes,V+O,,,16,13,,,402
+刷牙,SHUĀYÁ,cepillarse / limpiarse los dientes,V+O,,,16,13,,,402
 双,SHUĀNG,"par, dos, doble, (número) par",ADJ,,,11,12,,,403
 水,SHUǏ,agua,NOM,,,,,12,31,404
 水果,SHUǏGUǑ,fruta,NOM,,,,,24,7,405
@@ -491,7 +491,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 新鲜,XĪNXIĀN,fresco,ADJ,,,3,9,,,489
 信用卡,XÌNYÒNGKǍ,tarjeta de crédito,NOM,,,20,5,,,490
 星期,XĪNGQĪ,semana,NOM,,,,,9,5,491
-行李箱,XÍNGLIXIĀNG,"maleta, compartimiento, valija (del auto)",NOM,,,12,4,,,492
+行李箱,XÍNGLǏXIĀNG,"maleta, compartimiento, valija (del auto)",NOM,,,12,4,,,492
 姓,XÌNG,apellido,NOM,apellidar,VER,,,4,11,493
 熊猫,XIÓNGMĀO,oso panda,NOM,,,8,6,23sup,9,494
 休息,XIŪXI,descansar,VER,descanso,NOM,,,12,22,495
@@ -515,7 +515,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 一点儿,YĪDIǍNR,un poco,NOM,,,,,,,513
 一定,YÍDÌNG,"deber, seguramente",ADV,,,9,6,17,12,514
 一共,YÍGÒNG,en total,ADV,,,17,2,8,8,515
-一会儿,YÍHUÌR,"un momento, un rato",NOM,,,8,10,16,15,516
+一会儿,YÍHUÌR,"un rato, un momento",NOM,,,8,10,16,15,516
 一起,YÌQǏ,juntos,ADV,,,,,12,18,517
 一下,YÍXIÀ,"(se utiliza después de un verbo para indicar una acción rápida, breve, aleatoria, informal)",OTR,,,,,7,4,518
 一样,YÍYÀNG,mismo,ADJ,,,9,3,19,6,519
@@ -557,7 +557,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 怎么,ZĚNME,"cómo, por qué",PI,,,,,10,16,555
 怎么样,ZĚNMEYÀNG,¿Qué tal? / ¿Cómo?,PI,,,,,6,5,556
 站,ZHÀN,estar parado,VER,"estación, parada",NOM,4,10,18,41,557
-张,ZHĀNG,"clasificador para objetos planos (papel, fotos, etc.)",CLA,,,19,5,8,14,558
+张,ZHĀNG,clasificador para objetos planos,CLA,,,19,5,8,14,558
 长（动词）,ZHǍNG,"crecer, desarrollarse, mejorar, aumentar",VER,,,16,6,,,559
 丈夫,ZHÀNGFU,"esposo, marido",NOM,,,,,,,560
 着急,ZHÁOJÍ,"nervioso, ansioso",ADJ,estar nervioso/ansioso,V+O,1,8,20,50,561
