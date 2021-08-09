@@ -35,6 +35,7 @@ class WordType:
         "ADJ":  "Adj.",
         "PRO":  "Pron.",
         "PRE":  "preposición",
+        "PREF": "prefijo",
 
         "NOM":  "N",
         "NP":   "n.p.",
