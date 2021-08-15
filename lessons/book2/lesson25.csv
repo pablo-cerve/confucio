@@ -16,7 +16,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 退,TUÌ,retirarse,VER,,,25,15
 骑,QÍ,"montar (a caballo), conducir (una moto)",VER,,,25,16
 奇怪,QÍGUÀI,"extraño, sorprendente, raro",ADJ,"sentir sorpresa, sentir asombro",VER,25,17
-自行车,自行车,bicicleta,NOM,,,25,18
+自行车,ZÌXÍNGCHĒ,bicicleta,NOM,,,25,18
 笑,XIÀO,"reír, sonreír",VER,,,25,19
 注意,ZHÙYÌ,"prestar atención a, tomar nota de",VER,,,25,20
 停,TÍNG,"parar, estacionar",VER,,,25,21
@@ -24,19 +24,26 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 医药费,YĪYÀOFÈI,gastos médicos,NOM,,,25,23
 以为,YǏWÉI,pensar (con más subjetividad),VER,,,25,24
 如果,RÚGUǑ,"si, en caso de, suponiendo que",CON,,,25,25
-,,,,,,25,26
-,,,,,,25,27
-,,,,,,25,28
-,,,,,,25,29
-,,,,,,25,30
-,,,,,,25,31
-,,,,,,25,32
-,,,,,,25,33
-,,,,,,25,34
-,,,,,,25,35
-,,,,,,25,36
-,,,,,,25,37
-,,,,,,25,38
-,,,,,,25,39
-,,,,,,25,40
-,,,,,,25,41
+躺,TǍNG,"acostarse, reclinarse, yacer",VER,,,25,26
+电视,DIÀNSHÌ,televisión,NOM,,,25,27
+视,SHÌ,mirar,VER,,,25,28
+束,SHÙ,"grupo, ramo (de flores)",CLA,,,25,29
+放,FÀNG,"poner, colocar",VER,,,25,30
+桌子,ZHUŌZI,"mesa, escritorio",NOM,,,25,31
+结果,JIÉGUǑ,resultado,NOM,,,25,32
+关,GUĀN,"cerrar, apagar",VER,,,25,33
+开,KĀI,"abrir, prender",VER,,,25,34
+弯,WĀN,"doblar, curvar (cuerpo, parte del cuerpo)",VER,,,25,35
+折,ZHÉ,"doblar, plegar (papel)",VER,,,25,36
+叠,DIÉ,"doblar (ropa), apilar",VER,,,25,37
+倒霉,DǍOMÉI,desafortunado,ADJ,,,25,38
+坏,HUÀI,"malo, roto, arruinado, dañino",ADJ,,,25,39
+消息,XIĀOXI,"noticias, información",NOM,,,25,40
+信息,XÌNXĪ,"mensaje, información, noticias",NOM,,,25,41
+短信,DUǍNXÌN,mensaje de texto,NOM,,,25,42
+小偷,XIǍOTŌU,ladrón,NOM,,,25,43
+偷,TŌU,robar,VER,,,25,44
+派出所,PÀICHŪSUǑ,comisaría,NOM,,,25,45
+抓,ZHUĀ,"sostener, atrapar, arrestar",VER,,,25,46
+警察,JǏNGCHÁ,"policía, (oficial de) policía",NOM,,,25,47
+丢,DIŪ,perder,VER,,,25,48
