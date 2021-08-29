@@ -8,6 +8,7 @@ class WordType:
         "ADJ":  "adjetivo",
         "PRO":  "pronombre",
         "PRE":  "preposición",
+        "PREF": "prefijo",
 
         "NOM":  "nombre",
         "NP":   "nombre propio",
