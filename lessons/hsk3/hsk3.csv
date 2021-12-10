@@ -3,7 +3,6 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 啊,A,(partícula utilizada al final de una frase para indicar confirmación) ,INT,,,1,3,7,6,2
 矮,ǍI,bajo (de estatura),ADJ,,,10,2,,,3
 爱,ÀI,amar,VER,amor,NOM,,,20,8,4
-爱,ÀI,amar,VER,amor,NOM,,,20,8,4
 爱好,ÀIHÀO,"tener algo como hobby, tener interés en algo",VER,"hobby, interés",NOM,17,5,19,14,5
 安静,ĀNJÌNG,"tranquilo, calmado, silencioso",ADJ,tranquilizarse,VER,8,8,,,6
 八,BĀ,ocho,NUM,,,,,,,7
@@ -495,7 +494,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 姓,XÌNG,apellido,NOM,apellidar,VER,,,4,11,493
 熊猫,XIÓNGMĀO,oso panda,NOM,,,8,6,23sup,9,494
 休息,XIŪXI,descansar,VER,descanso,NOM,,,12,22,495
-需要,XŪYÀO,"necesitar, querer, demandar, requerir",VER,necesidad,ADJ,12,13,,,496
+需要,XŪYÀO,"necesitar, querer, demandar, requerir",VER,necesidad,NOM,12,13,,,496
 选择,XUǍNZÉ,"seleccionar, elegir, optar",VER,"selección, opción",NOM,17,10,,,497
 学生,XUÉSHENG,estudiante,NOM,,,,,4,18,498
 学习,XUÉXÍ,"estudiar, aprender",VER,,,,,4,20,499

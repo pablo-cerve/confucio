@@ -4,7 +4,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 中国通,ZHŌNGGUÓTŌNG,sinólogo (experto en asuntos chinos),NOM,,,26,3
 情况,QÍNGKUÀNG,"situación, condición",NOM,,,26,4
 实在,SHÍZÀI,sincero,ADJ,sinceramente,ADV,26,5
-越来越,YUÈLÁIYUÈ,cada vez más,EF,,,26,6
+越来越,YUÈLÁIYUÈ,cada vez más,FH,,,26,6
 南,NÁN,sur,NOM,,,26,7
 特点,TÈDIǍN,"característica, rasgo",NOM,,,26,8
 历史,LÌSHǏ,historia,NOM,,,26,9
@@ -17,14 +17,33 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 感兴趣,GǍNXÌNGQÙ,estar interesado en,VER,,,26,16
 感,GǍN,sentir,VER,"sentimiento, sensación",NOM,26,17
 兴趣,XÌNGQÙ,interés,NOM,,,26,18
-结业,JIÉYÈ,completar un curso,V+O,,,26,19
-毕业,BÌYÈ,graduarse,V+O,graduación,NOM,26,20
-记得,JÌDE,recordar,V+O,,,26,21
-中餐,ZHŌNGCĀN,"comida china, cocina china",NOM,,,26,22
-饿,È,hambriento,ADJ,"causar hambre, tener hambre",VER,26,23
-死,SǏ,"morir, estar muerto",VER,,,26,24
-菜,CÀI,"comida, plato, verdura",NOM,,,26,25
-聊天,LIÁOTIĀN,"charlar, chismorrear",VER,,,26,26
-聊,LIÁO,"charlar, chismorrear",VER,,,26,27
-老外,LǍOWÀI,extranjero,NOM,,,26,28
-外人,WÀIRÉN,"persona que no es familiar o amiga, desconocido",NOM,,,26,29
+有趣,YǑUQÙ,interesante,ADJ,,,26,19
+结业,JIÉYÈ,completar un curso,V+O,,,26,20
+毕业,BÌYÈ,graduarse,V+O,graduación,NOM,26,21
+记得,JÌDE,recordar,V+O,,,26,22
+中餐,ZHŌNGCĀN,"comida china, cocina china",NOM,,,26,23
+饿,È,hambriento,ADJ,"causar hambre, tener hambre",VER,26,24
+死,SǏ,"morir, estar muerto",VER,,,26,25
+菜,CÀI,"comida, plato, verdura",NOM,,,26,26
+聊天,LIÁOTIĀN,"charlar, chismorrear",VER,,,26,27
+聊,LIÁO,"charlar, chismorrear",VER,,,26,28
+老外,LǍOWÀI,extranjero,NOM,,,26,29
+外人,WÀIRÉN,"persona que no es familiar o amiga, desconocido",NOM,,,26,30
+中国化,ZHŌNGGUÓHUÀ,sinizar (adoptar características chinas) ,VER,,,26,31
+化,HUÀ,cambiar,VER,,,26,32
+才,CÁI,solo / recién,ADV,,,26,33
+那样,NÀYÀNG,"así, tal",PRO,,,26,34
+妻子,QĪZI,"esposa, esposa e hijos",NOM,,,26,35
+丈夫,ZHÀNGFU,"esposo, marido",NOM,,,26,36
+小伙子,XIǍOHUǑZI,chico joven,NOM,,,26,37
+声调,SHĒNGDIÀO,tono,NOM,,,26,38
+努力,NǓLI,arduo,ADJ,esforzarse,V+O,26,39
+认真,RÈNZHĒN,"serio, concienzudo",ADJ,tomar seriamente,VER,26,40
+热情,RÈQÍNG,"cordial, entusiasta",ADJ,entusiasmo,NOM,26,41
+冷漠,LĚNGMÒ,"indiferente, apático",ADJ,indiferencia,NOM,26,42
+进步,JÌNBÙ,"progresar, mejorar",VER,"progreso, mejora",NOM,26,43
+退步,TUÌBÙ,"retroceder, empeorar",VER,retroceso,NOM,26,44
+明年,MÍNGNIÁN,año próximo,NOM,,,26,45
+陪,PÉI,"acompañar, asistir",VER,,,26,46
+不见不散,BÚJIÀNBÚSÀN,no irse hasta no verse,FH,,,26,47
+散,SÀN,"dispersar, terminar (reunión)",VER,,,26,48
