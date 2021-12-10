@@ -10,7 +10,8 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm, inch
 from reportlab.lib.enums import TA_CENTER
 
-class CreatePDF:
+
+class CreatePDFHSK3:
     IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/palabras/oficiales"
     FACTOR = 1.65
     IMAGES_PER_PAGE = 15
@@ -76,4 +77,4 @@ class CreatePDF:
             self.Story.append(Spacer(10*cm, self.VERTICAL_SPACE*cm))
         self.images = []
 
-CreatePDF().run()
+CreatePDFHSK3().run()
