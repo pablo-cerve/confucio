@@ -28,7 +28,9 @@ class WordType:
         "NUM":  "numeral",
         "INT":  "interjección",
         "FH":   "frase hecha",
-        "OTR":  "otro"
+        "OTR":  "otro",
+
+        "NUM/CLA": "Num./Clas."  # HSK4
     }
 
     TYPES_HASH_BOOK = {
@@ -56,7 +58,9 @@ class WordType:
         "NUM":  "Num.",
         "INT":  "Int",
         "FH":   "F.h.",
-        "OTR":  "otro"
+        "OTR":  "otro",
+
+        "NUM/CLA": "Num./Clas."  # HSK4
     }
 
     def __init__(self, key):
