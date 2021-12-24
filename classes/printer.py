@@ -52,12 +52,16 @@ class Printer:
         cls._print_aux(words, rand, "str_definition")
 
     @classmethod
-    def index_str(cls, index, string):
-        space = " " if index < 9 else ""
-        return "%s(%s) %s" % (space, index + 1, string)
+    def print_definition_hsk4(cls, words, rand=False):
+        cls._print_aux(words, rand, "str_definition", True)
 
     @classmethod
-    def _print_aux(cls, words, rand, method_str):
+    def index_str(cls, index, string):
+        space = " " if len(index) == 1 else ""
+        return "%s(%s) %s" % (space, index, string)
+
+    @classmethod
+    def _print_aux(cls, words, rand, method_str, lesson_num=False):
         words_list = words if not rand else cls._shuffled_words(words)
         for idx, word in enumerate(words_list):
             func = getattr(word, method_str)
@@ -68,6 +72,9 @@ class Printer:
                     estring += word_types_str  # str(word_types_str, 'utf-8')
                     if wm_idx + 1 != len(word.word_meanings):
                         estring += " --- "
+                idx = word.number if lesson_num else idx
+                if lesson_num and idx == '1':
+                    cls.print_lesson_number(word.lesson_number)
                 print(cls.index_str(idx, estring))
             else:
                 print(cls.index_str(idx, func()))
@@ -80,3 +87,9 @@ class Printer:
         [words.append(word) for word in words_input]
         shuffle(words)
         return words
+
+    @classmethod
+    def print_lesson_number(cls, lesson_number):
+        print("###################################################################")
+        print("############################ LESSON %s ############################" % str(lesson_number))
+        print("###################################################################")

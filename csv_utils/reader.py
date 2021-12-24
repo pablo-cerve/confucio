@@ -32,9 +32,11 @@ class Reader:
 
     def __process_row(self, row, word_number):
         row_length = len(row)
+        lesson_number = None
         if self.lesson_number == 'hsk4':
             assert(row_length == 8)
-            hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _ = row
+            hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number = row
+            lesson_number = int(lesson_number)
         elif self.lesson_number == 'hsk3':
             assert(row_length == 11)
             hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _, _, _, _ = row
@@ -46,4 +48,4 @@ class Reader:
         if len(definition2) > 0:
             word_meanings.append(WordMeaning(word_type2, definition2))
 
-        return Word(pinyin, hanzi, definition1, word_meanings, word_number, self.lesson_number)
+        return Word(pinyin, hanzi, definition1, word_meanings, word_number, lesson_number)

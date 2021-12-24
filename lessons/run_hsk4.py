@@ -12,4 +12,4 @@ from classes.printer import Printer
 path = Common.HSK4_PATH + "hsk4.csv"
 reader = Reader(path, 'hsk4')
 words = reader.generate_words()
-Printer.print_definition(words)
+Printer.print_definition_hsk4(words)
