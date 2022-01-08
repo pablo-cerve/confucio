@@ -35,7 +35,7 @@ class CreatePDFHSK4:
 
     def create_doc(self, lesson_number):
         top_margin = 0.5 * cm
-        filename = self.IMAGES_PATH + "/L" + str(lesson_number) + ".pdf"
+        filename = self.IMAGES_PATH + "/pdf/L" + str(lesson_number) + ".pdf"
         doc = SimpleDocTemplate(filename, rightMargin=0.3 * cm, leftMargin=0 * cm,
                                 topMargin=top_margin, bottomMargin=top_margin)
         return doc
@@ -96,5 +96,7 @@ class CreatePDFHSK4:
         page_number_str = str(int(self.image_number / self.IMAGES_PER_PAGE))
         return page_number_str + ' [' + lesson_str + ']'  # 1 [L1]
 
-CreatePDFHSK4().run(1)
-CreatePDFHSK4().run(2)
+# CreatePDFHSK4().run(1)
+# CreatePDFHSK4().run(2)
+# CreatePDFHSK4().run(3)
+CreatePDFHSK4().run(4)
