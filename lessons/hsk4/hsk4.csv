@@ -53,7 +53,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 讨厌,TǍOYÀN,to dislike,VER,"annoying, disgusting",ADJ,2,20
 却,QUÈ,"but, yet",ADV,,,2,21
 周围,ZHŌUWÉI,surroundings,NOM,,,2,22
-交流,JIĀOLIÚ,"to exchange, to communicate",VER,,,2,23
+交流,JIĀOLIÚ,"to exchange, to communicate",VER,communication,NOM,2,23
 理解,LǏJIĚ,to understand,VER,understanding,NOM,2,24
 镜子,JÌNGZI,mirror,NOM,,,2,25
 而,ÉR,"(showing a contrast) while, yet",CON,,,2,26
@@ -151,6 +151,130 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 浪费,LÀNGFÈI,"to waste, to throw away",VER,"wasteful, extravagant",ADJ,5,26
 购物,GÒUWÙ,"to shop, to buy things",VER,,,5,27
 尤其,YÓUQÍ,"especially, particularly",ADV,,,5,28
-受到,SHÒUDÀO,"to receive, to obtain",VER,,,5,29
+受到,SHÒUDÀO,"to receive, to deliver, to obtain",VER,,,5,29
 任何,RÈNHÉ,"any, whatever, whoever, etc.",PRO,,,5,30
 寄,JÌ,"to mail, to send",VER,,,5,31
+果汁,GUǑZHĪ,fruit juice,NOM,,,6,1
+售货员,SHÒUHUÒYUÁN,salesperson,NOM,,,6,2
+袜子,WÀZI,socks,NOM,,,6,3
+打扰,DǍRǍO,"to disturb, to bother",VER,,,6,4
+竟然,JÌNGRÁN,(indicating unexpectedness),ADV,,,6,5
+西红柿,XĪHÓNGSHÌ,tomato,NOM,,,6,6
+百分之,BǍIFĒNZHĪ,percent,OTR,,,6,7
+倍,BÈI,"times, -fold",CLA,,,6,8
+皮肤,PÍFŪ,skin,NOM,,,6,9
+好处,HǍOCHÙ,"benefit, advantage",NOM,,,6,10
+尝,CHÁNG,to taste,VER,,,6,11
+轻,QĪNG,"light, of little weight",ADJ,,,6,12
+方面,FĀNGMIÀN,aspect,NOM,,,6,13
+值得,ZHÍDÉ,to be worth,VER,,,6,14
+活动,HUÓDÒNG,"activity, event",NOM,"exercise, move",VER,6,15
+内,NÈI,"in, within",NOM,,,6,16
+免费,MIǍNFÈI,to be free of charge,VER,,,6,17
+修理,XIŪLǏ,"to repair, to mend",VER,,,6,18
+支持,ZHĪCHÍ,to support,VER,support,NOM,6,19
+举行,JǓXÍNG,"to hold (a meeting, event, etc.)",VER,,,6,20
+满,MǍN,to reach a quota or limit,VER,,,6,21
+其中,QÍZHŌNG,"among (which, them, etc.)",NOM,,,6,22
+小说,XIǍOSHUŌ,"novel, fiction",NOM,,,6,23
+会员卡,HUÌYUÁNKǍ,membership card,NOM,,,6,24
+所有,SUǑYǑU,all,ADJ,,,6,25
+获得,HUÒDÉ,"to get, to obtain",VER,,,6,26
+情况,QÍNGKUÀNG,"situation, circumstances",NOM,,,6,27
+例如,LÌRÚ,for example,VER,,,6,28
+举办,JǓBÀN,"to hold, to conduct",VER,,,6,29
+各,GÈ,"various, different",PRO,,,6,30
+降低,JIÀNGDĪ,"to lower, to reduce",VER,,,6,31
+流血,LIÚXIĚ,to bleed,VER,,,7,1
+擦,CĀ,to wipe,VER,,,7,2
+气候,QÌHÒU,climate,NOM,,,7,3
+估计,GŪJÌ,"to estimate, to reckon",VER,,,7,4
+咳嗽,KÉSOU,to cough,VER,,,7,5
+严重,YÁNZHÒNG,"serious, grave",ADJ,,,7,6
+窗户,CHUĀNGHU,window,NOM,,,7,7
+空气,KŌNGQÌ,air,NOM,,,7,8
+抽烟,CHŌUYĀN,to smoke,VER,,,7,9
+动作,DÒNGZUÒ,"action, movement",NOM,,,7,10
+帅,SHUÀI,handsome,ADJ,,,7,11
+出现,CHŪXIÀN,"to appear, to emerge",VER,,,7,12
+后悔,HÒUHUǏ,to regret,VER,,,7,13
+来不及,LÁIBUJÍ,"to have not enough time to, to be too late to",VER,,,7,14
+反对,FǍNDUÌ,"to oppose to, to object to",VER,,,7,15
+大夫,DÀIFU,doctor,NOM,,,7,16
+植物,ZHÍWÙ,plant,NOM,,,7,17
+研究,YÁNJIŪ,"to study, to do research",VER,a study,NOM,7,18
+超过,CHĀOGUÒ,"to exceed, to surpass",VER,,,7,19
+散步,SÀNBÙ,to take a walk,VER,,,7,20
+指,ZHǏ,to refer to,VER,,,7,21
+精神,JĪNGSHÉN,"spirit, mind",NOM,,,7,22
+教授,JIÀOSHÒU,professor,NOM,,,7,23
+数字,SHÙZÌ,number,NOM,,,7,24
+说明,SHUŌMÍNG,"to explain, to show",VER,,,7,25
+要是,YÀOSHI,"if, supposing",CON,,,7,26
+既,JÌ,(used together with 又) both… and…,ADV,,,7,27
+减肥,JIǍNFÉI,to lose weight,VER,,,7,28
+辛苦,XĪNKǓ,"hard, toilsome",ADJ,,,7,29
+肚子,DÙZI,"belly, stomach",NOM,,,7,30
+感情,GǍNQÍNG,"affection, love",NOM,,,7,31
+烦恼,FÁNNǍO,"worried, vexed",ADJ,,,7,32
+掉,DIÀO,"(used after certain verbs, indicating the result of an action)",VER,,,7,33
+巧克力,QIǍOKÈLÌ,chocolate,NOM,,,8,1
+亲戚,QĪNQI,"relative, kinsfolk",NOM,,,8,2
+伤心,SHĀNGXĪN,"sad, sorrowful",ADJ,,,8,3
+使,SHǏ,"to make, to cause",VER,,,8,4
+心情,XĪNQÍNG,"mood, state of mind",NOM,,,8,5
+愉快,YÚKUÀI,"glad, cheerful",ADJ,,,8,6
+景色,JǏNGSÈ,"scene, view",NOM,,,8,7
+放松,FÀNGSŌNG,to relax,VER,,,8,8
+压力,YĀLÌ,"pressure, stress",NOM,,,8,9
+回忆,HUÍYÌ,"to call to mind, to remind",VER,,,8,10
+发生,FĀSHĒNG,"to happen, to take place",VER,,,8,11
+成为,CHÉNGWÉI,to become,VER,,,8,12
+只要,ZHǏYÀO,"as long as, provided",CON,,,8,13
+师傅,SHĪFU,a polite title for one with accomplished skills in a trade or handicraft,NOM,,,8,14
+大使馆,DÀSHǏGUǍN,embassy,NOM,,,8,15
+堵车,DǓCHĒ,traffic jam,VER,,,8,16
+距离,JÙLÍ,distance,NOM,,,8,17
+耐心,NÀIXĪN,patience,NOM,,,8,18
+生命,SHĒNGMÌNG,life,NOM,,,8,19
+缺少,QUĒSHǍO,to lack,VER,,,8,20
+到处,DÀOCHÙ,everywhere,ADV,,,8,21
+态度,TÀIDÙ,attitude,NOM,,,8,22
+因此,YĪNCǏ,"therefore, so",CON,,,8,23
+科学,KĒXUÉ,science,NOM,,,8,24
+证明,ZHÈNGMÍNG,to prove,VER,,,8,25
+往往,WǍNGWǍNG,"often, usually",ADV,,,8,26
+阳光,YÁNGGUĀNG,"optimistic, cheerful",ADJ,sunshine,NOM,8,27
+积极,JĪJÍ,positive,ADJ,,,8,28
+特点,TÈDIǍN,"characteristic, trait, feature",NOM,,,8,29
+饼干,BǏNGGĀN,"biscuit, cookie",NOM,,,9,1
+难道,NÁNDÀO,(used in a rhetorical question for emphasis),ADV,,,9,2
+得,DĚI,"must, have to",VAUX,,,9,3
+坚持,JIĀNCHÍ,"to insist, to persist",VER,,,9,4
+放弃,FÀNGQÌ,to give up,VER,,,9,5
+主意,ZHǓYI,"idea, plan",NOM,,,9,6
+网球,WǍNGQIÚ,tennis,NOM,,,9,7
+国际,GUÓJÌ,international,ADJ,,,9,8
+轻松,QĪNGSŌNG,"relaxed, effortless",ADJ,,,9,9
+赢,YÍNG,to win,VER,,,9,10
+随便,SUÍBIÀN,"casual, at random",ADJ,,,9,11
+汗,HÀN,sweat,NOM,,,9,12
+通过,TŌNGGUÒ,"through, by means of",PRE,"pass through, get past",VER,9,13
+篇,PIĀN,"(used for writings, papers or articles)",CLA,,,9,14
+作家,ZUÒJIĀ,"writer, author",NOM,,,9,15
+当时,DĀNGSHÍ,"then, at that time",NOM,,,9,16
+可是,KĚSHÌ,"but, however",CON,,,9,17
+正确,ZHÈNGQUÈ,"right, correct",ADJ,,,9,18
+理想,LǏXIǍNG,"ideal, aspiration",NOM,"ideal, perfect",ADJ,9,19
+勇敢,YǑNGGǍN,"brave, courageous",ADJ,,,9,20
+结果,JIÉGUǑ,result,NOM,,,9,21
+失败,SHĪBÀI,to fail,VER,,,9,22
+过程,GUÒCHÉNG,"course, process",NOM,,,9,23
+至少,ZHÌSHǍO,at least,ADV,,,9,24
+总结,ZǑNGJIÉ,"sum up, summarize",VER,summary,NOM,9,25
+取,QǓ,"to gain, to seek",VER,,,9,26
+经历,JĪNGLÌ,"to go through, to experience",VER,experience,NOM,9,27
+许多,XǓDUŌ,"many, plenty of",NUM,,,9,28
+区别,QŪBIÉ,"difference, distinction",NOM,,,9,29
+暂时,ZÀNSHÍ,"temporary, for the time being",NOM,,,9,30
+面对,MIÀNDUÌ,"to face, to confront",VER,,,9,31
