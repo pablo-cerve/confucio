@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" afterPath="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" afterPath="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" afterPath="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,21 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create_pdf_hsk4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_pdf_hsk4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3663101">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_type.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/word_type.py">
+      <file leaf-file-name="hsk3.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <caret line="467" column="37" selection-start-line="467" selection-start-column="37" selection-end-line="467" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_type.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/word_type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23148148">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -48,8 +59,8 @@
       <file leaf-file-name="hsk4.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="249" column="14" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
+            <state vertical-scroll-proportion="-11.481482">
+              <caret line="216" column="23" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -114,7 +125,6 @@
         <option value="$PROJECT_DIR$/classes/book.py" />
         <option value="$PROJECT_DIR$/create_pdf_lesson.py" />
         <option value="$PROJECT_DIR$/lessons/run_lessons.py" />
-        <option value="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" />
         <option value="$PROJECT_DIR$/hsk_check/create_pdf3.py" />
         <option value="$PROJECT_DIR$/hsk_check/create_pdf_hsk3.py" />
         <option value="$PROJECT_DIR$/lessons/run_hsk3.py" />
@@ -124,8 +134,9 @@
         <option value="$PROJECT_DIR$/csv_utils/reader.py" />
         <option value="$PROJECT_DIR$/classes/word.py" />
         <option value="$PROJECT_DIR$/classes/printer.py" />
-        <option value="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" />
+        <option value="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" />
         <option value="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" />
+        <option value="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" />
       </list>
     </option>
   </component>
@@ -185,30 +196,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hsk_check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -372,12 +359,6 @@
       <created>1527385337734</created>
       <option name="number" value="Default" />
       <updated>1527385337734</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added lesson19.py">
-      <created>1590810699701</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1590810699701</updated>
     </task>
     <task id="LOCAL-00014" summary="Improved definitions in several chapters">
       <created>1594800883253</created>
@@ -667,25 +648,31 @@
       <option name="project" value="LOCAL" />
       <updated>1641618930080</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Added hsk4.csv - Lessons 6, 7, 8, and 9">
+      <created>1643427127094</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1643427127097</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.7263682" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.7244318" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15419847" sideWeight="0.5401112" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38998482" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46585736" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25037935" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.27363184" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.2755682" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -727,7 +714,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson21.csv fixes + run generate.py" />
     <MESSAGE value="Added lesson22.csv, run generate.py" />
     <MESSAGE value="Updated lesson22.csv, run generate.py" />
     <MESSAGE value="Added extra lessons to generate.py" />
@@ -752,7 +738,8 @@
     <MESSAGE value="Added hsk4.csv - Lesson 2" />
     <MESSAGE value="Added hsk4.csv - Lesson 3" />
     <MESSAGE value="Added hsk4.csv - Lessons 4 and 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hsk4.csv - Lessons 4 and 5" />
+    <MESSAGE value="Added hsk4.csv - Lessons 6, 7, 8, and 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hsk4.csv - Lessons 6, 7, 8, and 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,34 +1084,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.481482">
+          <caret line="216" column="23" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="548" column="33" selection-start-line="548" selection-start-column="33" selection-end-line="548" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/word_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="249" column="14" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
+          <caret line="467" column="37" selection-start-line="467" selection-start-column="37" selection-end-line="467" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3663101">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/word_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23148148">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
