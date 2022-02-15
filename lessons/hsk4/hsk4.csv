@@ -9,7 +9,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 开玩笑,KĀIWÁNXIÀO,to be kidding,VER,,,1,8
 从来,CÓNGLÁI,"always, all along",ADV,,,1,9
 最好,ZUÌHǍO,had better,ADV,best,ADJ,1,10
-公同,GÒNGTÓNG,"common, shared",ADJ,"together, jointly",ADV,1,11
+共同,GÒNGTÓNG,"common, shared",ADJ,"together, jointly",ADV,1,11
 适合,SHÌHÉ,"to suit, to fit",VER,,,1,12
 幸福,XÌNGFÚ,happy,ADJ,"happiness, well-being",NOM,1,13
 生活,SHĒNGHUÓ,life,NOM,to live,VER,1,14
@@ -36,10 +36,10 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 平时,PÍNGSHÍ,"in normal times, ordinarily",NOM,,,2,3
 逛,GUÀNG,"to stroll, to roam",VER,,,2,4
 短信,DUǍN XÌN,text message,NOM,,,2,5
-正好,ZHÈNGHǍO,"just in time, just right",ADV,,,2,6
+正好,ZHÈNGHǍO,"just in time, just right",ADJ,"happen to, as it happens",ADV,2,6
 聚会,JÙHUÌ,to have a party,VER,"party, get-together",NOM,2,7
 联系,LIÁNXÌ,"to contact, to get in touch with",VER,"contact, touch, connection",NOM,2,8
-差不多,CHÀBUDUŌ,"almost, nearly",ADV,similar / not bad,ADJ,2,9
+差不多,CHÀBUDUŌ,"almost, nearly",ADV,"approximate, without much difference",ADJ,2,9
 专门,ZHUĀNMÉN,"specially, for a particular purpose",ADV,"special, specialized",ADJ,2,10
 毕业,BÌYÈ,to graduate,VER,,,2,11
 麻烦,MÁFAN,to trouble or bother somebody,VER,"troublesome, inconvenient",ADJ,2,12
@@ -64,7 +64,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 挺,TǏNG,"very, quite, rather",ADV,,,3,1
 紧张,JǏNZHĀNG,nervous / scarse,ADJ,,,3,2
 信心,XÌNXĪN,"confidence, faith",NOM,,,3,3
-能力,NÉNGLÌ,"ability, competence",NOM,,,3,4
+能力,NÉNGLÌ,"ability, competence, skill",NOM,,,3,4
 招聘,ZHĀOPÌN,to recruit,VER,,,3,5
 提供,TÍGŌNG,"to provide, to offer",VER,,,3,6
 负责,FÙZÉ,to be in charge of,VER,,,3,7
@@ -217,7 +217,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 肚子,DÙZI,"belly, stomach",NOM,,,7,30
 感情,GǍNQÍNG,"affection, love",NOM,,,7,31
 烦恼,FÁNNǍO,"worried, vexed",ADJ,,,7,32
-掉,DIÀO,"(used after certain verbs, indicating the result of an action)",VER,,,7,33
+掉,DIÀO,"(used after certain verbs, indicating the result of an action)",VER,"to lose (value, weight, etc.)",VER,7,33
 巧克力,QIǍOKÈLÌ,chocolate,NOM,,,8,1
 亲戚,QĪNQI,"relative, kinsfolk",NOM,,,8,2
 伤心,SHĀNGXĪN,"sad, sorrowful",ADJ,,,8,3
@@ -281,7 +281,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 礼拜天,LǏBÀITIĀN,Sunday,NOM,,,10,1
 空儿,KÒNGR,"free time, spare time",NOM,,,10,2
 母亲,MǓQĪN,mother,NOM,,,10,3
-不过,BÚGUÒ,"but, yet",CON,,,10,4
+不过,BÚGUÒ,"but, yet",CON,merely,ADV,10,4
 永远,YǑNGYUǍN,"forever, always",ADV,,,10,5
 方向,FÁNGXIÀNG,"direction, orientation",NOM,,,10,6
 优秀,YŌUXIÙ,"excellent, outstanding",ADJ,,,10,7
@@ -308,3 +308,99 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 糖,TÁNG,"sugar, candy",NOM,,,10,28
 低,DĪ,low,ADJ,,,10,29
 答案,DÁ’ÀN,"answer, key",NOM,,,10,30
+流利,LIÚLÌ,fluent,ADJ,,,11,1
+厉害,LÌHAI,"awesome, great / serious, strict",ADJ,,,11,2
+语法,YǓFǍ,grammar,NOM,,,11,3
+准确,ZHǓNQUÈ,"accurate, precise",ADJ,,,11,4
+词语,CÍYǓ,"word, expression",NOM,,,11,5
+连,LIÁN,even,PRE,,,11,6
+阅读,YUÈDÚ,to read,VER,,,11,7
+来得及,LÁIDEJÍ,there’s still time (to do sth.),VER,,,11,8
+复杂,FÙZÁ,complicated,ADJ,,,11,9
+只好,ZHǏHǍO,"have to, forced to",ADV,,,11,10
+填空,TIÁNKÒNG,to fill in a blank,VER,,,11,11
+猜,CĀI,to guess,VER,,,11,12
+否则,FǑUZÉ,"or, otherwise",CON,,,11,13
+客厅,KÈTĪNG,living room,NOM,,,11,14
+无论,WÚLÙN,"regardless of, no matter (what, how, when, etc.)",CON,,,11,15
+杂志,ZÁZHÌ,magazine,NOM,,,11,16
+著名,ZHÙMÍNG,"famous, well-known",ADJ,,,11,17
+页,YÈ,page,CLA,,,11,18
+增加,ZĒNGJIĀ,"to increase, to add",VER,,,11,19
+文章,WÉNZHĀNG,"essay, article",NOM,,,11,20
+之,ZHĪ,(connecting the modifier and the word modified),PT,,,11,21
+内容,NÈIRÓNG,"content, substance",NOM,,,11,22
+然而,RÁN’ÉR,"but, however",CON,,,11,23
+看法,KÀNFǍ,"viewpoint, opinion",NOM,,,11,24
+相同,XIĀNGTÓNG,same,ADJ,,,11,25
+顺序,SHÙNXÙ,"order, sequence",NOM,,,11,26
+表示,BIǍOSHÌ,"to express, to indicate",VER,"expression, indication",NOM,11,27
+养成,YǍNGCHÉNG,"to develop, to form (a habit)",VER,,,11,28
+同时,TÓNGSHÍ,"moreover, besides, furthermore",CON,"simultaneously, meanwhile",NOM,11,29
+精彩,JĪNGCǍI,"brilliant, wonderful, splendid",ADJ,,,11,30
+规定,GUĪDÌNG,"rule, regulation",NOM,,,12,1
+死,SǏ,"rigid, inflexible",ADJ,,,12,2
+可惜,KĚXĪ,"pitiful, regretful",ADJ,,,12,3
+全部,QUÁNBÙ,"all, whole",NOM,,,12,4
+也许,YĚXǓ,"maybe, perhaps",ADV,,,12,5
+商量,SHĀNGLIANG,"to discuss, to consult",VER,,,12,6
+并且,BÌNGQIĚ,and,CON,,,12,7
+盐,YÁN,salt,NOM,,,12,8
+勺子,SHÁOZI,spoon,NOM,,,12,9
+保护,BǍOHÙ,to protect,VER,,,12,10
+作用,ZUÒYÒNG,"action, function",NOM,,,12,11
+无法,WÚFǍ,"cannot, to be unable (to do sth.)",VER,,,12,12
+无,WÚ,"not to have, to be without",VER,,,12,13
+节,JIÉ,"section, length",CLA,,,12,14
+详细,XIÁNGXÌ,detailed,ADJ,,,12,15
+解释,JIĚSHÌ,to explain,VER,,,12,16
+对于,DUÌYÚ,"for, to, with regard to",PRE,,,12,17
+叶子,YÈZI,leaf,NOM,,,12,18
+教育,JIÀOYÙ,to educate,VER,,,12,19
+使用,SHǏYÒNG,to use,VER,,,12,20
+语言,YǓYÁN,language,NOM,,,12,21
+直接,ZHÍJIĒ,"direct, straight",ADJ,,,12,22
+引起,YǏNQǏ,"to cause, to lead to",VER,,,12,23
+误会,WÙHUÌ,misunderstanding,NOM,,,12,24
+友好,YǑUHǍO,friendly,ADJ,,,12,25
+事半功倍,SHÌBÀNGŌNGBÈI,to achieve twice the result with half the effort,FH,,,12,26
+节约,JIÉYUĒ,"to economize, to save",VER,,,12,27
+力气,LÌQI,"physical strength, effort",NOM,,,12,28
+相反,XIĀNGFǍN,on the contrary,CON,,,12,29
+任务,RÈNWU,"task, mission",NOM,,,12,30
+意见,YÌJIÀN,"opinion, suggestion",NOM,,,12,31
+仔细,ZǏXÌ,"careful, meticulous",ADJ,,,12,32
+达到,DÁODÀO,"to reach, to attain",VER,,,12,33
+京剧,JĪNGJÙ,Beijing opera,NOM,,,13,1
+演员,YǍNYUÁN,actor / actress,NOM,,,13,2
+观众,GUĀNZHÒNG,audience,NOM,,,13,3
+厚,HÒU,"deep, profound / thick",ADJ,thickness,NOM,13,4
+演出,YǍNCHŪ,"to perform, to put on (a show)",VER,"performance, show",NOM,13,5
+大概,DÀGÀI,"roughly, approximately",ADV,,,13,6
+来自,LÁIZÌ,to be from,VER,,,13,7
+遍,BIÀN,(denoting an action from beginning to end) time,CLA,,,13,8
+偶尔,ǑU’ĚR,"occasionally, once in a while",ADV,,,13,9
+吃惊,CHĪJĪNG,"to be surprised, to be shocked",V+O,,,13,10
+基础,JĪCHǓ,"basis, foundation",NOM,,,13,11
+表演,BIǍOYǍN,"to act, to perform",VER,"performance, exhibition",NOM,13,12
+正常,ZHÈNGCHÁNG,"normal, regular",ADJ,,,13,13
+申请,SHĒNQǏNG,to apply for,VER,,,13,14
+有趣,YǑUQÙ,"interesting, fun",ADJ,,,13,15
+开心,KĀIXĪN,"happy, glad",ADJ,,,13,16
+继续,JÌXÙ,"to go on, to continue",VER,,,13,17
+由,YÓU,by (somebody),PRE,,,13,18
+讨论,TǍOLÙN,"to discuss, to talk over",VER,,,13,19
+大约,DÀYUĒ,"approximately, about",ADV,,,13,20
+餐厅,CĀNTĪNG,restaurant,NOM,,,13,21
+纸袋,ZHǏDÀI,paper bag,NOM,,,13,22
+袋子,DÀIZI,"bag, sack",NOM,,,13,23
+互联网,HÙLIÁNWǍNG,Internet,NOM,,,13,24
+进行,JÌNXÍNG,"to conduct, to carry out",VER,,,13,25
+错误,CUÒWÙ,"wrong, mistaken",ADJ,"error, mistake",NOM,13,26
+随着,SUÍZHE,"along with, as",PRE,,,13,27
+十分,SHÍFĒN,"very, extremely",ADV,,,13,28
+普遍,PǓBIÀN,"universal, common",ADJ,,,13,29
+部分,BÙFEN,part,NOM,,,13,30
+稍微,SHĀOWĒI,"a little, slightly",ADV,,,13,31
+苦,KǓ,bitter,ADJ,,,13,32
+省,SHĚNG,province,NOM,,,13,33

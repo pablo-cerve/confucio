@@ -57,8 +57,15 @@ class Printer:
 
     @classmethod
     def index_str(cls, index, string):
-        space = " " if len(index) == 1 else ""
-        return "%s(%s) %s" % (space, index, string)
+        if isinstance(index, str):
+            # python3 lessons/run_hsk4.py
+            space = " " if len(index) == 1 else ""
+        else:
+            # python3 lessons/run_hsk3.py
+            index += 1
+            space = " " if index < 10 else ""
+        return "%s(%s) %s" % (space, str(index), string)
+
 
     @classmethod
     def _print_aux(cls, words, rand, method_str, lesson_num=False):
