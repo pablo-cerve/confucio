@@ -3,7 +3,7 @@ sys.path.append('.')
 
 import math
 import os
-from PIL import Image
+from PIL import Image # pip3 install pillow
 from reportlab.pdfgen import canvas
 from reportlab.platypus import SimpleDocTemplate, TableStyle, Table, Image as ImageDoc, PageBreak, Spacer, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -107,4 +107,5 @@ class CreatePDFHSK4:
 # CreatePDFHSK4().run(9)
 # CreatePDFHSK4().run(10)
 # CreatePDFHSK4().run(11)
-CreatePDFHSK4().run(12)
+# CreatePDFHSK4().run(12)
+CreatePDFHSK4().run(13)

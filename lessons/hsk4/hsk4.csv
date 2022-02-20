@@ -17,7 +17,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 浪漫,LÀNGMÀN,romantic,ADJ,,,1,16
 够,GÒU,to be enough,VER,enough,ADJ,1,17
 缺点,QUĒDIǍN,"shortcoming, defect, weakness",NOM,,,1,18
-接受,JIĒSHÒU,to accept,VER,,,1,19
+接受,JIĒSHÒU,"to accept, to receive",VER,,,1,19
 羡慕,XIÀNMÙ,"to envy, to admire",VER,,,1,20
 爱情,ÀIQÍNG,romantic love,NOM,,,1,21
 星星,XĪNGXING,star,NOM,,,1,22
@@ -36,10 +36,10 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 平时,PÍNGSHÍ,"in normal times, ordinarily",NOM,,,2,3
 逛,GUÀNG,"to stroll, to roam",VER,,,2,4
 短信,DUǍN XÌN,text message,NOM,,,2,5
-正好,ZHÈNGHǍO,"just in time, just right",ADJ,"happen to, as it happens",ADV,2,6
+正好,ZHÈNGHǍO,"just right, just enough (in terms of time, position, etc.)",ADJ,"happen to, as it happens",ADV,2,6
 聚会,JÙHUÌ,to have a party,VER,"party, get-together",NOM,2,7
 联系,LIÁNXÌ,"to contact, to get in touch with",VER,"contact, touch, connection",NOM,2,8
-差不多,CHÀBUDUŌ,"almost, nearly",ADV,"approximate, without much difference",ADJ,2,9
+差不多,CHÀBUDUŌ,"approximate, without much difference",ADJ,"almost, nearly",ADV,2,9
 专门,ZHUĀNMÉN,"specially, for a particular purpose",ADV,"special, specialized",ADJ,2,10
 毕业,BÌYÈ,to graduate,VER,,,2,11
 麻烦,MÁFAN,to trouble or bother somebody,VER,"troublesome, inconvenient",ADJ,2,12
@@ -209,7 +209,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 精神,JĪNGSHÉN,"spirit, mind",NOM,,,7,22
 教授,JIÀOSHÒU,professor,NOM,,,7,23
 数字,SHÙZÌ,number,NOM,,,7,24
-说明,SHUŌMÍNG,"to explain, to show",VER,,,7,25
+说明,SHUŌMÍNG,"to explain, to show",VER,explanation,NOM,7,25
 要是,YÀOSHI,"if, supposing",CON,,,7,26
 既,JÌ,(used together with 又) both… and…,ADV,,,7,27
 减肥,JIǍNFÉI,to lose weight,VER,,,7,28
@@ -376,7 +376,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 观众,GUĀNZHÒNG,audience,NOM,,,13,3
 厚,HÒU,"deep, profound / thick",ADJ,thickness,NOM,13,4
 演出,YǍNCHŪ,"to perform, to put on (a show)",VER,"performance, show",NOM,13,5
-大概,DÀGÀI,"roughly, approximately",ADV,,,13,6
+大概,DÀGÀI,"roughly, approximately, about",ADV,approximate,ADJ,13,6
 来自,LÁIZÌ,to be from,VER,,,13,7
 遍,BIÀN,(denoting an action from beginning to end) time,CLA,,,13,8
 偶尔,ǑU’ĚR,"occasionally, once in a while",ADV,,,13,9
@@ -404,3 +404,35 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 稍微,SHĀOWĒI,"a little, slightly",ADV,,,13,31
 苦,KǓ,bitter,ADJ,,,13,32
 省,SHĚNG,province,NOM,,,13,33
+出差,CHŪCHĀI,to go on a business trip,VER,,,14,1
+毛巾,MÁOJĪN,towel,NOM,,,14,2
+牙膏,YÁGĀO,toothpaste,NOM,,,14,3
+重,ZHÒNG,"heavy, weighty",ADJ,,,14,4
+行,XÍNG,"to be OK, to be all right",VER,,,14,5
+省,SHĚNG,"to save, to economize",VER,,,14,6
+污染,WŪRǍN,to pollute,VER,,,14,7
+卫生间,WÈISHĒNGJIĀN,"restroom, bathroom",NOM,,,14,8
+脏,ZĀNG,dirty,ADJ,,,14,9
+抱歉,BÀOQIÀN,to be sorry,VER,,,14,10
+空,KŌNG,empty,ADJ,,,14,11
+盒子,HÉZI,"box, case",NOM,,,14,12
+扔,RĒNG,to throw away,VER,,,14,13
+以,YǏ,"via, by means of",PRE,,,14,14
+速度,SÙDÙ,speed,NOM,,,14,15
+地球,DÌQIÚ,"earth, globe",NOM,,,14,16
+既然,JÌRÁN,"since, as now that",CON,,,14,17
+停,TÍNG,"to stop, to cease",VER,,,14,18
+得意,DÉYÌ,"complacent, gloating",ADJ,,,14,19
+目的,MÙDÌ,"aim, purpose",NOM,,,14,20
+暖,NUǍN,warm,ADJ,,,14,21
+塑料袋,SÙLIÀODÀI,plastic bag,NOM,,,14,22
+于是,YÚSHÌ,"hence, therefore",CON,,,14,23
+鼓励,GǓLÌ,to encourage,VER,,,14,24
+拒绝,JÙJUÉ,"to refuse, to reject",VER,,,14,25
+减少,JIǍNSHǍO,"to reduce, to decrease",VER,,,14,26
+数量,SHÙLIÀNG,"quantity, amount",NOM,,,14,27
+温度,WĒNDÙ,temperature,NOM,,,14,28
+乘坐,CHÉNGZUÒ,"to take (a vehicle), to ride (in a vehicle)",VER,,,14,29
+丢,DIŪ,"to throw, to cast",VER,,,14,30
+垃圾桶,LĀJĪTǑNG,"dustbin, trash can",NOM,,,14,31
+美丽,MĚILÌ,beautiful,ADJ,,,14,32
