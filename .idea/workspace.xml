@@ -4,8 +4,8 @@
     <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" afterPath="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" afterPath="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv" afterPath="$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" afterPath="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/book2/lesson17.csv" afterPath="$PROJECT_DIR$/lessons/book2/lesson17.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -27,11 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hsk3.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3.csv">
+      <file leaf-file-name="hsk4.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="519" column="34" selection-start-line="519" selection-start-column="34" selection-end-line="519" selection-end-column="34" />
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hsk3_bonus.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson22.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/book2/lesson22.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_pdf_hsk4.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_pdf_hsk4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.53035146">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/run2.py" />
         <option value="$PROJECT_DIR$/lessons/book.py" />
         <option value="$PROJECT_DIR$/sort_alpha.py" />
         <option value="$PROJECT_DIR$/generate_csv.py" />
@@ -124,9 +143,10 @@
         <option value="$PROJECT_DIR$/classes/word.py" />
         <option value="$PROJECT_DIR$/lessons/run_hsk3.py" />
         <option value="$PROJECT_DIR$/classes/printer.py" />
+        <option value="$PROJECT_DIR$/lessons/book2/lesson17.csv" />
+        <option value="$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv" />
         <option value="$PROJECT_DIR$/lessons/hsk4/hsk4.csv" />
         <option value="$PROJECT_DIR$/lessons/hsk3/hsk3.csv" />
-        <option value="$PROJECT_DIR$/lessons/book2/lesson17.csv" />
         <option value="$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py" />
       </list>
     </option>
@@ -181,6 +201,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -190,9 +211,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="confucio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,12 +380,6 @@
       <created>1527385337734</created>
       <option name="number" value="Default" />
       <updated>1527385337734</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Added lesson20.csv + Reader class to generate lesson from the csv">
-      <created>1594876687318</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1594876687318</updated>
     </task>
     <task id="LOCAL-00017" summary="Writer class to generate csv from lesson">
       <created>1594878662683</created>
@@ -645,14 +669,20 @@
       <option name="project" value="LOCAL" />
       <updated>1644905300023</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added hsk4.csv - Lesson 14">
+      <created>1645371058368</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1645371058371</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.67741936" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.6627566" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15419847" sideWeight="0.5401112" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -661,7 +691,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25037935" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.32258064" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20492454" sideWeight="0.3372434" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -705,7 +735,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added extra lessons to generate.py" />
     <MESSAGE value="Minor improvements to sup csvs" />
     <MESSAGE value="Added lesson 22sup and lesson23 (1/2) + Run generate.py" />
     <MESSAGE value="Added lesson23 (2/2) and lesson23 sup + Run generate.py" />
@@ -730,7 +759,8 @@
     <MESSAGE value="Added hsk4.csv - Lessons 6, 7, 8, and 9" />
     <MESSAGE value="Added hsk4.csv - Lesson 10" />
     <MESSAGE value="Added hsk4.csv - Lessons 11, 12 and 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hsk4.csv - Lessons 11, 12 and 13" />
+    <MESSAGE value="Added hsk4.csv - Lesson 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hsk4.csv - Lesson 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -849,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/book2/lesson22.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64668095">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/book2/lesson20.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.037037">
@@ -923,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,13 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1023,6 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,6 +1048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,14 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33226836">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/book2/lesson17.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1085,18 +1096,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py">
+    <entry file="file://$PROJECT_DIR$/lessons/book2/lesson22.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3_bonus.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/hsk3/hsk3.csv">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33226836">
+          <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/hsk4/hsk4.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="519" column="34" selection-start-line="519" selection-start-column="34" selection-end-line="519" selection-end-column="34" />
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hsk_check/create_pdf_hsk4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53035146">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>

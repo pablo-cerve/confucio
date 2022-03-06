@@ -15,7 +15,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 生活,SHĒNGHUÓ,life,NOM,to live,VER,1,14
 刚,GĀNG,"just, not long",ADV,,,1,15
 浪漫,LÀNGMÀN,romantic,ADJ,,,1,16
-够,GÒU,to be enough,VER,enough,ADJ,1,17
+够,GÒU,to be enough,VER,enough,ADV,1,17
 缺点,QUĒDIǍN,"shortcoming, defect, weakness",NOM,,,1,18
 接受,JIĒSHÒU,"to accept, to receive",VER,,,1,19
 羡慕,XIÀNMÙ,"to envy, to admire",VER,,,1,20
@@ -67,7 +67,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 能力,NÉNGLÌ,"ability, competence, skill",NOM,,,3,4
 招聘,ZHĀOPÌN,to recruit,VER,,,3,5
 提供,TÍGŌNG,"to provide, to offer",VER,,,3,6
-负责,FÙZÉ,to be in charge of,VER,,,3,7
+负责,FÙZÉ,to be in charge of,VER,responsible,ADJ,3,7
 本来,BĚNLÁI,"originally, at first",ADV,original,ADJ,3,8
 应聘,YÌNGPÌN,"to apply for a job, to accept a job offer",VER,,,3,9
 材料,CÁILIÀO,"material, data",NOM,,,3,10
@@ -78,7 +78,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 另外,LÌNGWÀI,"besides, in addition",CON,,,3,15
 收入,SHŌURÙ,income,NOM,,,3,16
 咱们,ZÁNMEN,"we, us",PRO,,,3,17
-安排,ĀNPÁI,"to arrange, to set up",VER,,,3,18
+安排,ĀNPÁI,"to arrange, to set up",VER,"arrangement, plan",NOM,3,18
 首先,SHǑUXIĀN,first,PRO,"first (of all), in the first place",CON,3,19
 正式,ZHÈNGSHÌ,"formal, official",ADJ,,,3,20
 留,LIÚ,"to leave (a message, etc.) / to stay",VER,,,3,21
@@ -410,7 +410,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 重,ZHÒNG,"heavy, weighty",ADJ,,,14,4
 行,XÍNG,"to be OK, to be all right",VER,,,14,5
 省,SHĚNG,"to save, to economize",VER,,,14,6
-污染,WŪRǍN,to pollute,VER,,,14,7
+污染,WŪRǍN,to pollute,VER,pollution,NOM,14,7
 卫生间,WÈISHĒNGJIĀN,"restroom, bathroom",NOM,,,14,8
 脏,ZĀNG,dirty,ADJ,,,14,9
 抱歉,BÀOQIÀN,to be sorry,VER,,,14,10
@@ -419,11 +419,11 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 扔,RĒNG,to throw away,VER,,,14,13
 以,YǏ,"via, by means of",PRE,,,14,14
 速度,SÙDÙ,speed,NOM,,,14,15
-地球,DÌQIÚ,"earth, globe",NOM,,,14,16
+地球,DÌQIÚ,"the earth, the globe",NOM,,,14,16
 既然,JÌRÁN,"since, as now that",CON,,,14,17
 停,TÍNG,"to stop, to cease",VER,,,14,18
 得意,DÉYÌ,"complacent, gloating",ADJ,,,14,19
-目的,MÙDÌ,"aim, purpose",NOM,,,14,20
+目的,MÙDÌ,"purpose, aim, goal",NOM,,,14,20
 暖,NUǍN,warm,ADJ,,,14,21
 塑料袋,SÙLIÀODÀI,plastic bag,NOM,,,14,22
 于是,YÚSHÌ,"hence, therefore",CON,,,14,23
@@ -433,6 +433,68 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 数量,SHÙLIÀNG,"quantity, amount",NOM,,,14,27
 温度,WĒNDÙ,temperature,NOM,,,14,28
 乘坐,CHÉNGZUÒ,"to take (a vehicle), to ride (in a vehicle)",VER,,,14,29
-丢,DIŪ,"to throw, to cast",VER,,,14,30
+丢,DIŪ,"to throw, to cast / to lose",VER,,,14,30
 垃圾桶,LĀJĪTǑNG,"dustbin, trash can",NOM,,,14,31
 美丽,MĚILÌ,beautiful,ADJ,,,14,32
+弹钢琴,TÁN GĀNGQÍN,to play the piano,VER,,,15,1
+棒,BÀNG,"excellent, amazing",ADJ,,,15,2
+孙子,SŪNZI,grandson,NOM,,,15,3
+寒假,HÁNJIÀ,winter vacation,NOM,,,15,4
+父亲,FÙQĪN,father,NOM,,,15,5
+闹钟,NÀOZHŌNG,alarm clock,NOM,,,15,6
+响,XIǍNG,"to sound, to ring",VER,,,15,7
+醒,XǏNG,"to wake up, to be awake",VER,,,15,8
+赶,GǍN,"to rush for, to hurry / to catch up with, to overtake",VER,,,15,9
+厕所,CÈSUǑ,"lavatory, toilet",NOM,,,15,10
+批评,PĪPÍNG,to criticize,VER,,,15,11
+弄,NÒNG,"to do, to make",VER,,,15,12
+管理,GUǍNLǏ,"to manage, to administer",VER,,,15,13
+打针,DǍZHĒN,to give or have an injection,VER,,,15,14
+护士,HÙSHI,nurse,NOM,,,15,15
+表扬,BIǍOYÁNG,"to praise, to commend",VER,,,15,16
+千万,QIĀNWÀN,"must, to be sure",ADV,,,15,17
+怀疑,HUÁIYÍ,"to suspect, to doubt",VER,,,15,18
+故意,GÙYÌ,"intentionally, on purpose",ADV,,,15,19
+敲,QIĀO,"to knock, to beat, to strike",VER,,,15,20
+整理,ZHĚNGLǏ,"to tidy up, to arrange",VER,,,15,21
+合适,HÉSHÍ,"fit, suitable",ADJ,,,15,22
+骗,PIÀN,"to cheat, to deceive",VER,,,15,23
+儿童,ÉRTÓNG,children,NOM,,,15,24
+假,JIǍ,"false, fake",ADJ,,,15,25
+左右,ZUǑYÒU,"around, nearby, or so",NOM,,,15,26
+懒,LǍN,lazy,ADJ,,,15,27
+笨,BÈN,"stupid, foolish",ADJ,,,15,28
+粗心,CŪXĪN,"careless, thoughtless",ADJ,,,15,29
+骄傲,JIĀO’ÀO,"arrogant, conceited",ADJ,,,15,30
+害羞,HÀIXIŪ,"to be shy, to be timid",VER,"shy, bashful",ADJ,15,31
+博士,BÓSHÌ,doctor (academic degree),NOM,,,16,1
+签证,QIĀNZHÈNG,visa,NOM,,,16,2
+报名,BÀOMÍNG,"to apply, to sign up",V+O,,,16,3
+表格,BIǍOGÉ,"form, table",NOM,,,16,4
+传真,CHUÁNZHĒN,to send by fax,VER,fax,NOM,16,5
+号码,HÀOMǍ,number,NOM,,,16,6
+参观,CĀNGUĀN,"to visit, to look around",VER,,,16,7
+激动,JĪDÒNG,"excited, emotional",ADJ,,,16,8
+小伙子,XIǍOHUǑZI,young man,NOM,,,16,9
+记者,JÌZHĚ,"journalist, reporter",NOM,,,16,10
+代表,DÀIBIǍO,"to represent, to stand for",VER,"delegate, representative",NOM,16,11
+恐怕,KǑNGPÀ,(indicating an estimation) I guess…,ADV,,,16,12
+郊区,JIĀOQŪ,"suburb, outskirts",NOM,,,16,13
+失望,SHĪWÀNG,disappointed,ADJ,"to lose hope, to despair",VER,16,14
+到底,DÀODǏ,(used in questions for emphasis) … on earth,ADV,,,16,15
+呀,YA,(used at the end of a question to soften the tone),PT,,,16,16
+导游,DǍOYÓU,tour guide,NOM,,,16,17
+礼貌,LǏMÀO,polite,ADJ,"courtesy, politeness",NOM,16,18
+挂,GUÀ,"to hang, to put up",VER,,,16,19
+原谅,YUÁNLIÀNG,to forgive,VER,,,16,20
+同情,TÓNGQÍNG,to show sympathy for,VER,,,16,21
+推,TUĪ,"to put off, to postpone",VER,,,16,22
+预习,YÙXÍ,to prepare lessons before class,VER,,,16,23
+重点,ZHÒNGDIǍN,"focal point, emphasis",NOM,,,16,24
+马虎,MǍHU,"careless, slipshod",ADJ,,,16,25
+自信,ZÌXÌN,self-confident,ADJ,,,16,26
+冷静,LĚNGJÌNG,"calm, composed",ADJ,,,16,27
+输,SHŪ,"to lose, to suffer defeat",VER,,,16,28
+重视,ZHÒNGSHÌ,to attach importance to,VER,,,16,29
+敢,GǍN,to dare,VER,,,16,30
+尊重,ZŪNZHÒNG,to respect,VER,,,16,31
