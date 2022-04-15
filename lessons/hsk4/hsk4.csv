@@ -121,7 +121,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 方法,FĀNGFǍ,"method, way",NOM,,,4,27
 知识,ZHĪSHI,knowledge,NOM,,,4,28
 不得不,BÙDÉBÙ,"to have to, to have no choice but",OTR,,,4,29
-甚至,SHÈNZHÌ,"even, so far as to",CON,,,4,30
+甚至,SHÈNZHÌ,even (to the extent that),ADV,(go) so far as to,CON,4,30
 责任,ZÉRÈN,"responsibility, duty",NOM,,,4,31
 家具,JIĀJÙ,furniture,NOM,,,5,1
 沙发,SHĀFĀ,sofa,NOM,,,5,2
@@ -209,7 +209,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 精神,JĪNGSHÉN,"spirit, mind",NOM,,,7,22
 教授,JIÀOSHÒU,professor,NOM,,,7,23
 数字,SHÙZÌ,number,NOM,,,7,24
-说明,SHUŌMÍNG,"to explain, to show",VER,explanation,NOM,7,25
+说明,SHUŌMÍNG,"to explain, to show, to indicate",VER,explanation,NOM,7,25
 要是,YÀOSHI,"if, supposing",CON,,,7,26
 既,JÌ,(used together with 又) both… and…,ADV,,,7,27
 减肥,JIǍNFÉI,to lose weight,VER,,,7,28
@@ -314,7 +314,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 准确,ZHǓNQUÈ,"accurate, precise",ADJ,,,11,4
 词语,CÍYǓ,"word, expression",NOM,,,11,5
 连,LIÁN,even,PRE,,,11,6
-阅读,YUÈDÚ,to read,VER,,,11,7
+阅读,YUÈDÚ,to read,VER,reading,NOM,11,7
 来得及,LÁIDEJÍ,there’s still time (to do sth.),VER,,,11,8
 复杂,FÙZÁ,complicated,ADJ,,,11,9
 只好,ZHǏHǍO,"have to, forced to",ADV,,,11,10
@@ -501,9 +501,9 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 凉快,LIÁNGKUAI,pleasantly cool,ADJ,,,17,1
 热闹,RÈNAO,"busy, bustling",ADJ,,,17,2
 云,YÚN,cloud,NOM,,,17,3
-4,GUǍNGBŌ,"broadcast, radio program",NOM,,,17,4
+广播,GUǍNGBŌ,"broadcast, radio program",NOM,,,17,4
 照,ZHÀO,"to take a picture, to photograph",VER,,,17,5
-倒,DÀO,"(used to indicate contrast) yet, actually",ADV,,,17,6
+倒,DÀO,"(used to indicate contrast) yet, actually",ADV,to pour,VER,17,6
 毛,MÁO,"hair, fur",NOM,,,17,7
 抱,BÀO,"to hug, to hold in the arms",VER,,,17,8
 干,GÀN,"to do, to act",VER,,,17,9
@@ -527,3 +527,97 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 仍然,RÉNGRÁN,"still, yet",ADV,,,17,27
 排列,PÁILIÈ,"to put in order, to arrange",VER,,,17,28
 梦,MÈNG,dream,NOM,,,17,29
+降落,JIÀNGLUÒ,"to descend, to land",VER,,,18,1
+火,HUǑ,"hot, popular",ADJ,,,18,2
+作者,ZUÒZHĚ,author,NOM,,,18,3
+交通,JIĀOTŌNG,"traffic, communication",NOM,,,18,4
+技术,JÌSHÙ,technology,NOM,,,18,5
+是否,SHÌFǑU,"if, wether",ADV,,,18,6
+秒,MIǍO,second (1/60 minute),CLA,,,18,7
+方式,FĀNGSHÌ,"way, mode",NOM,,,18,8
+受不了,SHÒUBULIǍO,"cannot stand, cannot bear",FH,,,18,9
+日记,RÌJÌ,"diary, journal",NOM,,,18,10
+安全,ĀNQUÁN,"safe, secure",ADJ,"security, safety",NOM,18,11
+密码,MÌMǍ,password,NOM,,,18,12
+允许,YǓNXǓ,"to allow, to permit",VER,permission,NOM,18,13
+座,ZUÒ,"(used for bridges, mountains, buildings, etc.)",CLA,,,18,14
+桥,QIÁO,bridge,NOM,,,18,15
+危险,WĒIXIǍN,dangerous,ADJ,,,18,16
+接着,JIĒZHE,"then, immediately after that",ADV,,,18,17
+警察,JǏNGCHÁ,police,NOM,,,18,18
+抓,ZHUĀ,"to catch, to arrest",VER,,,18,19
+咸,XIÁN,salty,ADJ,,,18,20
+矿泉水,KUÀNGQUÁNSHUǏ,mineral water,NOM,,,18,21
+付款,FÙKUǍN,to pay a sum of money,VER,,,18,22
+举,JǓ,"to give, to enumerate",VER,,,18,23
+迷路,MÍLÙ,to lose one’s way,VER,,,18,24
+地址,DÌZHǏ,address,NOM,,,18,25
+地点,DÌDIǍN,"place, site",NOM,,,18,26
+世纪,SHÌJÌ,century,NOM,,,18,27
+邮局,YÓUJÚ,post office,NOM,,,18,28
+收,SHŌU,to receive,VER,,,18,29
+信封,XÌNFĒNG,envelope,NOM,,,18,30
+网站,WǍNGZHÀN,website,NOM,,,18,31
+信息,XÌNXĪ,"news, information",NOM,,,18,32
+学期,XUÉQĪ,"term, semester",NOM,,,19,1
+出生,CHŪSHĒNG,to be born,VER,,,19,2
+性别,XÌNGBIÉ,"sex, gender",NOM,,,19,3
+道歉,DÀOQIÀN,to apologize,VER,,,19,4
+打印,DǍYÌN,to print out,VER,,,19,5
+复印,FÙYÌN,"to photocopy, to xerox",VER,,,19,6
+饺子,JIǍOZI,dumpling,NOM,,,19,7
+刀,DĀO,knife,NOM,,,19,8
+破,PÒ,"broken, torn",ADJ,,,19,9
+脱,TUŌ,to take off,VER,,,19,10
+理发,LǏFÀ,to get a haircut,VER,,,19,11
+包子,BĀOZI,steamed stuffed bun,NOM,,,19,12
+零钱,LÍNGQIÁN,small change,NOM,,,19,13
+打招呼,DǍZHĀOHU,"to greet, to say hello",VER,,,19,14
+戴,DÀI,to wear (accessories),VER,,,19,15
+眼镜,YǍNJÌNG,"glasses, spectacles",NOM,,,19,16
+舞蹈,WǓDǍO,dance,NOM,to perform a dance,VER,19,17
+国籍,GUÓJÍ,"nationality, citizenship",NOM,,,19,18
+抬,TÁI,"to lift, to raise",VER,,,19,19
+胳膊,GĒBO,arm,NOM,,,19,20
+转,ZHUǍN,"to turn, to shift",VER,,,19,21
+租,ZŪ,"to rent, to lease",VER,,,19,22
+吵,CHǍO,noisy,ADJ,,,19,23
+厨房,CHÚFÁNG,kitchen,NOM,,,19,24
+房东,FÁNGDŌNG,landlord / landlady,NOM,,,19,25
+占线,ZHÀNXIÀN,"(of a telephone line) to be busy, to be engaged",VER,,,19,26
+功夫,GŌNGFU,kung fu,NOM,,,19,27
+乒乓球,PĪNGPĀNGQIÚ,"table tennis, ping-pong",NOM,,,19,28
+羽毛球,YǓMÁOQIÚ,badminton,NOM,,,19,29
+场,CHǍNG,"(used for sports or recreational events, etc.)",CLA,,,19,30
+禁止,JÌNZHǏ,"to prohibit, to forbid",VER,,,19,31
+座位,ZUÒWÈI,seat,NOM,,,19,32
+加油站,JIĀYÓUZHÀN,gas station,NOM,,,20,1
+航班,HÁNGBĀN,scheduled flight / flight number,NOM,,,20,2
+推迟,TUĪCHÍ,"to postpone, to delay",VER,,,20,3
+告诉公路,GĀOSÙGŌNGLÙ,expressway,NOM,,,20,4
+登机牌,DĒNGJĪPÁI,boarding pass,NOM,,,20,5
+首都,SHǑUDŪ,capital (of a country),NOM,,,20,6
+旅行,LǙXÍNG,"to travel, to tour",VER,"journey, trip",NOM,20,7
+怪,GUÀI,"rather, quite",ADV,,,20,8
+可怜,KĚLIÁN,"pitiable, poor",ADJ,,,20,9
+对面,DUÌMIÀN,"opposite, across",NOM,,,20,10
+烤鸭,KǍOYĀ,roast duck,NOM,,,20,11
+祝贺,ZHÙHÈ,to congratulate,VER,,,20,12
+合格,HÉGÉ,"qualified, up to standard",ADJ,,,20,13
+干杯,GĀNBĒI,to drink a toast,VER,,,20,14
+民族,MÍNZÚ,"nationality, ethnic group",NOM,,,20,15
+打扮,DǍBAN,"to dress up, to deck out",VER,,,20,16
+笑话,XIÀOHUA,joke,NOM,,,20,17
+存,CÚN,"to store, to keep",VER,,,20,18
+钥匙,YÀOSHI,key,NOM,,,20,19
+究竟,JIŪJÌNG,(used in questions for emphasis) exactly,ADV,,,20,20
+棵,KĒ,(used for plants),CLA,,,20,21
+汤,TĀNG,soup,NOM,,,20,22
+对话,DUÌHUÀ,to have a dialogue,VER,,,20,23
+普通话,PǓTŌNGHUÀ,Mandarin Chinese,NOM,,,20,24
+小吃,XIǍOCHĪ,"snack, refreshment",NOM,,,20,25
+收拾,SHŌUSHI,"to put in order, to pack",VER,,,20,26
+出发,CHŪFĀ,"to depart, to set off",VER,,,20,27
+辣,LÀ,"hot, spicy",ADJ,,,20,28
+香,XIĀNG,"fragrant, scented",ADJ,,,20,29
+酸,SUĀN,"sour, tart",ADJ,,,20,30

@@ -360,7 +360,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 去年,QÙNIÁN,año pasado,NOM,,,,,21,21,359
 裙子,QÚNZI,"falda, pollera",NOM,,,5,11,,,360
 然后,RÁNHÒU,"entonces, después de eso",CON,,,14,3,,,361
-让,RÀNG,"pedir, permitir, dejar (a alguien hacer algo), invitar",VER,,,,,13,28,362
+让,RÀNG,"pedir, permitir, dejar (a alguien hacer algo), invitar, hacer",VER,,,,,13,28,362
 热,RÈ,calor,NOM,caliente,ADJ,,,20,13,363
 热情,RÈQÍNG,"cordial, entusiasta",ADJ,entusiasmo,NOM,4,6,,,364
 人,RÉN,"persona, gente",NOM,,,,,3,5,365
@@ -583,7 +583,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,LECCION,NUM,#
 主要,ZHǓYÀO,principal,ADJ,,,10,13,19,27,582
 住,ZHÙ,"vivir, residir",VER,,,,,14,22,583
 注意,ZHÙYÌ,"prestar atención a, tomar nota de",VER,,,15,10,,,584
-准备,ZHǓNBÈI,"preparar, prepararse, ponerse listo / planear",VER,,,,,,,585
+准备,ZHǓNBÈI,"preparar, prepararse, ponerse listo / planear",VER,preparativo,NOM,,,,,585
 桌子,ZHUŌZI,"mesa, escritorio",NOM,,,,,,,586
 自己,ZÌJǏ,"uno mismo, propio",PRO,,,12,5,16,23,587
 自行车,ZÌXÍNGCHĒ,bicicleta,NOM,,,10,7,,,588

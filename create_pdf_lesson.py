@@ -12,7 +12,7 @@ from reportlab.lib.enums import TA_CENTER
 
 
 class CreatePDFLesson:
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/caracteres/26"
+    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/caracteres/28"
     FACTOR = 1.65
     IMAGES_PER_PAGE = 15
     IMAGES_PER_ROW = 3
@@ -32,7 +32,7 @@ class CreatePDFLesson:
         return doc
 
     def run(self):
-        self.run_for_folder('/1/')
+        self.run_for_folder('/')
         self.doc.build(self.Story)
 
     def run_for_folder(self, folder_name):
