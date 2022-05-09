@@ -112,7 +112,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 一切,YÍQIÈ,"all, every",PRO,,,4,18
 按照,ÀNZHÀO,according to,PRE,,,4,19
 成功,CHÉNGGŌNG,successful,ADJ,to succeed,VER,4,20
-顺利,SHÙNLÌ,smooth,ADJ,,,4,21
+顺利,SHÙNLÌ,"smooth, successful",ADJ,,,4,21
 感谢,GǍNXIÈ,to thank,VER,thanks,NOM,4,22
 消息,XIĀOXI,news,NOM,,,4,23
 按时,ÀNSHÍ,"on time, on schedule",ADV,,,4,24
@@ -338,13 +338,13 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 养成,YǍNGCHÉNG,"to develop, to form (a habit)",VER,,,11,28
 同时,TÓNGSHÍ,"moreover, besides, furthermore",CON,"simultaneously, meanwhile",NOM,11,29
 精彩,JĪNGCǍI,"brilliant, wonderful, splendid",ADJ,,,11,30
-规定,GUĪDÌNG,"rule, regulation",NOM,,,12,1
+规定,GUĪDÌNG,"rule, regulation",NOM,"to set, to stipulate",VER,12,1
 死,SǏ,"rigid, inflexible",ADJ,,,12,2
 可惜,KĚXĪ,"pitiful, regretful",ADJ,,,12,3
 全部,QUÁNBÙ,"all, whole",NOM,,,12,4
 也许,YĚXǓ,"maybe, perhaps",ADV,,,12,5
 商量,SHĀNGLIANG,"to discuss, to consult",VER,,,12,6
-并且,BÌNGQIĚ,and,CON,,,12,7
+并且,BÌNGQIĚ,"and, besides, moreover",CON,,,12,7
 盐,YÁN,salt,NOM,,,12,8
 勺子,SHÁOZI,spoon,NOM,,,12,9
 保护,BǍOHÙ,to protect,VER,,,12,10
@@ -452,7 +452,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 打针,DǍZHĒN,to give or have an injection,VER,,,15,14
 护士,HÙSHI,nurse,NOM,,,15,15
 表扬,BIǍOYÁNG,"to praise, to commend",VER,,,15,16
-千万,QIĀNWÀN,"must, to be sure",ADV,,,15,17
+千万,QIĀNWÀN,"must, to be sure to",ADV,,,15,17
 怀疑,HUÁIYÍ,"to suspect, to doubt",VER,,,15,18
 故意,GÙYÌ,"intentionally, on purpose",ADV,,,15,19
 敲,QIĀO,"to knock, to beat, to strike",VER,,,15,20
@@ -532,7 +532,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 作者,ZUÒZHĚ,author,NOM,,,18,3
 交通,JIĀOTŌNG,"traffic, communication",NOM,,,18,4
 技术,JÌSHÙ,technology,NOM,,,18,5
-是否,SHÌFǑU,"if, wether",ADV,,,18,6
+是否,SHÌFǑU,"if, whether",ADV,,,18,6
 秒,MIǍO,second (1/60 minute),CLA,,,18,7
 方式,FĀNGSHÌ,"way, mode",NOM,,,18,8
 受不了,SHÒUBULIǍO,"cannot stand, cannot bear",FH,,,18,9
