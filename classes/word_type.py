@@ -9,6 +9,7 @@ class WordType:
         "PRO":  "pronombre",
         "PRE":  "preposición",
         "PREF": "prefijo",
+        "SUF":  "sufijo",
 
         "NOM":  "nombre",
         "NP":   "nombre propio",
@@ -39,6 +40,7 @@ class WordType:
         "PRO":  "Pron.",
         "PRE":  "preposición",
         "PREF": "prefijo",
+        "SUF":  "sufijo",
 
         "NOM":  "N",
         "NP":   "n.p.",

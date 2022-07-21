@@ -288,7 +288,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 硕士,SHUÒSHÌ,"Master, person who has a master’s degree",NOM,,,10,8
 翻译,FĀNYÌ,"translator, interpreter",NOM,"translate, interpret",VER,10,9
 确实,QUÈSHÍ,"truly, indeed",ADV,,,10,10
-兴奋,XĪNGFÈN,excited,ADJ,,,10,11
+兴奋,XĪNGFÈN,excited,ADJ,excitement,NOM,10,11
 拉,LĀ,"to pull, to drag",VER,,,10,12
 建议,JIÀNYÌ,"proposal, suggestion",NOM,"propose, suggest",VER,10,13
 职业,ZHÍYÈ,"occupation, profession",NOM,,,10,14
@@ -452,7 +452,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 打针,DǍZHĒN,to give or have an injection,VER,,,15,14
 护士,HÙSHI,nurse,NOM,,,15,15
 表扬,BIǍOYÁNG,"to praise, to commend",VER,,,15,16
-千万,QIĀNWÀN,"must, to be sure to",ADV,,,15,17
+千万,QIĀNWÀN,"must, to be sure",ADV,,,15,17
 怀疑,HUÁIYÍ,"to suspect, to doubt",VER,,,15,18
 故意,GÙYÌ,"intentionally, on purpose",ADV,,,15,19
 敲,QIĀO,"to knock, to beat, to strike",VER,,,15,20
@@ -506,14 +506,14 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 倒,DÀO,"(used to indicate contrast) yet, actually",ADV,to pour,VER,17,6
 毛,MÁO,"hair, fur",NOM,,,17,7
 抱,BÀO,"to hug, to hold in the arms",VER,,,17,8
-干,GÀN,"to do, to act",VER,,,17,9
+干,GÀN,"to do, to act",VER,dry,ADJ,17,9
 严格,YÁNGÉ,"strict, rigorous",ADJ,,,17,10
 难受,NÁNSHÒU,"sad, unhappy",ADJ,,,17,11
 趟,TÀNG,(used for a round trip) time,CLA,,,17,12
 放暑假,FÀNGSHǓJIÀ,to be on summer vacation,VER,,,17,13
 老虎,LǍOHǓ,tiger,NOM,,,17,14
 入口,RÙKǑU,entrance,NOM,,,17,15
-排队,PÁIDUÌ,"to form a line, to line up",VER,,,17,16
+排队,PÁIDUÌ,"to form a line, to line up",V+O,,,17,16
 活泼,HUÓPŌ,"lively, vivacious",ADJ,,,17,17
 社会,SHÈHUÌ,society,NOM,,,17,18
 竞争,JÌNGZHĒNG,to compete,VER,competition,NOM,17,19
@@ -581,7 +581,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER
 胳膊,GĒBO,arm,NOM,,,19,20
 转,ZHUǍN,"to turn, to shift",VER,,,19,21
 租,ZŪ,"to rent, to lease",VER,,,19,22
-吵,CHǍO,noisy,ADJ,,,19,23
+吵,CHǍO,noisy,ADJ,"to quarrel, to make a noise",VER,19,23
 厨房,CHÚFÁNG,kitchen,NOM,,,19,24
 房东,FÁNGDŌNG,landlord / landlady,NOM,,,19,25
 占线,ZHÀNXIÀN,"(of a telephone line) to be busy, to be engaged",VER,,,19,26

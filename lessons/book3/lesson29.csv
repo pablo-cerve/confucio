@@ -19,7 +19,7 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 开花,KĀIHUĀ,florecer,V+O,,,29,18
 君子兰,JŪNZǏLÁN,lirio,NOM,,,29,19
 叶子,YÈZI,hoja,NOM,,,29,20
-养,YǍNG,crecer,VER,,,29,21
+养,YǍNG,"crecer, cultivar",VER,,,29,21
 比较,BǏJIÀO,comparativamente,ADV,comparar,VER,29,22
 人们,RÉNMEN,"gente, personas",NOM,,,29,23
 作品,ZUÒPǏN,trabajo artístico o literario,NOM,,,29,24
@@ -29,25 +29,20 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 园艺师,YUÁNYÌSHĪ,horticultor,NOM,,,29,28
 园艺,YUÁNYÌ,horticultura,NOM,,,29,29
 师,SHĪ,"persona especializada en una cierta profesión, experto",SUF,,,29,30
-,,,,,,29,31
-,,,,,,29,32
-,,,,,,29,33
-,,,,,,29,34
-,,,,,,29,35
-,,,,,,29,36
-,,,,,,29,37
-,,,,,,29,38
-,,,,,,29,39
-,,,,,,29,40
-,,,,,,29,41
-,,,,,,29,42
-,,,,,,29,43
-,,,,,,29,44
-,,,,,,29,45
-,,,,,,29,46
-,,,,,,29,47
-,,,,,,29,48
-,,,,,,29,49
-,,,,,,29,50
-,,,,,,29,51
-,,,,,,29,52
+练,LIÀN,practicar,VER,,,29,31
+书法家,SHŪFǍJIĀ,calígrafo,NOM,,,29,32
+家,JIĀ,especialista en cierto campo,SUF,,,29,33
+弟子不必不如师,DÌZǏBÚBÌBÙRÚSHĪ,“los discípulos no son necesariamente inferiores a sus maestros”,FH,,,29,34
+弟子,DÌZǏ,discípulo,NOM,,,29,35
+不必,BÚBÌ,no necesariamente,ADV,,,29,36
+师不必贤于弟子,SHĪBÚBÌXIÁNYÚDÌZǏ,“los maestros no son necesariamente más capaces que sus discípulos”,FH,,,29,37
+贤,XIÁN,habilidoso,ADJ,,,29,38
+句子,JÙZI,oración,NOM,,,29,39
+句,JÙ,oración,CLA,,,29,40
+意思,YÌSI,"significado, idea",NOM,,,29,41
+不如,BÙRÚ,"no ser tan bueno como, ser inferior",VER,,,29,42
+高明,GĀOMÍNG,"brillante, sabio",ADJ,,,29,43
+文学家,WÉNXUÉJIĀ,literario,NOM,,,29,44
+互相,HÙXIĀNG,"mutuamente, el uno al otro",ADV,,,29,45
+谦虚,QIĀNXŪ,modesto,ADJ,actuar de forma modesta,VER,29,46
+唐代,TÁNGDÀI,Dinastía Tang,NP,,,29,47

@@ -10,8 +10,8 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 干果,GĀNGUǑ,fruto seco,NOM,,,28,9
 啤酒,PÍJIǓ,cerveza,NOM,,,28,10
 赏,SHǍNG,"admirar, disfrutar",VER,,,28,11
-纪念品,JÌNNIÀNPǏN,"souvenir, recuerdo",NOM,,,28,12
-纪念,JÌNNIÀN,conmemorar,VER,,,28,13
+纪念品,JÌNIÀNPǏN,"souvenir, recuerdo",NOM,,,28,12
+纪念,JÌNIÀN,conmemorar,VER,,,28,13
 品,PǏN,"artículo, producto",SUF,,,28,14
 希望,XĪWÀNG,esperar,VER,esperanza,NOM,28,15
 毛笔,MÁOBǏ,pincel para escribir,NOM,,,28,16
@@ -49,5 +49,5 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 重要,ZHÒNGYÀO,importante,ADJ,,,28,48
 友谊,YǑUYÌ,amistad,NOM,,,28,49
 担心,DĀNXĪN,preocuparse,VER,,,28,50
-糖,TÁNG,"dulce, caramelo, golosina",NOM,,,28,51
+糖,TÁNG,"azúcar, dulce, caramelo, golosina",NOM,,,28,51
 特色,TÈSÈ,característica,NOM,,,28,52

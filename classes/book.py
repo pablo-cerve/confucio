@@ -42,4 +42,6 @@ class Book:
             return 1
         if 15 <= lesson_number <= 26:
             return 2
+        else:
+            return 3
         raise ValueError("Invalid lesson_number: {}.".format(lesson_number))
