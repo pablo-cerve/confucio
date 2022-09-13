@@ -12,7 +12,7 @@ from reportlab.lib.enums import TA_CENTER
 
 
 class CreatePDFLesson:
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/caracteres/29"
+    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/caracteres/31"
     FACTOR = 1.65
     IMAGES_PER_PAGE = 15
     IMAGES_PER_ROW = 3

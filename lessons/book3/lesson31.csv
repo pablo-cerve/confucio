@@ -1,0 +1,40 @@
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+父母,FÙMǓ,padres,NOM,,,31,1
+父亲,FÙQĪN,padre,NOM,,,31,2
+母亲,MǓQĪN,madre,NOM,,,31,3
+母语,MǓYǓ,lengua madre,NOM,,,31,4
+河,HÉ,río,NOM,,,31,5
+江,JIĀNG,río (largo),NOM,,,31,6
+湖,HÚ,lago,NOM,,,31,7
+洋,YÁNG,océano,NOM,,,31,8
+知识,ZHĪSHI,conocimiento,NOM,,,31,9
+地理,DÌLǏ,geografía,NOM,,,31,10
+只要,ZHǏYÀO,siempre y cuando,CON,,,31,11
+成绩,CHÉNGJÌ,"logro, éxito",NOM,,,31,12
+面积,MIÀNJĪ,área,NOM,,,31,13
+万,WÀN,diez mil,NUM,,,31,14
+平方公里,PÍNGFĀNGGŌNGLǏ,kilómetro cuadrado,CLA,,,31,15
+平方,PÍNGFĀNG,plaza,NOM,,,31,16
+公里,GŌNGLǏ,kilómetro,CLA,,,31,17
+平方米,PÍNGFĀNGMǏ,metro cuadrado,CLA,,,31,18
+米,MǏ,metro,CLA,,,31,19
+世界,SHÌJIÈ,mundo,NOM,,,31,20
+全世界,QUÁNSHÌJIÈ,todo el mundo,NOM,,,31,21
+人口,RÉNKǑU,población,NOM,,,31,22
+包括,BĀOKUÒ,incluir,VER,,,31,23
+亿,YÌ,cien millones,NUM,,,31,24
+正确,ZHÈNGQUÈ,correcto,ADJ,,,31,25
+错误,CUÒWÙ,incorrecto,ADJ,,,31,26
+山峰,SHĀNFĒNG,pico (de montaña),NOM,,,31,27
+摇篮,YÁOLÁN,cuna,NOM,,,31,28
+俄罗斯,ÉLUÓSĪ,Rusia,NP,,,31,29
+大陆,DÀLÙ,China continental,NP,continente,NOM,31,30
+陆,LÙ,continente,NOM,,,31,31
+台湾,TÁIWĀN,Taiwan,NP,,,31,32
+香港,XIĀNGGǍNG,Hong Kong,NP,,,31,33
+澳门,ÀOMÉN,Macao,NP,,,31,34
+西藏,XĪZÀNG,Tíbet,NP,,,31,35
+珠穆朗玛峰,ZHŪMÙLǍNGMǍFĒNG,Monte Everest,NP,,,31,36
+黄河,HUÁNGHÉ,Río Amarillo,NP,,,31,37
+长江,CHÁNGJIĀNG,Río Changjiang / Yangtze,NP,,,31,38
+中华,ZHŌNGHUÁ,Nación China,NP,,,31,39

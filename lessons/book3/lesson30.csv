@@ -1,37 +1,51 @@
-,HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
-,太极剑,TÀIJÍJIÀN,taijijian (un tipo de esgrima tradicional en China),NOM,,,30,1
-,剑,JIÀN,espada,NOM,,,30,2
-,把,BǍ,(clas. para objetos con mango),CLA,,,30,3
-,太极拳,TÀIJÍQUÁN,taichí,NOM,,,30,4
-,街,JIĒ,calle,NOM,,,30,5
-,活动,HUÓDÒNG,"moverse, ejercitarse",VER,"actividad, evento",NOM,30,6
-,跳,TIÀO,saltar,VER,,,30,7
-,跳舞,TIÀOWǓ,bailar,V+O,,,30,8
-,舞,WǓ,baile,NOM,,,30,9
-,敲锣打鼓,QIĀOLUÓDǍGǓ,golpear tambores y gongs,FH,,,30,10
-,敲,QIĀO,"golpear, llamar a la puerta",VER,,,30,11
-,锣,LUÓ,gong,NOM,,,30,12
-,打,DǍ,golpear,VER,,,30,13
-,鼓,GǓ,tambor,NOM,,,30,14
-,扭秧歌,NIǓYĀNGGE,bailar el yangge,V+O,,,30,15
-,扭,NIǓ,"girar, darse vuelta, enrollarse",VER,,,30,16
-,秧歌,YĀNGGE,baile yangge,NOM,,,30,17
-,民间,MÍNJIĀN,folklore,NOM,,,30,18
-,舞蹈,WǓDǍO,baile,NOM,,,30,19
-,叫做,JIÀOZUÒ,"ser llamado, ser conocido como",VER,,,30,20
-,动作,DÒNGZUÒ,"movimiento, acción",NOM,,,30,21
-,简单,JIǍNDĀN,simple,ADJ,,,30,22
-,老人,LǍORÉN,anciano,NOM,,,30,23
-,出汗,CHŪHÀN,sudar,V+O,,,30,24
-,要不,YÀOBÙ,"si no, de otro modo",CON,,,30,25
-,手,SHǑU,mano,NOM,,,30,26
-,武术,WǓSHÙ,artes marciales,NOM,,,30,27
-,功夫,GŌNGFU,kung fu,NOM,,,30,28
-,生病,SHĒNGBÌNG,enfermarse,V+O,,,30,29
-,病,BÌNG,enfermarse,VER,enfermedad,NOM,30,30
-,后来,HÒULÁI,"luego, después",NOM,,,30,31
-,上班,SHÀNGBĀN,ir a trabajar,V+O,,,30,32
-,早上,ZǍOSHANG,mañana (temprano),NOM,,,30,33
-,最近,ZUÌJÌN,"recientemente, últimamente",NOM,,,30,34
-,街心花园,JIĒXĪNHUĀYUÁN,una zona ajardinada,NP,,,30,35
-,围,WÉI,rodear,VER,,,30,36
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+太极剑,TÀIJÍJIÀN,taijijian (un tipo de esgrima tradicional en China),NOM,,,30,1
+剑,JIÀN,espada,NOM,,,30,2
+把,BǍ,(clas. para objetos con mango),CLA,,,30,3
+太极拳,TÀIJÍQUÁN,taichí,NOM,,,30,4
+街,JIĒ,calle,NOM,,,30,5
+活动,HUÓDÒNG,"moverse, ejercitarse",VER,"actividad, evento",NOM,30,6
+跳,TIÀO,saltar,VER,,,30,7
+跳舞,TIÀOWǓ,bailar,V+O,,,30,8
+舞,WǓ,baile,NOM,,,30,9
+敲锣打鼓,QIĀOLUÓDǍGǓ,golpear tambores y gongs,FH,,,30,10
+敲,QIĀO,"golpear, llamar a la puerta",VER,,,30,11
+锣,LUÓ,gong,NOM,,,30,12
+打,DǍ,golpear,VER,,,30,13
+鼓,GǓ,tambor,NOM,,,30,14
+扭秧歌,NIǓYĀNGGE,bailar el yangge,V+O,,,30,15
+扭,NIǓ,"girar, darse vuelta, enrollarse",VER,,,30,16
+秧歌,YĀNGGE,baile yangge,NOM,,,30,17
+民间,MÍNJIĀN,folklore,NOM,,,30,18
+舞蹈,WǓDǍO,baile,NOM,,,30,19
+叫做,JIÀOZUÒ,"ser llamado, ser conocido como",VER,,,30,20
+动作,DÒNGZUÒ,"movimiento, acción",NOM,,,30,21
+简单,JIǍNDĀN,simple,ADJ,,,30,22
+老人,LǍORÉN,anciano,NOM,,,30,23
+出汗,CHŪHÀN,sudar,V+O,,,30,24
+要不,YÀOBÙ,"si no, de otro modo",CON,,,30,25
+手,SHǑU,mano,NOM,,,30,26
+武术,WǓSHÙ,artes marciales,NOM,,,30,27
+功夫,GŌNGFU,kung fu,NOM,,,30,28
+生病,SHĒNGBÌNG,enfermarse,V+O,,,30,29
+病,BÌNG,enfermarse,VER,enfermedad,NOM,30,30
+后来,HÒULÁI,"luego, después",NOM,,,30,31
+上班,SHÀNGBĀN,ir a trabajar,V+O,,,30,32
+早上,ZǍOSHANG,mañana (temprano),NOM,,,30,33
+最近,ZUÌJÌN,"recientemente, últimamente",NOM,,,30,34
+街心花园,JIĒXĪNHUĀYUÁN,una zona ajardinada,NP,,,30,35
+围,WÉI,rodear,VER,,,30,36
+下棋,XIÀQÍ,jugar al ajedrez,VER,,,30,37
+立交桥,LÌJIĀOQIÁO,paso elevado,NOM,,,30,38
+桥,QIÁO,puente,NOM,,,30,39
+听见,TĪNGJIÀN,oír,VER,,,30,40
+爱好者,ÀIHÀOZHĚ,"amante (del arte, del deporte, etc.) / aficionado",NOM,,,30,41
+退休,TUÌXIŪ,jubilarse,VER,jubilado,NOM,30,42
+休闲,XIŪXIÁN,disfrutar del ocio,VER,,,30,43
+方式,FĀNGSHÌ,"modo, manera",NOM,,,30,44
+做操,ZUÒCĀO,hacer gimnasia,V+O,,,30,45
+跑步,PǍOBÙ,correr,V+O,,,30,46
+对面,DUÌMIÀN,el lado opuesto,NOM,,,30,47
+网吧,WǍNGBĀ,cibercafé,NOM,,,30,48
+门口,MÉNKǑU,entrada,NOM,,,30,49
+舞厅,WǓTĪNG,sala de baile,NOM,,,30,50
