@@ -24,6 +24,8 @@ class Reader:
                     elif self.lesson_number == 'hsk3':
                         assert(row == Common.FIRST_ROW_HSK3)
                     else:
+                        print(row)
+                        print(Common.FIRST_ROW_LESSON)
                         assert(row == Common.FIRST_ROW_LESSON)
                     continue
                 word = self.__process_row(row, len(words) + 1)

@@ -38,3 +38,20 @@ HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
 黄河,HUÁNGHÉ,Río Amarillo,NP,,,31,37
 长江,CHÁNGJIĀNG,Río Changjiang / Yangtze,NP,,,31,38
 中华,ZHŌNGHUÁ,Nación China,NP,,,31,39
+旅游,LǙYÓU,viajar,VER,,,31,40
+游,YÓU,viajar,VER,,,31,41
+参观,CĀNGUĀN,visitar,VER,,,31,42
+游玩,YÓUWÁN,"visitar, dar una vuelta",VER,,,31,43
+名胜古迹,MÍNGSHÈNGGǓJÌ,lugares de interés cultural e histórico,FH,,,31,44
+名胜,MÍNGSHÈNG,lugares de interés cultural,NOM,,,31,45
+古迹,GǓJÌ,sitios históricos,NOM,,,31,46
+自然,ZÌRÁN,natural,ADJ,naturalmente,ADV,31,47
+感觉,GǍNJUÉ,sentir(se),VER,sentimiento,NOM,31,48
+云,YÚN,nube,NOM,,,31,49
+松树,SŌNGSHÙ,pino,NOM,,,31,50
+树,SHÙ,árbol,NOM,,,31,51
+海,HǍI,mar,NOM,,,31,52
+奇怪,QÍGUÀI,"raro, extraño",ADJ,,,31,53
+棵,KĒ,(clas. para árboles o plantas),CLA,,,31,54
+黄山,HUÁNGSHĀN,Monte Huang,NP,,,31,55
+迎客松,YÍNGKÈSŌNG,Pino que da la bienvenida a los turistas (en el Monte Huang),NP,,,31,56

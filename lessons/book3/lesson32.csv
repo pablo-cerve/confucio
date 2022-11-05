@@ -1,6 +1,6 @@
-HANZI,PINYIN,TIPO0,TIPO1,DEF2,TIPO2,LECCION,NUM
-游览,YÓULǍN,"hacer turismo, visitar",,,,32,1
-览,LǍN,"mirar, ver",,,,32,2
+HANZI,PINYIN,DEF1,TIPO1,DEF2,TIPO2,LECCION,NUM
+游览,YÓULǍN,"hacer turismo, visitar",VER,,,32,1
+览,LǍN,"mirar, ver",VER,,,32,2
 称呼,CHĒNGHU,llamar,VER,una forma de dirigirse (a alguien),NOM,32,3
 称,CHĒNG,llamar,VER,,,32,4
 巧,QIǍO,"oportunamente, casualmente",ADV,habilidoso/a,ADJ,32,5
@@ -8,7 +8,7 @@ HANZI,PINYIN,TIPO0,TIPO1,DEF2,TIPO2,LECCION,NUM
 读书,DÚSHŪ,"leer, estudiar, ir al colegio",V+O,,,32,7
 读,DÚ,"leer, estudiar, ir al colegio",VER,,,32,8
 哦,Ó,"ah, ajá (onomatopeya que expresa la comprensión de algo)",INT,,,32,9
-棒,BÀNG,"bueno, excelente",ADJ,,,32,10
+棒,BÀNG,"(col.) bueno, excelente",ADJ,,,32,10
 留学,LIÚXUÉ,estudiar en el extranjero,V+O,,,32,11
 挣,ZHÈNG,ganar dinero,VER,,,32,12
 赚,ZHUÀN,ganar dinero,VER,,,32,13
@@ -23,31 +23,28 @@ HANZI,PINYIN,TIPO0,TIPO1,DEF2,TIPO2,LECCION,NUM
 科技,KĒJÌ,ciencia y tecnología,NOM,,,32,22
 企业,QǏYÈ,"empresa, negocio",NOM,,,32,23
 个人,GÈRÉN,individuo (persona),NOM,,,32,24
-凑合,CÒUHE,"conformarse, ser transitable, no estar tan mal",VER,,,32,25
+凑合,CÒUHE,"(col.) conformarse, ser transitable, no estar tan mal",VER,,,32,25
 照相,ZHÀOXIÀNG,sacar una foto,V+O,,,32,26
-游览,YÓULǍN,"hacer turismo, visitar",,,,32,27
-览,LǍN,"mirar, ver",,,,32,28
-称呼,CHĒNGHU,llamar,VER,una forma de dirigirse (a alguien),NOM,32,29
-称,CHĒNG,llamar,VER,,,32,30
-巧,QIǍO,"oportunamente, casualmente",ADV,habilidoso/a,ADJ,32,31
-差不多,CHÀBUDUŌ,"aproximadamente, sin mucha diferencia",ADJ,casi,ADV,32,32
-读书,DÚSHŪ,"leer, estudiar, ir al colegio",V+O,,,32,33
-读,DÚ,"leer, estudiar, ir al colegio",VER,,,32,34
-哦,Ó,"ah, ajá (onomatopeya que expresa la comprensión de algo)",INT,,,32,35
-棒,BÀNG,"bueno, excelente",ADJ,,,32,36
-留学,LIÚXUÉ,estudiar en el extranjero,V+O,,,32,37
-挣,ZHÈNG,ganar dinero,VER,,,32,38
-赚,ZHUÀN,ganar dinero,VER,,,32,39
-结婚,JIÉHŪN,casarse,V+O,,,32,40
-网络,WǍNGLUÒ,internet,NOM,,,32,41
-搞,GǍO,"hacer, seguir adelante",VER,,,32,42
-工资,GŌNGZĪ,"salario, paga",NOM,,,32,43
-奖金,JIǍNGJĪN,"bono, incentivo",NOM,,,32,44
-算,SUĀN,"considerar, calcular",VER,,,32,45
-高新技术,GĀOXĪNJÌSHÙ,tecnología nueva y avanzada,NOM,,,32,46
-科学,KĒXUÉ,ciencia,NOM,,,32,47
-科技,KĒJÌ,ciencia y tecnología,NOM,,,32,48
-企业,QǏYÈ,"empresa, negocio",NOM,,,32,49
-个人,GÈRÉN,individuo (persona),NOM,,,32,50
-凑合,CÒUHE,"conformarse, ser transitable, no estar tan mal",VER,,,32,51
-照相,ZHÀOXIÀNG,sacar una foto,V+O,,,32,52
+欣赏,XĪNSHǍNG,"apreciar, disfrutar",VER,,,32,27
+美丽,MĚILÌ,guapo,ADJ,,,32,28
+名不虚传,MÍNGBÙXŪCHUĀN,no defrauda su buena reputación,FH,,,32,29
+地道,DÍDAO,"auténtico, puro, típico, genuino",ADJ,,,32,30
+中间,ZHŌNGJIĀN,"medio, centro / entre",NOM,,,32,31
+办法,BÀNFǍ,"camino, medios, medida, método",NOM,,,32,32
+隐私,YǏNSĪ,"privacidad, secreto personal",NOM,,,32,33
+住房,ZHÙFÁNG,"casa, alojamientos, viviendas",NOM,,,32,34
+什么的,SHÉNMEDE,"(col) y más, etc.",PRO,,,32,35
+背包,BĒIBĀO,mochila,NOM,,,32,36
+背,BĒI,llevar,VER,,,32,37
+包,BĀO,"mochila, bolsa",VER,,,32,38
+关心,GUĀNXĪN,estar preocupado por,VER,,,32,39
+认为,RÈNWÉI,"pensar, considerar",VER,,,32,40
+友好,YǑUHǍO,amistoso,ADJ,amigo,NOM,32,41
+友谊,YǑUYÌ,amistad,NOM,,,32,42
+好奇,HÀOQÍ,curioso,ADJ,,,32,43
+惊奇,JĪNGQÍ,sorprendido,ADJ,,,32,44
+清楚,QĪNGCHU,claro,ADJ,,,32,45
+比上不足,BǏSHÀNGBÙZÚ,no tan bueno como el excelente,FH,,,32,46
+比下有余,BǏXIÀYǑUYÚ,mejor que el peor,FH,,,32,47
+够,GÒU,"suficiente, adecuado",ADV,"ser suficiente, ser adecuado",VER,32,48
+花,HUĀ,gastar,VER,,,32,49
