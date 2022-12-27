@@ -75,7 +75,10 @@ class Printer:
             if method_str == "str_definition":
                 estring = ""
                 for wm_idx, word_meaning in enumerate(word.word_meanings):
-                    word_types_str = "[" + word_meaning.word_type.type + "] " + word_meaning.word_meaning_str
+                    word_types_str = ""
+                    if word.is_featured:
+                        word_types_str += "[*****]"
+                    word_types_str += "[" + word_meaning.word_type.type + "] " + word_meaning.word_meaning_str
                     estring += word_types_str  # str(word_types_str, 'utf-8')
                     if wm_idx + 1 != len(word.word_meanings):
                         estring += " --- "

@@ -10,7 +10,7 @@ class Common:
     FIRST_ROW_LESSON = ['HANZI', 'PINYIN', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LECCION', 'NUM']
     FIRST_ROW_HSK3 = ['HANZI', 'PINYIN [PLECO]', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LESSON', 'NUMBER',
                       'LECCION', 'NUM', '#']
-    FIRST_ROW_HSK4 = ['HANZI', 'PINYIN [PLECO]', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LESSON', 'NUMBER']
+    FIRST_ROW_HSK4 = ['HANZI', 'PINYIN [PLECO]', 'DEF1', 'TIPO1', 'DEF2', 'TIPO2', 'LESSON', 'NUMBER', '']
     EXTRA_STR = "sup"
 
     @staticmethod

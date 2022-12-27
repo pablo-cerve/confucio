@@ -17,7 +17,7 @@ class Word:
         '\xc7': 5, 'Ě': 5, 'Ǐ': 5, 'Ǒ': 5, 'Ǔ': 5
     }
 
-    def __init__(self, pinyin, chinese, definition, word_meanings, word_number, lesson_number):
+    def __init__(self, pinyin, chinese, definition, word_meanings, word_number, lesson_number, is_featured):
         input_list = [pinyin, chinese, definition]
         decoded_list = [self.decode(val) for val in input_list]
         self.pinyin, self.chinese, self.definition = input_list
@@ -26,6 +26,7 @@ class Word:
         self.word_meanings = word_meanings
         self.number = word_number
         self.lesson_number = lesson_number
+        self.is_featured = is_featured
 
     def keys(self):
         return [word_meaning.word_type.key for word_meaning in self.word_meanings]

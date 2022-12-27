@@ -36,8 +36,9 @@ class Reader:
         row_length = len(row)
         lesson_number = None
         if self.lesson_number == 'hsk4':
-            assert(row_length == 8)
-            hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number = row
+            assert(row_length == 9)
+            hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number, featured = row
+            is_featured = len(featured) > 0
             lesson_number = int(lesson_number)
         elif self.lesson_number == 'hsk3':
             assert(row_length == 11)
@@ -50,4 +51,4 @@ class Reader:
         if len(definition2) > 0:
             word_meanings.append(WordMeaning(word_type2, definition2))
 
-        return Word(pinyin, hanzi, definition1, word_meanings, word_number, lesson_number)
+        return Word(pinyin, hanzi, definition1, word_meanings, word_number, lesson_number, is_featured)
