@@ -73,22 +73,32 @@ class Printer:
         for idx, word in enumerate(words_list):
             func = getattr(word, method_str)
             if method_str == "str_definition":
-                estring = ""
-                for wm_idx, word_meaning in enumerate(word.word_meanings):
-                    word_types_str = ""
-                    if word.is_featured:
-                        word_types_str += "[*****]"
-                    word_types_str += "[" + word_meaning.word_type.type + "] " + word_meaning.word_meaning_str
-                    estring += word_types_str  # str(word_types_str, 'utf-8')
-                    if wm_idx + 1 != len(word.word_meanings):
-                        estring += " --- "
+                estring = cls._append_meaning(word)
                 idx = word.number if lesson_num else idx
                 if lesson_num and idx == '1':
                     cls.print_lesson_number(word.lesson_number)
+                ######################################
+                word_types = [x.word_type for x in word.word_meanings]
+                # print(word_types)
+                # if not word.is_featured and 'FH' in word_types:
                 print(cls.index_str(idx, estring))
             else:
                 print(cls.index_str(idx, func()))
         print
+
+    @classmethod
+    def _append_meaning(cls, word):
+        estring = ""
+        for wm_idx, word_meaning in enumerate(word.word_meanings):
+            word_types_str = ""
+            if word.is_featured:
+                word_types_str += "[*****]"
+            word_types_str += "[" + word_meaning.word_type.type + "] " + word_meaning.word_meaning_str
+            estring += word_types_str  # str(word_types_str, 'utf-8')
+            if wm_idx + 1 != len(word.word_meanings):
+                estring += " --- "
+        return estring
+
 
     @classmethod
     def _shuffled_words(cls, words_input):
@@ -100,6 +110,6 @@ class Printer:
 
     @classmethod
     def print_lesson_number(cls, lesson_number):
-        print("###################################################################")
+        # print("###################################################################")
         print("############################ LESSON %s ############################" % str(lesson_number))
-        print("###################################################################")
+        # print("###################################################################")
