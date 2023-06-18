@@ -19,7 +19,7 @@ class Reader:
             reader = csv.reader(csvfile, delimiter=',')
             for index, row in enumerate(reader):
                 if index == 0:
-                    if self.lesson_number == 'hsk4':
+                    if self.lesson_number in ['hsk4', 'hsk5']:
                         assert(row == Common.FIRST_ROW_HSK4)
                     elif self.lesson_number == 'hsk3':
                         assert(row == Common.FIRST_ROW_HSK3)
@@ -35,7 +35,7 @@ class Reader:
     def __process_row(self, row, word_number):
         row_length = len(row)
         lesson_number = None
-        if self.lesson_number == 'hsk4':
+        if self.lesson_number in ['hsk4', 'hsk5']:
             assert(row_length == 9)
             hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number, featured = row
             is_featured = len(featured) > 0
