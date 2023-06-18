@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf_hsk5.py" afterPath="$PROJECT_DIR$/create_pdf_hsk5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L1-1.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L1-2.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L2-1.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L2-2.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-1.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-2.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-3.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -29,8 +35,8 @@
           <file leaf-file-name="create_pdf_hsk5.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/create_pdf_hsk5.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.61139894">
-                  <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.23469388">
+                  <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -93,7 +99,7 @@
           <file leaf-file-name="create_pdf_lesson.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/create_pdf_lesson.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2857143">
+                <state vertical-scroll-proportion="0.19186991">
                   <caret line="30" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                   <folding />
                 </state>
@@ -258,6 +264,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="confucio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsk5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="confucio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsk5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,18 +494,6 @@
       <created>1527385337734</created>
       <option name="number" value="Default" />
       <updated>1527385337734</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Fixes lesson21 (2)">
-      <created>1597733765185</created>
-      <option name="number" value="00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1597733765185</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Run generate.py">
-      <created>1597781437103</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1597781437103</updated>
     </task>
     <task id="LOCAL-00034" summary="lesson21.csv fixes + run generate.py">
       <created>1598950038919</created>
@@ -743,14 +777,26 @@
       <option name="project" value="LOCAL" />
       <updated>1687055712045</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="CreatePDFHSK5 (2)">
+      <created>1687060699073</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1687060699073</updated>
+    </task>
+    <task id="LOCAL-00082" summary="CreatePDFHSK5 (3) - print">
+      <created>1687064337121</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1687064337121</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-298" y="-1057" width="1902" height="1044" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194578" sideWeight="0.75510204" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194578" sideWeight="0.7589425" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49457365" sideWeight="0.66157556" order="0" side_tool="true" content_ui="tabs" />
@@ -759,8 +805,8 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5237581" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194578" sideWeight="0.24489796" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30561554" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194578" sideWeight="0.24105754" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -804,8 +850,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added lesson26.csv (1/2)" />
-    <MESSAGE value="Improvements hsk3.csv" />
     <MESSAGE value="Added hsk4.csv" />
     <MESSAGE value="Added hsk4.csv - Lesson 2" />
     <MESSAGE value="Added hsk4.csv - Lesson 3" />
@@ -829,7 +873,9 @@
     <MESSAGE value="Added hsk5 - lesson 2" />
     <MESSAGE value="Added hsk5 - lesson 4" />
     <MESSAGE value="CreatePDFHSK5 (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CreatePDFHSK5 (1)" />
+    <MESSAGE value="CreatePDFHSK5 (2)" />
+    <MESSAGE value="CreatePDFHSK5 (3) - print" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreatePDFHSK5 (3) - print" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,7 +1205,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_pdf_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
+        <state vertical-scroll-proportion="0.19186991">
           <caret line="30" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
@@ -1207,8 +1253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_pdf_hsk5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61139894">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23469388">
+          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
           <folding />
         </state>
       </provider>
