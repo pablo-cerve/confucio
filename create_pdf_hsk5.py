@@ -6,6 +6,7 @@ import matplotlib
 matplotlib.rcParams['font.family'] = ['Heiti TC']
 
 import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
 from csv_utils.common import Common
 from csv_utils.reader import Reader
 from classes.word import Word
@@ -17,7 +18,7 @@ class CreatePDFHSK5:
     INPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/lessons/hsk5'
     INPUT_FILE = 'hsk5.csv'
     OUTPUT_PATH = '/Users/pablocerve/Documents/CHINO/HSK5/palabras'
-    ROWS = 6
+    ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
 
@@ -79,8 +80,7 @@ class CreatePDFHSK5:
         empty_row = [None for _ in current_row]
         chinese_row = [word.chinese for word in current_row]
         pinyin_row = [word.pinyin.lower() for word in current_row]
-        if len(data) > 0:
-            data.append(empty_row)
+        data.append(empty_row)
         data.append(chinese_row)
         data.append(pinyin_row)
 
@@ -92,8 +92,18 @@ class CreatePDFHSK5:
         # ax.yaxis.set_visible(False)
         plt.axis('off')
 
-        colWidths = [0.25] * self.COLUMNS
-        table = ax.table(cellText=data, loc='center', cellLoc='center', colWidths=colWidths)
+        new_data = []
+        for row in data:
+            length = len(row)
+            new_row = []
+            for idx, word in enumerate(row):
+                new_row.append(word)
+                if idx != length - 1: # true for the last word
+                    new_row.append('')
+            new_data.append(new_row)
+
+        colWidths = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
+        table = ax.table(cellText=new_data, loc='center', cellLoc='center', colWidths=colWidths)
         table.auto_set_font_size(False)
         # table.set_fontsize(25)
         # table.scale(1, 4)
@@ -102,36 +112,52 @@ class CreatePDFHSK5:
             self.improve_cell(key, cell, real_words_count)
 
         filename = '/L' + str(lesson_number) + '-' + str(number) + '.pdf'
-        plt.savefig(self.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None) #, papertype='a4')
+        plt.savefig(self.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
         # plt.show()
 
     def improve_cell(self, key, cell, real_words_count):
-        print(key)
-        # print(real_words_count)
-        if key[0] % 3 == 0:
+        # print(key)
+        col_offset = int(key[0] / 3) * self.COLUMNS
+        map_column = {0: 0, 2: 1, 4: 2, 6: 3}
+
+        if key[0] == 0:
+            # empty
+            cell.set_height(.08)
+            cell.visible_edges = ''
+
+        if key[1] in [1, 3, 5]:
+            cell.visible_edges = ''
+        elif key[0] % 3 == 1:
             # chinese
             cell.set_height(.3)
             cell.set_fontsize(40)
 
-            word_index = int((key[0] / 3) * self.COLUMNS + key[1])
-            if word_index >= real_words_count:
-                cell.visible_edges = ''
-
-        elif key[0] % 3 == 1:
-            # pinyin
-            cell.set_height(.1)
-            cell.set_fontsize(12)
-
-            word_index = int((key[0] / 3) * self.COLUMNS + key[1]) - 1
+            word_index = col_offset + map_column[key[1]]
+            print(word_index)
+            print(key)
             if word_index >= real_words_count:
                 cell.visible_edges = ''
 
         elif key[0] % 3 == 2:
-            # empty
+            # pinyin
             cell.set_height(.1)
+            # cell.set_fontsize(13)
+            # cell.set_facecolor("#ffffce")
+            cell.set_facecolor("lemonchiffon")
+            cell.set_text_props(fontproperties=FontProperties(weight='bold', size=12, family='serif'))
+
+            word_index = col_offset + map_column[key[1]]
+            print(word_index)
+            print(key)
+            if word_index >= real_words_count:
+                cell.visible_edges = ''
+
+        elif key[0] != 0 and key[0] % 3 == 0:
+            # empty
+            cell.set_height(.08)
             cell.visible_edges = ''
 
-# CreatePDFHSK5().run(1)
-# CreatePDFHSK5().run(2)
+CreatePDFHSK5().run(1)
+CreatePDFHSK5().run(2)
 # CreatePDFHSK5().run(3)
 CreatePDFHSK5().run(4)
