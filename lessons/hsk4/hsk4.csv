@@ -143,7 +143,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,
 广告,GUĀNGGÀO,"advertisement, ad, commercial",NOM,to advertise,VER,5,18,
 味道,WÈIDÀO,"taste, flavour",NOM,,,5,19,
 优点,YŌUDIǍN,"merit, advantage, virtue",NOM,,,5,20,
-实际,SHÍJÌ,"reality, practice",NOM,"realistic, practical",ADJ,5,21,*****
+实际,SHÍJÌ,"reality, practice",NOM,"actual, specific",ADJ,5,21,*****
 考虑,KǍOLǛ,"to consider, to think over",VER,,,5,22,
 标准,BIĀOZHǓN,"standard, norm",NOM,,,5,23,
 样子,YÀNGZI,"look, appearance, shape",NOM,,,5,24,
@@ -211,7 +211,7 @@ HANZI,PINYIN [PLECO],DEF1,TIPO1,DEF2,TIPO2,LESSON,NUMBER,
 数字,SHÙZÌ,number,NOM,,,7,24,
 说明,SHUŌMÍNG,"to explain, to show, to indicate",VER,explanation,NOM,7,25,
 要是,YÀOSHI,"if, supposing",CON,,,7,26,*****
-既,JÌ,(used together with 又) both… and…,ADV,,,7,27,*****
+既,JÌ,(used together with 又) both… and…,CON,,,7,27,*****
 减肥,JIǍNFÉI,to lose weight,VER,,,7,28,
 辛苦,XĪNKǓ,"hard, toilsome",ADJ,,,7,29,
 肚子,DÙZI,"belly, stomach",NOM,,,7,30,
