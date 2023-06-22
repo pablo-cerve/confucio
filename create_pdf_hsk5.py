@@ -22,18 +22,38 @@ class CreatePDFHSK5:
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
 
+    MAP_SIZES = {
+        1: {
+            15: {'chinese': 4, 'pinyin': 10},
+            18: {'chinese': 3},
+            24: {'chinese': 4, 'pinyin': 11},
+            38: {'chinese': 4, 'pinyin': 9}
+        },
+        2: {
+            2:  {'chinese': 3},
+            16: {'chinese': 3}
+        },
+        3: {
+            24: {'chinese': 3},
+            43: {'chinese': 4},
+            44: {'chinese': 3}
+        },
+        4: {}
+    }
     def __init__(self):
         # self.doc = self.create_doc()
         pass
 
     def run(self, lesson_number):
-        words = self.lesson_words(lesson_number)
+        self.lesson_number = lesson_number
+        self.map_sizes = self.MAP_SIZES[lesson_number]
+        words = self.lesson_words()
         word_pages = self.split_words_in_pages(words, self.WORDS_PER_PAGE)
 
         for idx, words_page in enumerate(word_pages):
             real_words_count = len(words_page)
             data = self.words_to_data(words_page)
-            self.create_plot(data, lesson_number, idx + 1, real_words_count)
+            self.create_plot(data, idx + 1, real_words_count)
 
     @classmethod
     def split_words_in_pages(cls, words, page_length):
@@ -48,12 +68,11 @@ class CreatePDFHSK5:
             pages.append(current_page)
         return pages
 
-    @classmethod
-    def lesson_words(cls, lesson_number):
+    def lesson_words(self):
         path = Common.HSK5_PATH + "hsk5.csv"
         reader = Reader(path, 'hsk5')
         words = reader.generate_words()
-        filtered_words = [word for word in words if word.lesson_number == lesson_number]
+        filtered_words = [word for word in words if word.lesson_number == self.lesson_number]
         return filtered_words
 
     @classmethod
@@ -84,7 +103,7 @@ class CreatePDFHSK5:
         data.append(chinese_row)
         data.append(pinyin_row)
 
-    def create_plot(self, data, lesson_number, number, real_words_count):
+    def create_plot(self, data, page_number, real_words_count):
         fig, ax = plt.subplots()
 
         # Hide axes
@@ -98,7 +117,7 @@ class CreatePDFHSK5:
             new_row = []
             for idx, word in enumerate(row):
                 new_row.append(word)
-                if idx != length - 1: # true for the last word
+                if idx != length - 1:  # true for the last word
                     new_row.append('')
             new_data.append(new_row)
 
@@ -109,47 +128,47 @@ class CreatePDFHSK5:
         # table.scale(1, 4)
 
         for key, cell in table.get_celld().items():
-            self.improve_cell(key, cell, real_words_count)
+            self.improve_cell(key, cell, real_words_count, page_number)
 
-        filename = '/L' + str(lesson_number) + '-' + str(number) + '.pdf'
+        filename = '/L' + str(self.lesson_number) + '-' + str(page_number) + '.pdf'
         plt.savefig(self.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
         # plt.show()
 
-    def improve_cell(self, key, cell, real_words_count):
+    def improve_cell(self, key, cell, real_words_count, page_number):
         # print(key)
         col_offset = int(key[0] / 3) * self.COLUMNS
         map_column = {0: 0, 2: 1, 4: 2, 6: 3}
 
         if key[0] == 0:
-            # empty
+            # EMPTY
             cell.set_height(.08)
             cell.visible_edges = ''
 
         if key[1] in [1, 3, 5]:
             cell.visible_edges = ''
         elif key[0] % 3 == 1:
-            # chinese
-            cell.set_height(.3)
-            cell.set_fontsize(40)
+            # CHINESE
+            word_page_index = col_offset + map_column[key[1]] + 1
+            word_index = word_page_index + self.WORDS_PER_PAGE * (page_number - 1)
 
-            word_index = col_offset + map_column[key[1]]
-            print(word_index)
-            print(key)
-            if word_index >= real_words_count:
+            cell.set_height(.3)
+            cell.set_fontsize(self.chinese_font_size(word_index))
+
+            if word_page_index > real_words_count:
                 cell.visible_edges = ''
 
         elif key[0] % 3 == 2:
-            # pinyin
-            cell.set_height(.1)
-            # cell.set_fontsize(13)
-            # cell.set_facecolor("#ffffce")
-            cell.set_facecolor("lemonchiffon")
-            cell.set_text_props(fontproperties=FontProperties(weight='bold', size=12, family='serif'))
+            # PINYIN
+            word_page_index = col_offset + map_column[key[1]] + 1
+            word_index = word_page_index + self.WORDS_PER_PAGE * (page_number - 1)
 
-            word_index = col_offset + map_column[key[1]]
-            print(word_index)
-            print(key)
-            if word_index >= real_words_count:
+            cell.set_height(.1)
+            cell.set_facecolor("lemonchiffon")  # cell.set_facecolor("#ffffce")
+            cell.set_text_props(
+                fontproperties=FontProperties(weight='bold', size=self.pinyin_font_size(word_index), family='serif')
+            )
+
+            if word_page_index > real_words_count:
                 cell.visible_edges = ''
 
         elif key[0] != 0 and key[0] % 3 == 0:
@@ -157,7 +176,22 @@ class CreatePDFHSK5:
             cell.set_height(.08)
             cell.visible_edges = ''
 
+    def chinese_font_size(self, word_index):
+        fontsize = 40
+        word_index_sizes = self.map_sizes.get(word_index)
+        if word_index_sizes:
+            number_of_letters = word_index_sizes.get('chinese', 2)
+            fontsize = {2: 40, 3: 29, 4: 22}[number_of_letters]
+        return fontsize
+
+    def pinyin_font_size(self, word_index):
+        fontsize = 12
+        word_index_sizes = self.map_sizes.get(word_index)
+        if word_index_sizes:
+            fontsize = word_index_sizes.get('pinyin', fontsize)
+        return fontsize
+
 CreatePDFHSK5().run(1)
 CreatePDFHSK5().run(2)
-# CreatePDFHSK5().run(3)
+CreatePDFHSK5().run(3)
 CreatePDFHSK5().run(4)
