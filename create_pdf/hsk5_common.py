@@ -15,7 +15,6 @@ from classes.word import Word
 
 
 class HSK5Common:
-    INPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/lessons/hsk5'
     INPUT_FILE = 'hsk5.csv'
     OUTPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/create_pdf/hsk5'
     ROWS = 5
@@ -23,20 +22,25 @@ class HSK5Common:
     WORDS_PER_PAGE = ROWS * COLUMNS
 
     @classmethod
-    def lesson_words(cls, lesson_number):
+    def all_words(cls):
         path = Common.HSK5_PATH + "hsk5.csv"
         reader = Reader(path, 'hsk5')
         words = reader.generate_words()
+        return words
+
+    @classmethod
+    def lesson_words(cls, lesson_number):
+        words = cls.all_words()
         filtered_words = [word for word in words if word.lesson_number == lesson_number]
         return filtered_words
 
     @classmethod
-    def split_words_in_pages(cls, words, page_length):
+    def split_words_in_pages(cls, words):
         pages = []
         current_page = []
         for word in words:
             current_page.append(word)
-            if len(current_page) == page_length:
+            if len(current_page) == cls.WORDS_PER_PAGE:
                 pages.append(current_page)
                 current_page = []
         if len(current_page) > 0:
