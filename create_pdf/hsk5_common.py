@@ -76,7 +76,7 @@ class HSK5Common:
         data.append(pinyin_row)
 
     @classmethod
-    def create_plot(cls, data, page_number, real_words_count, filename, map_sizes):
+    def create_plot(cls, data, page_number, real_words_count, filename, map_sizes={}):
         fig, ax = plt.subplots()
 
         # Hide axes
