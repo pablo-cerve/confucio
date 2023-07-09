@@ -14,46 +14,21 @@ from classes.word import Word
 # from reportlab.lib.units import cm, inch
 
 
-class CreatePDFHSK5:
+class HSK5Common:
     INPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/lessons/hsk5'
     INPUT_FILE = 'hsk5.csv'
-    OUTPUT_PATH = '/Users/pablocerve/Documents/CHINO/HSK5/palabras'
+    OUTPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/create_pdf/hsk5'
     ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
 
-    MAP_SIZES = {
-        1: {
-            15: {'chinese': 4, 'pinyin': 10},
-            18: {'chinese': 3},
-            24: {'chinese': 4, 'pinyin': 11},
-            38: {'chinese': 4, 'pinyin': 9}
-        },
-        2: {
-            2:  {'chinese': 3},
-            16: {'chinese': 3}
-        },
-        3: {
-            24: {'chinese': 3},
-            43: {'chinese': 4},
-            44: {'chinese': 3}
-        },
-        4: {}
-    }
-    def __init__(self):
-        # self.doc = self.create_doc()
-        pass
-
-    def run(self, lesson_number):
-        self.lesson_number = lesson_number
-        self.map_sizes = self.MAP_SIZES[lesson_number]
-        words = self.lesson_words()
-        word_pages = self.split_words_in_pages(words, self.WORDS_PER_PAGE)
-
-        for idx, words_page in enumerate(word_pages):
-            real_words_count = len(words_page)
-            data = self.words_to_data(words_page)
-            self.create_plot(data, idx + 1, real_words_count)
+    @classmethod
+    def lesson_words(cls, lesson_number):
+        path = Common.HSK5_PATH + "hsk5.csv"
+        reader = Reader(path, 'hsk5')
+        words = reader.generate_words()
+        filtered_words = [word for word in words if word.lesson_number == lesson_number]
+        return filtered_words
 
     @classmethod
     def split_words_in_pages(cls, words, page_length):
@@ -67,13 +42,6 @@ class CreatePDFHSK5:
         if len(current_page) > 0:
             pages.append(current_page)
         return pages
-
-    def lesson_words(self):
-        path = Common.HSK5_PATH + "hsk5.csv"
-        reader = Reader(path, 'hsk5')
-        words = reader.generate_words()
-        filtered_words = [word for word in words if word.lesson_number == self.lesson_number]
-        return filtered_words
 
     @classmethod
     def words_to_data(cls, words):
@@ -103,7 +71,8 @@ class CreatePDFHSK5:
         data.append(chinese_row)
         data.append(pinyin_row)
 
-    def create_plot(self, data, page_number, real_words_count):
+    @classmethod
+    def create_plot(cls, data, page_number, real_words_count, filename, map_sizes):
         fig, ax = plt.subplots()
 
         # Hide axes
@@ -128,15 +97,15 @@ class CreatePDFHSK5:
         # table.scale(1, 4)
 
         for key, cell in table.get_celld().items():
-            self.improve_cell(key, cell, real_words_count, page_number)
+            HSK5Common.improve_cell(key, cell, real_words_count, page_number, map_sizes)
 
-        filename = '/L' + str(self.lesson_number) + '-' + str(page_number) + '.pdf'
-        plt.savefig(self.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
+        plt.savefig(HSK5Common.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
         # plt.show()
 
-    def improve_cell(self, key, cell, real_words_count, page_number):
+    @classmethod
+    def improve_cell(cls, key, cell, real_words_count, page_number, map_sizes):
         # print(key)
-        col_offset = int(key[0] / 3) * self.COLUMNS
+        col_offset = int(key[0] / 3) * HSK5Common.COLUMNS
         map_column = {0: 0, 2: 1, 4: 2, 6: 3}
 
         if key[0] == 0:
@@ -149,10 +118,11 @@ class CreatePDFHSK5:
         elif key[0] % 3 == 1:
             # CHINESE
             word_page_index = col_offset + map_column[key[1]] + 1
-            word_index = word_page_index + self.WORDS_PER_PAGE * (page_number - 1)
+            word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1)
 
             cell.set_height(.3)
-            cell.set_fontsize(self.chinese_font_size(word_index))
+            font_size = HSK5Common.chinese_font_size(word_index, map_sizes)
+            cell.set_fontsize(font_size)
 
             if word_page_index > real_words_count:
                 cell.visible_edges = ''
@@ -160,12 +130,13 @@ class CreatePDFHSK5:
         elif key[0] % 3 == 2:
             # PINYIN
             word_page_index = col_offset + map_column[key[1]] + 1
-            word_index = word_page_index + self.WORDS_PER_PAGE * (page_number - 1)
+            word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1)
 
             cell.set_height(.1)
             cell.set_facecolor("lemonchiffon")  # cell.set_facecolor("#ffffce")
+            font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=self.pinyin_font_size(word_index), family='serif')
+                fontproperties=FontProperties(weight='bold', size=font_size, family='serif')
             )
 
             if word_page_index > real_words_count:
@@ -176,22 +147,19 @@ class CreatePDFHSK5:
             cell.set_height(.08)
             cell.visible_edges = ''
 
-    def chinese_font_size(self, word_index):
+    @classmethod
+    def chinese_font_size(cls, word_index, map_sizes):
         fontsize = 40
-        word_index_sizes = self.map_sizes.get(word_index)
+        word_index_sizes = map_sizes.get(word_index)
         if word_index_sizes:
             number_of_letters = word_index_sizes.get('chinese', 2)
             fontsize = {2: 40, 3: 29, 4: 22}[number_of_letters]
         return fontsize
 
-    def pinyin_font_size(self, word_index):
+    @classmethod
+    def pinyin_font_size(cls, word_index, map_sizes):
         fontsize = 12
-        word_index_sizes = self.map_sizes.get(word_index)
+        word_index_sizes = map_sizes.get(word_index)
         if word_index_sizes:
             fontsize = word_index_sizes.get('pinyin', fontsize)
         return fontsize
-
-CreatePDFHSK5().run(1)
-CreatePDFHSK5().run(2)
-CreatePDFHSK5().run(3)
-CreatePDFHSK5().run(4)
