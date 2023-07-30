@@ -103,6 +103,7 @@ class HSK5Common:
         for key, cell in table.get_celld().items():
             HSK5Common.improve_cell(key, cell, real_words_count, page_number, map_sizes)
 
+        print(HSK5Common.OUTPUT_PATH + filename)
         plt.savefig(HSK5Common.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
         # plt.show()
 

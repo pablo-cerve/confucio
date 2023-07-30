@@ -21,7 +21,10 @@ class CreatePDFHSK5Lesson:
             43: {'chinese': 4},
             44: {'chinese': 3}
         },
-        4: {}
+        4: {},
+        5: {
+            8: {'chinese': 3},
+        }
     }
 
     @classmethod
@@ -40,7 +43,8 @@ class CreatePDFHSK5Lesson:
             HSK5Common.create_plot(data, page_number, real_words_count, filename, map_sizes)
 
 
-CreatePDFHSK5Lesson.generate(1)
-CreatePDFHSK5Lesson.generate(2)
-CreatePDFHSK5Lesson.generate(3)
-CreatePDFHSK5Lesson.generate(4)
+# CreatePDFHSK5Lesson.generate(1)
+# CreatePDFHSK5Lesson.generate(2)
+# CreatePDFHSK5Lesson.generate(3)
+# CreatePDFHSK5Lesson.generate(4)
+CreatePDFHSK5Lesson.generate(5)

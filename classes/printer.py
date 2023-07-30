@@ -7,6 +7,7 @@ sys.path.append('.')
 from random import shuffle
 from classes.book import Book
 from classes.word import Word
+from classes.word_type import WordType
 from csv_utils.reader_lesson import ReaderLesson
 
 
@@ -77,14 +78,23 @@ class Printer:
                 idx = word.number if lesson_num else idx
                 if lesson_num and idx == '1':
                     cls.print_lesson_number(word.lesson_number)
-                ######################################
-                word_types = [x.word_type for x in word.word_meanings]
-                # print(word_types)
-                # if not word.is_featured and 'FH' in word_types:
-                print(cls.index_str(idx, estring))
+                if cls._must_print(word):
+                    print(cls.index_str(idx, estring))
             else:
                 print(cls.index_str(idx, func()))
         print
+
+    @classmethod
+    def _must_print(cls, word):
+        return True
+        # word_types = [x.word_type.key for x in word.word_meanings]
+        # print(word_types)
+
+        # word_type_keys = set(WordType.TYPES_HASH.keys() - ["ADV", "CLA", "PRO", "NOM", "VER", "ADJ"])
+        # return not word.is_featured and word_type_keys & set(word_types)
+
+        # return not word.is_featured and 'PRO' in word_types
+        # return word.is_featured
 
     @classmethod
     def _append_meaning(cls, word):
