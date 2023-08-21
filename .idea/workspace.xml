@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="Added lesson 5 (1/2)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_pdf/hsk5/L5-1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_pdf/hsk5/L5-2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/LZ-*****-1.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/LZ-*****-1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/LZ-ADV-1.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/LZ-ADV-1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/LZ-CLA-1.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/LZ-CLA-1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/LZ-MISC-1.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/LZ-MISC-1.pdf" />
+    <list default="true" id="631e9566-3345-49f9-98fa-c913961e1acb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L1-1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L1-2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L2-1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L2-2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L3-1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L3-2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L3-3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/hsk5/pdf/L4-3.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/L5-1.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/L5-1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5/L5-2.pdf" afterPath="$PROJECT_DIR$/create_pdf/hsk5/L5-2.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/create_pdf_hsk5_lesson.py" afterPath="$PROJECT_DIR$/create_pdf/create_pdf_hsk5_lesson.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/hsk5/hsk5.csv" afterPath="$PROJECT_DIR$/lessons/hsk5/hsk5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_pdf/hsk5_common.py" afterPath="$PROJECT_DIR$/create_pdf/hsk5_common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/printer.py" afterPath="$PROJECT_DIR$/classes/printer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -36,18 +40,8 @@
       <file leaf-file-name="create_pdf_hsk5_lesson.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_pdf/create_pdf_hsk5_lesson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7914573">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hsk5_common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create_pdf/hsk5_common.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -58,6 +52,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="188" column="30" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_pdf_hsk5_word_type.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_pdf/create_pdf_hsk5_word_type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="101" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hsk5_common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_pdf/hsk5_common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -187,88 +201,14 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hsk5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="create_pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="confucio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="create_pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hsk5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -431,12 +371,6 @@
       <created>1527385337734</created>
       <option name="number" value="Default" />
       <updated>1527385337734</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Added lesson 22sup and lesson23 (1/2) + Run generate.py">
-      <created>1601779279577</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1601779279577</updated>
     </task>
     <task id="LOCAL-00041" summary="Added lesson23 (2/2) and lesson23 sup + Run generate.py">
       <created>1601874271360</created>
@@ -726,22 +660,29 @@
       <option name="project" value="LOCAL" />
       <updated>1688894407622</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Added lesson 5 (1/2)">
+      <created>1690690940796</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1690690940796</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20969023" sideWeight="0.65258217" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20969023" sideWeight="0.6255319" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49457365" sideWeight="0.66157556" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44461304" sideWeight="0.33842444" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35356602" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20969023" sideWeight="0.34741783" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28679818" sideWeight="0.4598888" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20969023" sideWeight="0.3744681" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -750,7 +691,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48103186" sideWeight="0.33842444" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -787,7 +727,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added hsk4.csv - Lessons 11, 12 and 13" />
     <MESSAGE value="Added hsk4.csv - Lesson 14" />
     <MESSAGE value="Added hsk4.csv - Lesson 15, 16" />
     <MESSAGE value="Added hsk4.csv - Lesson 17" />
@@ -812,7 +751,8 @@
     <MESSAGE value="Refactor HSK5 pdf creation" />
     <MESSAGE value="Refactor HSK5 pdf creation (2)" />
     <MESSAGE value="New script for HSK5 pdf creation by word type" />
-    <option name="LAST_COMMIT_MESSAGE" value="New script for HSK5 pdf creation by word type" />
+    <MESSAGE value="Added lesson 5 (1/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lesson 5 (1/2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1129,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_pdf/create_pdf_hsk5_word_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="101" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/printer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1157,14 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/hsk5/hsk5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="188" column="30" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_pdf/hsk5_common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1173,10 +1098,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_pdf/create_pdf_hsk5_word_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/hsk5/hsk5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="188" column="30" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/create_pdf/create_pdf_hsk5_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7914573">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>

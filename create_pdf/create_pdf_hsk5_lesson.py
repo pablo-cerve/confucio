@@ -23,7 +23,11 @@ class CreatePDFHSK5Lesson:
         },
         4: {},
         5: {
-            8: {'chinese': 3},
+            8:  {'chinese': 3},
+            36: {'chinese': 3},
+            42: {'chinese': 3, 'pinyin': 11},
+            49: {'chinese': 4, 'pinyin': 9},
+            50: {'chinese': 3}
         }
     }
 
