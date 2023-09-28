@@ -28,6 +28,9 @@ class CreatePDFHSK5Lesson:
             42: {'chinese': 3, 'pinyin': 11},
             49: {'chinese': 4, 'pinyin': 9},
             50: {'chinese': 3}
+        },
+        6: {
+            24: {'chinese': 3}
         }
     }
 
@@ -51,4 +54,5 @@ class CreatePDFHSK5Lesson:
 # CreatePDFHSK5Lesson.generate(2)
 # CreatePDFHSK5Lesson.generate(3)
 # CreatePDFHSK5Lesson.generate(4)
-CreatePDFHSK5Lesson.generate(5)
+# CreatePDFHSK5Lesson.generate(5)
+CreatePDFHSK5Lesson.generate(6)
