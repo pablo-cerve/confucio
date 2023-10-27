@@ -158,7 +158,7 @@ class HSK5Common:
         word_index_sizes = map_sizes.get(word_index)
         if word_index_sizes:
             number_of_letters = word_index_sizes.get('chinese', 2)
-            fontsize = {2: 40, 3: 29, 4: 22}[number_of_letters]
+            fontsize = {2: 40, 3: 29, 4: 22, 5: 21}[number_of_letters]
         return fontsize
 
     @classmethod
