@@ -39,7 +39,7 @@ class Reader:
             assert(row_length == 9)
             hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number, featured = row
             is_featured = len(featured) > 0
-            lesson_number = int(lesson_number)
+            lesson_number = str(lesson_number)
         elif self.lesson_number == 'hsk3':
             assert(row_length == 11)
             hanzi, pinyin, definition1, word_type1, definition2, word_type2, _, _, _, _, _ = row
