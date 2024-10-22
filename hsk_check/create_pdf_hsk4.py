@@ -12,8 +12,8 @@ from reportlab.lib.enums import TA_CENTER
 
 
 class CreatePDFHSK4:
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK4/palabras"
-    REPO_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio"
+    IMAGES_PATH = "/Users/pablo/Documents/CHINO/HSK4/palabras"
+    REPO_PATH = "/Users/pablo/Documents/CHINO/repo/confucio"
     FACTOR = 1.65
     IMAGES_PER_PAGE = 15
     IMAGES_PER_ROW = 3

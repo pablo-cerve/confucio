@@ -9,7 +9,7 @@ from file_utils.csv_utils.csv_reader import CSVReader
 
 
 class HSKCheck:
-    CHINO_PATH = "/Users/pablocerve/Documents/CHINO"
+    CHINO_PATH = "/Users/pablo/Documents/CHINO"
     MY_FILE_PATH = CHINO_PATH + "/repo/confucio/lessons/hsk3"
     MY_FILE_FILENAME = "hsk3.csv"
 

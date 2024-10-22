@@ -12,7 +12,7 @@ from reportlab.lib.enums import TA_CENTER
 
 
 class CreatePDFHSK3:
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/palabras/oficiales"
+    IMAGES_PATH = "/Users/pablo/Documents/CHINO/HSK3/palabras/oficiales"
     FACTOR = 1.65
     IMAGES_PER_PAGE = 15
     IMAGES_PER_ROW = 3

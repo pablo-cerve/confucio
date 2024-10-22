@@ -47,29 +47,13 @@ class CreatePDFHSK5Lesson:
 
     @classmethod
     def generate(cls, lesson_number):
-        if type(lesson_number) == int:
-            lesson_number == str(lesson_number)
-
+        lesson_number = str(lesson_number)
         map_sizes = cls.MAP_SIZES[lesson_number]
         words = HSK5Common.lesson_words(lesson_number)
         word_pages = HSK5Common.split_words_in_pages(words)
-        filename_common = '/L' + str(lesson_number) + '-'
 
+        total_pages = len(word_pages)
         for idx, words_page in enumerate(word_pages):
             page_number = idx + 1
-
             real_words_count = len(words_page)
-            data = HSK5Common.words_to_data(words_page)
-            filename = filename_common + str(page_number) + '.pdf'
-            HSK5Common.create_plot(data, page_number, real_words_count, filename, map_sizes)
-
-
-# CreatePDFHSK5Lesson.generate(1)
-# CreatePDFHSK5Lesson.generate(2)
-# CreatePDFHSK5Lesson.generate(3)
-# CreatePDFHSK5Lesson.generate(4)
-# CreatePDFHSK5Lesson.generate(5)
-# CreatePDFHSK5Lesson.generate(6)
-# CreatePDFHSK5Lesson.generate('7a')
-# CreatePDFHSK5Lesson.generate('7b')
-CreatePDFHSK5Lesson.generate('8')
+            HSK5Common.create_plot(words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)

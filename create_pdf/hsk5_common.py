@@ -16,10 +16,12 @@ from classes.word import Word
 
 class HSK5Common:
     INPUT_FILE = 'hsk5.csv'
-    OUTPUT_PATH = '/Users/pablocerve/Documents/CHINO/repo/confucio/create_pdf/hsk5'
+    OUTPUT_PATH = '/Users/pablo/Documents/CHINO/repo/confucio/create_pdf/hsk5'
     ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
+    FONT_FAMILY = 'serif'
+    FONT_WEIGHT = 'bold'
 
     @classmethod
     def all_words(cls):
@@ -63,7 +65,7 @@ class HSK5Common:
                 current_row = []
         if len(current_row) > 0:
             cls.append_to_data(current_row, data)
-        print(data)
+        # print(data)
         return data
 
     @classmethod
@@ -76,7 +78,8 @@ class HSK5Common:
         data.append(pinyin_row)
 
     @classmethod
-    def create_plot(cls, data, page_number, real_words_count, filename, map_sizes={}):
+    def create_plot(cls, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
+        data = HSK5Common.words_to_data(words_page)
         fig, ax = plt.subplots()
 
         # Hide axes
@@ -84,16 +87,9 @@ class HSK5Common:
         # ax.yaxis.set_visible(False)
         plt.axis('off')
 
-        new_data = []
-        for row in data:
-            length = len(row)
-            new_row = []
-            for idx, word in enumerate(row):
-                new_row.append(word)
-                if idx != length - 1:  # true for the last word
-                    new_row.append('')
-            new_data.append(new_row)
-
+        print(page_number)
+        new_data = cls.new_data(data)
+        print(new_data)
         colWidths = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
         table = ax.table(cellText=new_data, loc='center', cellLoc='center', colWidths=colWidths)
         table.auto_set_font_size(False)
@@ -103,9 +99,30 @@ class HSK5Common:
         for key, cell in table.get_celld().items():
             HSK5Common.improve_cell(key, cell, real_words_count, page_number, map_sizes)
 
+        filename = 'L' + str(lesson_number) + '-' + str(page_number)
         print(HSK5Common.OUTPUT_PATH + filename)
-        plt.savefig(HSK5Common.OUTPUT_PATH + filename, bbox_inches='tight', edgecolor=None)
+
+        page_title = "HSK 5 - " + 'L' + str(lesson_number) + ' - ' + str(page_number) + "/" + str(total_pages)
+        fp = FontProperties(family=cls.FONT_FAMILY, size=12) #, weight=cls.FONT_WEIGHT)
+
+        plt.suptitle(page_title, y=1.41,fontproperties=fp)
+        plt.savefig(HSK5Common.OUTPUT_PATH + "/" + filename + '.pdf', bbox_inches='tight', edgecolor=None)
         # plt.show()
+
+
+    @classmethod
+    def new_data(cls, data):
+        new_data = []
+        for row in data:
+            length = len(row)
+            new_row = []
+            for idx, word in enumerate(row):
+                new_row.append(word)
+                if idx != length - 1:  # true for the last word
+                    new_row.append('')
+            new_data.append(new_row)
+        return new_data
+
 
     @classmethod
     def improve_cell(cls, key, cell, real_words_count, page_number, map_sizes):
@@ -138,10 +155,10 @@ class HSK5Common:
             word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1)
 
             cell.set_height(.1)
-            cell.set_facecolor("lemonchiffon")  # cell.set_facecolor("#ffffce")
+            # cell.set_facecolor("lemonchiffon")  # cell.set_facecolor("#ffffce")
             font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=font_size, family='serif')
+                fontproperties=FontProperties(weight=cls.FONT_WEIGHT, size=font_size, family=cls.FONT_FAMILY)
             )
 
             if word_page_index > real_words_count:

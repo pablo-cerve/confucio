@@ -7,7 +7,7 @@ from PIL import Image
 
 
 class AlterImages:
-    IMAGES_PATH = "/Users/pablocerve/Documents/CHINO/HSK3/palabras/oficiales"
+    IMAGES_PATH = "/Users/pablo/Documents/CHINO/HSK3/palabras/oficiales"
 
     @classmethod
     def reduce_images_size(cls):

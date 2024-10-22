@@ -3,7 +3,7 @@ sys.path.append('.')
 
 
 class Common:
-    LESSONS_PATH = "/Users/pablocerve/Documents/CHINO/repo/confucio/lessons/"
+    LESSONS_PATH = "/Users/pablo/Documents/CHINO/repo/confucio/lessons/"
     HSK3_PATH = LESSONS_PATH + "hsk3/"
     HSK4_PATH = LESSONS_PATH + "hsk4/"
     HSK5_PATH = LESSONS_PATH + "hsk5/"
