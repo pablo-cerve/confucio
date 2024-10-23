@@ -22,6 +22,17 @@ class HSK5Common:
     WORDS_PER_PAGE = ROWS * COLUMNS
     FONT_FAMILY = 'serif'
     FONT_WEIGHT = 'bold'
+    COL_WIDTHS = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
+    FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 5: 21}
+    EMPTY_HEIGHT = .08
+    HEIGHTS = {
+        # 'empty': .08,
+        # 'chinese': .3,
+        # 'pinyin': .1
+        'empty': .08,
+        'chinese': .3,
+        'pinyin': .1
+    }
 
     @classmethod
     def all_words(cls):
@@ -53,7 +64,7 @@ class HSK5Common:
     def words_to_data(cls, words):
         difference = cls.WORDS_PER_PAGE - len(words)
         for _ in range(difference):
-            dummy_word = Word('', '', '', '', '', '', '')
+            dummy_word = Word.dummy_word()
             words.append(dummy_word)
 
         data = []
@@ -64,6 +75,7 @@ class HSK5Common:
                 cls.append_to_data(current_row, data)
                 current_row = []
         if len(current_row) > 0:
+            assert(len(current_row) == cls.COLUMNS)
             cls.append_to_data(current_row, data)
         # print(data)
         return data
@@ -78,8 +90,12 @@ class HSK5Common:
         data.append(pinyin_row)
 
     @classmethod
-    def create_plot(cls, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
+    def create_plot(cls, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
         data = HSK5Common.words_to_data(words_page)
+        data = cls.add_empty_cols(data)
+        print(page_number)
+        print(data)
+
         fig, ax = plt.subplots()
 
         # Hide axes
@@ -87,23 +103,19 @@ class HSK5Common:
         # ax.yaxis.set_visible(False)
         plt.axis('off')
 
-        print(page_number)
-        new_data = cls.new_data(data)
-        print(new_data)
-        colWidths = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
-        table = ax.table(cellText=new_data, loc='center', cellLoc='center', colWidths=colWidths)
+        table = ax.table(cellText=data, loc='center', cellLoc='center', colWidths=cls.COL_WIDTHS)
         table.auto_set_font_size(False)
         # table.set_fontsize(25)
         # table.scale(1, 4)
 
         for key, cell in table.get_celld().items():
-            HSK5Common.improve_cell(key, cell, real_words_count, page_number, map_sizes)
+            HSK5Common.modify_cell(key, cell, words, real_words_count, page_number, map_sizes)
 
         filename = 'L' + str(lesson_number) + '-' + str(page_number)
         print(HSK5Common.OUTPUT_PATH + filename)
 
         page_title = "HSK 5 - " + 'L' + str(lesson_number) + ' - ' + str(page_number) + "/" + str(total_pages)
-        fp = FontProperties(family=cls.FONT_FAMILY, size=12) #, weight=cls.FONT_WEIGHT)
+        fp = FontProperties(family=cls.FONT_FAMILY, size=12)#, weight=cls.FONT_WEIGHT)
 
         plt.suptitle(page_title, y=1.41,fontproperties=fp)
         plt.savefig(HSK5Common.OUTPUT_PATH + "/" + filename + '.pdf', bbox_inches='tight', edgecolor=None)
@@ -111,7 +123,7 @@ class HSK5Common:
 
 
     @classmethod
-    def new_data(cls, data):
+    def add_empty_cols(cls, data):
         new_data = []
         for row in data:
             length = len(row)
@@ -125,25 +137,39 @@ class HSK5Common:
 
 
     @classmethod
-    def improve_cell(cls, key, cell, real_words_count, page_number, map_sizes):
+    def modify_cell(cls, key, cell, words, real_words_count, page_number, map_sizes):
         # print(key)
         col_offset = int(key[0] / 3) * HSK5Common.COLUMNS
         map_column = {0: 0, 2: 1, 4: 2, 6: 3}
 
         if key[0] == 0:
             # EMPTY
-            cell.set_height(.08)
+            cell.set_height(cls.HEIGHTS["empty"])
             cell.visible_edges = ''
 
         if key[1] in [1, 3, 5]:
             cell.visible_edges = ''
+
         elif key[0] % 3 == 1:
             # CHINESE
             word_page_index = col_offset + map_column[key[1]] + 1
-            word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1)
+            word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1) # 1, 2, ...
 
-            cell.set_height(.3)
-            font_size = HSK5Common.chinese_font_size(word_index, map_sizes)
+            is_featured = False
+            word = None
+            if word_index <= len(words):
+                word = words[word_index - 1]
+                is_featured = word.is_featured
+
+            linewidth = 1 if is_featured else 0.6
+            cell.set_linewidth(linewidth)
+
+            facecolor = "white" # "whitesmoke"
+            cell.set_facecolor(facecolor)
+
+            cell.set_height(cls.HEIGHTS["chinese"])
+
+            font_size = HSK5Common.chinese_font_size(word_index, map_sizes, word)
             cell.set_fontsize(font_size)
 
             if word_page_index > real_words_count:
@@ -154,8 +180,19 @@ class HSK5Common:
             word_page_index = col_offset + map_column[key[1]] + 1
             word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1)
 
-            cell.set_height(.1)
-            # cell.set_facecolor("lemonchiffon")  # cell.set_facecolor("#ffffce")
+            is_featured = False
+            if word_index <= len(words):
+                word = words[word_index - 1]
+                is_featured = word.is_featured
+
+            linewidth = 1 if is_featured else 0.6
+            cell.set_linewidth(linewidth)
+
+            facecolor = "gainsboro" # "whitesmoke" "lemonchiffon"
+            cell.set_facecolor(facecolor)
+
+            cell.set_height(cls.HEIGHTS["pinyin"])
+
             font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
             cell.set_text_props(
                 fontproperties=FontProperties(weight=cls.FONT_WEIGHT, size=font_size, family=cls.FONT_FAMILY)
@@ -166,16 +203,21 @@ class HSK5Common:
 
         elif key[0] != 0 and key[0] % 3 == 0:
             # empty
-            cell.set_height(.08)
+            cell.set_height(cls.HEIGHTS["empty"])
             cell.visible_edges = ''
 
     @classmethod
-    def chinese_font_size(cls, word_index, map_sizes):
-        fontsize = 40
+    def chinese_font_size(cls, word_index, map_sizes, word):
+        if word is None:
+            return 0 # Dummy value
+
+        word_length = len(word.chinese)
+
         word_index_sizes = map_sizes.get(word_index)
         if word_index_sizes:
-            number_of_letters = word_index_sizes.get('chinese', 2)
-            fontsize = {2: 40, 3: 29, 4: 22, 5: 21}[number_of_letters]
+            word_length = word_index_sizes.get('chinese', word_length)
+        fontsize = cls.FONT_SIZES[word_length]
+
         return fontsize
 
     @classmethod

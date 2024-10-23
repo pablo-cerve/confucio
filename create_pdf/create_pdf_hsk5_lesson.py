@@ -5,50 +5,33 @@ from create_pdf.hsk5_common import HSK5Common
 
 
 class CreatePDFHSK5Lesson:
+    # 11, 10, 9.5, 9, 8.5
     MAP_SIZES = {
         '1': {
-            15: {'chinese': 4, 'pinyin': 10},
-            18: {'chinese': 3},
-            24: {'chinese': 4, 'pinyin': 11},
-            38: {'chinese': 4, 'pinyin': 9}
+            15: {'pinyin': 10}, # no 11
+            24: {'pinyin': 11},
+            38: {'pinyin': 9.5} # no 10
         },
-        '2': {
-            2:  {'chinese': 3},
-            16: {'chinese': 3}
-        },
-        '3': {
-            24: {'chinese': 3},
-            43: {'chinese': 4},
-            44: {'chinese': 3}
-        },
-        '4': {},
         '5': {
-            8:  {'chinese': 3},
-            36: {'chinese': 3},
-            42: {'chinese': 3, 'pinyin': 11},
-            49: {'chinese': 4, 'pinyin': 9},
-            50: {'chinese': 3}
+            42: {'pinyin': 11},
+            49: {'pinyin': 9}, # no 9.5
         },
-        '6': {
-            24: {'chinese': 3}
-        },
-        '7a': {},
         '7b': {
-            1: {'chinese': 5, 'pinyin': 9},
-            2: {'chinese': 5, 'pinyin': 9},
-            10: {'chinese': 3},
-            14: {'chinese': 4, 'pinyin': 8.5}
+            1: {'pinyin': 9}, # no 9.5
+            2: {'pinyin': 9}, # no 9.5
+            14: {'pinyin': 8.5} # no 9
         },
-        '8': {
-            1: {'chinese': 4},
-            8: {'chinese': 3}
+        '9': {
+            25: {'pinyin': 9.5}, # no 10
+            44: {'chinese': 3},
+            45: {'chinese': 3}
         }
     }
 
     @classmethod
     def generate(cls, lesson_number):
         lesson_number = str(lesson_number)
-        map_sizes = cls.MAP_SIZES[lesson_number]
+        map_sizes = cls.MAP_SIZES.get(lesson_number, {})
         words = HSK5Common.lesson_words(lesson_number)
         word_pages = HSK5Common.split_words_in_pages(words)
 
@@ -56,4 +39,4 @@ class CreatePDFHSK5Lesson:
         for idx, words_page in enumerate(word_pages):
             page_number = idx + 1
             real_words_count = len(words_page)
-            HSK5Common.create_plot(words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)
+            HSK5Common.create_plot(words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)

@@ -32,6 +32,10 @@ class Word:
         return [word_meaning.word_type.key for word_meaning in self.word_meanings]
 
     @classmethod
+    def dummy_word(cls):
+        return Word('', '', '', '', '', '', '')
+
+    @classmethod
     def decode(cls, word):
         return word  # .decode("utf-8")
 
