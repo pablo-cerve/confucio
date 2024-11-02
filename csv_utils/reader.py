@@ -29,7 +29,8 @@ class Reader:
                         assert(row == Common.FIRST_ROW_LESSON)
                     continue
                 word = self.__process_row(row, len(words) + 1)
-                words.append(word)
+                if word is not None:
+                    words.append(word)
         return words
 
     def __process_row(self, row, word_number):
@@ -38,6 +39,8 @@ class Reader:
         if self.lesson_number in ['hsk4', 'hsk5']:
             assert(row_length == 9)
             hanzi, pinyin, definition1, word_type1, definition2, word_type2, lesson_number, word_number, featured = row
+            if hanzi == "":
+                return None
             is_featured = len(featured) > 0
             lesson_number = str(lesson_number)
         elif self.lesson_number == 'hsk3':

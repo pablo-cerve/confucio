@@ -23,12 +23,9 @@ class HSK5Common:
     FONT_FAMILY = 'serif'
     FONT_WEIGHT = 'bold'
     COL_WIDTHS = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
-    FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 5: 21}
+    FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 4.5: 21, 5: 18}
     EMPTY_HEIGHT = .08
     HEIGHTS = {
-        # 'empty': .08,
-        # 'chinese': .3,
-        # 'pinyin': .1
         'empty': .08,
         'chinese': .3,
         'pinyin': .1

@@ -17,7 +17,7 @@ class CreatePDFHSK5Lesson:
             49: {'pinyin': 9}, # no 9.5
         },
         '7b': {
-            1: {'pinyin': 9}, # no 9.5
+            1: {'chinese': 4.5, 'pinyin': 9}, # no 9.5
             2: {'pinyin': 9}, # no 9.5
             14: {'pinyin': 8.5} # no 9
         },
@@ -25,6 +25,9 @@ class CreatePDFHSK5Lesson:
             25: {'pinyin': 9.5}, # no 10
             44: {'chinese': 3},
             45: {'chinese': 3}
+        },
+        '10': {
+            38: {'pinyin': 10}
         }
     }
 
