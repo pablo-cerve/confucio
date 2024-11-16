@@ -45,6 +45,12 @@ class CreatePDFHSK5Lesson:
     @classmethod
     def generate(cls, lesson_number):
         lesson_number = str(lesson_number)
+        filenames = cls._create_individual_pdfs(lesson_number)
+        cls._merge_pdfs(filenames, lesson_number)
+        cls._remove_pdfs(filenames)
+
+    @classmethod
+    def _create_individual_pdfs(cls, lesson_number):
         map_sizes = cls.MAP_SIZES.get(lesson_number, {})
         words = HSK5Common.lesson_words(lesson_number)
         word_pages = HSK5Common.split_words_in_pages(words)
@@ -58,8 +64,7 @@ class CreatePDFHSK5Lesson:
             filenames.append(filename)
             HSK5Common.create_plot(filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)
 
-        cls._merge_pdfs(filenames, lesson_number)
-        cls._remove_pdfs(filenames)
+        return filenames
 
     @classmethod
     def _filename(cls, lesson_number, page_number):
