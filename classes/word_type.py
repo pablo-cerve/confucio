@@ -65,7 +65,18 @@ class WordType:
         "NUM/CLA": "Num./Clas."  # HSK4
     }
 
+    SHORT_WORD_TYPE = {
+        "NOM": "N",
+        "VER": "V",
+        "PRO": "P",
+        "ADV": "A",
+        "ADJ": "a"
+    }
+
     def __init__(self, key):
         self.key = key
         self.type = self.TYPES_HASH[key]
         self.book_type = self.TYPES_HASH_BOOK[key]
+
+    def short_word_type(self):
+        return self.SHORT_WORD_TYPE.get(self.key) or self.key
