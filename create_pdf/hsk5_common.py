@@ -18,7 +18,6 @@ from classes.word import Word
 
 class HSK5Common:
     INPUT_FILE = 'hsk5.csv'
-    OUTPUT_PATH = '/Users/pablo/Documents/CHINO/repo/confucio/create_pdf/hsk5'
     ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
@@ -92,7 +91,7 @@ class HSK5Common:
         data.append(pinyin_row)
 
     @classmethod
-    def create_plot(cls, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
+    def create_plot(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
         data = HSK5Common.words_to_data(words_page)
         data = cls.add_empty_cols(data)
         print(page_number)
@@ -105,7 +104,6 @@ class HSK5Common:
         # ax.yaxis.set_visible(False)
         plt.axis('off')
 
-        print(data)
         table = ax.table(cellText=data, loc='center', cellLoc='center', colWidths=cls.COL_WIDTHS)
         table.auto_set_font_size(False)
         # table.set_fontsize(25)
@@ -114,14 +112,11 @@ class HSK5Common:
         for key, cell in table.get_celld().items():
             HSK5Common.modify_cell(key, cell, words, real_words_count, page_number, map_sizes)
 
-        filename = 'L' + str(lesson_number) + '-' + str(page_number)
-        print(HSK5Common.OUTPUT_PATH + filename)
-
         page_title = "HSK 5 - " + 'L' + str(lesson_number) + ' - ' + str(page_number) + "/" + str(total_pages)
         fp = FontProperties(family=cls.TITLE_FONT_FAMILY, size=12)#, weight=cls.FONT_WEIGHT)
 
         plt.suptitle(page_title, y=1.41,fontproperties=fp)
-        plt.savefig(HSK5Common.OUTPUT_PATH + "/" + filename + '.pdf', bbox_inches='tight', edgecolor=None)
+        plt.savefig(pdf_filename, bbox_inches='tight', edgecolor=None)
         # plt.show()
 
 

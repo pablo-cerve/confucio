@@ -2,9 +2,12 @@ import sys
 sys.path.append('.')
 
 from create_pdf.hsk5_common import HSK5Common
-
+from pypdf import PdfWriter
+import os
 
 class CreatePDFHSK5Lesson:
+    OUTPUT_PATH = '/Users/pablo/Documents/CHINO/repo/confucio/create_pdf/hsk5'
+
     # 11, 10, 9.5, 9, 8.5
     MAP_SIZES = {
         '1': {
@@ -46,8 +49,36 @@ class CreatePDFHSK5Lesson:
         words = HSK5Common.lesson_words(lesson_number)
         word_pages = HSK5Common.split_words_in_pages(words)
 
+        filenames = []
         total_pages = len(word_pages)
         for idx, words_page in enumerate(word_pages):
             page_number = idx + 1
             real_words_count = len(words_page)
-            HSK5Common.create_plot(words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)
+            filename = cls._filename(lesson_number, page_number)
+            filenames.append(filename)
+            HSK5Common.create_plot(filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages)
+
+        cls._merge_pdfs(filenames, lesson_number)
+        cls._remove_pdfs(filenames)
+
+    @classmethod
+    def _filename(cls, lesson_number, page_number):
+        filename = 'L' + str(lesson_number) + '-' + str(page_number) + '.pdf'
+        filename = cls.OUTPUT_PATH + "/" + filename
+        return filename
+
+    @classmethod
+    def _merge_pdfs(cls, filenames, lesson_number):
+        merger = PdfWriter()
+        for filename in filenames:
+            merger.append(filename)
+
+        filename = 'L' + str(lesson_number) + '.pdf'
+        filename = cls.OUTPUT_PATH + "/" + filename
+        merger.write(filename)
+        merger.close()
+
+    @classmethod
+    def _remove_pdfs(cls, filenames):
+        for filename in filenames:
+            os.remove(filename)
