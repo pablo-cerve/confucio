@@ -3,7 +3,9 @@ sys.path.append('.')
 
 import numpy as np
 import matplotlib
-matplotlib.rcParams['font.family'] = ['Heiti TC']
+
+
+print(matplotlib.rcParams)
 
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
@@ -20,8 +22,9 @@ class HSK5Common:
     ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
-    FONT_FAMILY = 'serif'
-    FONT_WEIGHT = 'bold'
+    TITLE_FONT_FAMILY = 'serif'
+    PINYIN_FONT_FAMILY = 'serif'
+    PINYIN_FONT_WEIGHT = 'bold'
     COL_WIDTHS = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
     FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 4.5: 21, 5: 18}
     EMPTY_HEIGHT = .08
@@ -30,6 +33,8 @@ class HSK5Common:
         'chinese': .3,
         'pinyin': .1
     }
+    # CHINESE_FONT_FAMILY = 'TC Xingkai', 'BiauKaiHK', 'Hei', 'Yuanti SC'
+    CHINESE_FONT_FAMILY = 'Hiragino Sans GB'
 
     @classmethod
     def all_words(cls):
@@ -100,6 +105,7 @@ class HSK5Common:
         # ax.yaxis.set_visible(False)
         plt.axis('off')
 
+        print(data)
         table = ax.table(cellText=data, loc='center', cellLoc='center', colWidths=cls.COL_WIDTHS)
         table.auto_set_font_size(False)
         # table.set_fontsize(25)
@@ -112,7 +118,7 @@ class HSK5Common:
         print(HSK5Common.OUTPUT_PATH + filename)
 
         page_title = "HSK 5 - " + 'L' + str(lesson_number) + ' - ' + str(page_number) + "/" + str(total_pages)
-        fp = FontProperties(family=cls.FONT_FAMILY, size=12)#, weight=cls.FONT_WEIGHT)
+        fp = FontProperties(family=cls.TITLE_FONT_FAMILY, size=12)#, weight=cls.FONT_WEIGHT)
 
         plt.suptitle(page_title, y=1.41,fontproperties=fp)
         plt.savefig(HSK5Common.OUTPUT_PATH + "/" + filename + '.pdf', bbox_inches='tight', edgecolor=None)
@@ -167,7 +173,9 @@ class HSK5Common:
             cell.set_height(cls.HEIGHTS["chinese"])
 
             font_size = HSK5Common.chinese_font_size(word_index, map_sizes, word)
-            cell.set_fontsize(font_size)
+            cell.set_text_props(
+                fontproperties=FontProperties(weight='normal', size=font_size, family=cls.CHINESE_FONT_FAMILY)
+            )
 
             if word_page_index > real_words_count:
                 cell.visible_edges = ''
@@ -192,7 +200,7 @@ class HSK5Common:
 
             font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
             cell.set_text_props(
-                fontproperties=FontProperties(weight=cls.FONT_WEIGHT, size=font_size, family=cls.FONT_FAMILY)
+                fontproperties=FontProperties(weight=cls.PINYIN_FONT_WEIGHT, size=font_size, family=cls.PINYIN_FONT_FAMILY)
             )
 
             if word_page_index > real_words_count:

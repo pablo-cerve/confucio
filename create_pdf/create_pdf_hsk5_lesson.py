@@ -28,6 +28,14 @@ class CreatePDFHSK5Lesson:
         },
         '10': {
             38: {'pinyin': 10}
+        },
+        '11': {
+            42: {'pinyin': 10},
+            43: {'pinyin': 11},
+            44: {'pinyin': 9}
+        },
+        '12': {
+            48: {'pinyin': 10}
         }
     }
 
