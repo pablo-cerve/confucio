@@ -23,7 +23,7 @@ class HSK5Common:
     WORDS_PER_PAGE = ROWS * COLUMNS
 
     TITLE_FONT_FAMILY = 'serif'
-    FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 4.5: 21, 5: 18}
+    FONT_SIZES = {1: 40, 2: 40, 3: 29, 4: 22, 4.5: 21, 5: 18, 6: 15}
 
     COL_WIDTHS = [0.26, 0.06, 0.26, 0.06, 0.26, 0.06, 0.26]
     EMPTY_HEIGHT = .08
@@ -110,7 +110,7 @@ class HSK5Common:
         return definition
 
     @classmethod
-    def create_plot(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages):
+    def create_plot(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict):
         data = HSK5Common.words_to_data(words_page)
         data = cls.add_empty_cols(data)
         print(page_number)
@@ -127,13 +127,20 @@ class HSK5Common:
         table.auto_set_font_size(False)
 
         for key, cell in table.get_celld().items():
-            HSK5Common.modify_cell(key, cell, words, real_words_count, page_number, map_sizes)
+            HSK5Common.modify_cell(ax, key, cell, words, real_words_count, page_number, map_sizes)
 
-        page_title = "HSK 5 - " + 'L' + str(lesson_number) + ' - ' + str(page_number) + "/" + str(total_pages)
-        fp = FontProperties(family=cls.TITLE_FONT_FAMILY, size=12)#, weight=cls.FONT_WEIGHT)
-
-        plt.suptitle(page_title, y=1.41,fontproperties=fp)
+        cls._page_title(plt, lesson_number, page_number, total_pages, titles_dict)
         plt.savefig(pdf_filename, bbox_inches='tight', edgecolor=None)
+
+
+    @classmethod
+    def _page_title(cls, plt, lesson_number, page_number, total_pages, titles_dict):
+        page_title = "HSK 5 - " + 'L' + str(lesson_number)
+        page_title += ' - ' + titles_dict['ch']
+        page_title += ' - ' + str(page_number) + "/" + str(total_pages)
+
+        fp = FontProperties(family='Hiragino Sans GB', size=12) #, weight='bold')
+        plt.suptitle(page_title, y=1.41,fontproperties=fp)
 
 
     @classmethod
@@ -151,7 +158,7 @@ class HSK5Common:
 
 
     @classmethod
-    def modify_cell(cls, key, cell, words, real_words_count, page_number, map_sizes):
+    def modify_cell(cls, ax, key, cell, words, real_words_count, page_number, map_sizes):
         row_index = key[0]
         column_index = key[1]
         # print(row_index, column_index)
@@ -165,7 +172,7 @@ class HSK5Common:
             cell.visible_edges = ''
 
         elif row_index % 4 in [1, 2, 3]:
-            cls._modify_cell(page_number, cell, row_index, column_index, words, real_words_count, map_sizes)
+            cls._modify_cell(ax, page_number, cell, row_index, column_index, words, real_words_count, map_sizes)
 
         elif row_index != 0 and row_index % 4 == 0:
             # empty
@@ -174,8 +181,9 @@ class HSK5Common:
 
 
     @classmethod
-    def _modify_cell(cls, page_number, cell, row_index, column_index, words, real_words_count, map_sizes):
+    def _modify_cell(cls, ax, page_number, cell, row_index, column_index, words, real_words_count, map_sizes):
         # print(cell.get_text())
+        # print(type(cell.xy))
         col_offset = int(row_index / 4) * HSK5Common.COLUMNS
         map_column = {0: 0, 2: 1, 4: 2, 6: 3}
 
@@ -188,7 +196,7 @@ class HSK5Common:
             word = words[word_index - 1]
             is_featured = word.is_featured
 
-        linewidth = 1 if is_featured else 0.6
+        linewidth = 0.6 # 1 if is_featured else 0.6
         cell.set_linewidth(linewidth)
 
         horizontal_align = "center"
@@ -205,6 +213,17 @@ class HSK5Common:
             horizontal_align = "left"
             vertical_align = 'baseline'
 
+            text = cell.get_text()._text
+            cell_begin_x = int(row_index / 4) # 0, 1, 2, 3
+            cell_begin_y = column_index if column_index == 0 else int(column_index / 2) # 0, 1, 2, 3, 4
+
+            # if cell_begin_x == 0 and cell_begin_y == 0:
+            #     ax.text(0.1, 0.1, text, ha='left', wrap=True)
+
+            # print("---", 0, cell_begin_y, text)
+            # # print()
+            # ax.text(cell_x, cell_y, text, ha='left', wrap=True)
+
         elif row_index % 4 == 2:
             # CHINESE
             height_key = "chinese"
@@ -218,7 +237,7 @@ class HSK5Common:
         elif row_index % 4 == 1:
             # PINYIN
             height_key = "pinyin"
-            facecolor = "lemonchiffon" # "gainsboro" # "whitesmoke" # "lemonchiffon"
+            facecolor = "moccasin" if is_featured else "lemonchiffon" # "gainsboro" # "whitesmoke" # "lemonchiffon"
 
             font_weight = 'bold'
             font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
