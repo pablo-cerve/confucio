@@ -4,7 +4,6 @@ sys.path.append('.')
 import numpy as np
 import matplotlib
 
-
 print(matplotlib.rcParams)
 
 import matplotlib.pyplot as plt
@@ -113,8 +112,8 @@ class HSK5Common:
     def create_plot(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict):
         data = HSK5Common.words_to_data(words_page)
         data = cls.add_empty_cols(data)
-        print(page_number)
-        print(data)
+        # print(page_number)
+        # print(data)
 
         fig, ax = plt.subplots()
 
@@ -131,6 +130,120 @@ class HSK5Common:
 
         cls._page_title(plt, lesson_number, page_number, total_pages, titles_dict)
         plt.savefig(pdf_filename, bbox_inches='tight', edgecolor=None)
+
+
+    @classmethod
+    def create_plot2(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict):
+        data = HSK5Common.words_to_data(words_page)
+        # data = cls.add_empty_cols(data)
+        # print(page_number)
+        # print(data)
+
+        nrows, ncols = 5, 4
+        figsize = (11.69, 8.27)
+        fig, ax = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)
+
+        row_i, col_i = 0, 0
+        for word_page_index, word in enumerate(words_page):
+            ax_i = ax[row_i][col_i]
+            pinyin = word.pinyin.lower()
+            chinese = word.chinese
+            definition = cls._definition(word)
+
+            table = ax_i.table(
+                cellText=[[chinese], [definition]],
+                colLabels=[pinyin],
+                colWidths=[0.26],
+                loc='center'
+            )
+            ax_i.axis("off")
+
+            for key, cell in table.get_celld().items():
+                cls.modify_cell2(key, cell, word, word_page_index, page_number, map_sizes)
+
+            col_i += 1
+            if col_i == 4:
+                row_i += 1
+                col_i = 0
+
+        pdf_filename += "a.pdf"
+        plt.savefig(pdf_filename, bbox_inches='tight', edgecolor=None)
+        sss
+
+        # print(len(ax))
+        # print(len(ax[0]))
+        # print(len(data))
+
+
+    @classmethod
+    def modify_cell2(cls, key, cell, word, word_page_index, page_number, map_sizes):
+        row_index = key[0]
+
+        page_index = page_number - 1 # 0, 1, 2
+        word_index = HSK5Common.WORDS_PER_PAGE * page_index + word_page_index
+
+        is_featured = word.is_featured
+        linewidth = 0.6 # 1 if is_featured else 0.6
+        cell.set_linewidth(linewidth)
+
+        horizontal_align = "center"
+        vertical_align = "center_baseline"
+
+        if row_index == 0:
+            # PINYIN
+            height_key = "pinyin"
+            facecolor = "moccasin" if is_featured else "lemonchiffon" # "gainsboro" # "whitesmoke" # "lemonchiffon"
+
+            font_weight = 'bold'
+            font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
+            font_family = 'serif'
+
+        elif row_index == 1:
+            # CHINESE
+            height_key = "chinese"
+            facecolor = "white" # "whitesmoke"
+
+            font_weight = 'normal'
+            font_size = HSK5Common.chinese_font_size(word_index, map_sizes, word)
+            # font_family = 'TC Xingkai', 'BiauKaiHK', 'Hei', 'Yuanti SC'
+            font_family = 'Hiragino Sans GB'
+
+        elif row_index == 2:
+            # DEFINITIONS
+            height_key = "definitions"
+            facecolor = "whitesmoke"
+
+            font_weight = 'normal'
+            font_size = 8
+            font_family = 'serif'
+            horizontal_align = "left"
+            vertical_align = 'baseline'
+
+            text = cell.get_text()._text
+            # cell_begin_x = int(row_index / 4) # 0, 1, 2, 3
+            # cell_begin_y = column_index if column_index == 0 else int(column_index / 2) # 0, 1, 2, 3, 4
+
+            # if cell_begin_x == 0 and cell_begin_y == 0:
+            #     ax.text(0.1, 0.1, text, ha='left', wrap=True)
+
+            # print("---", 0, cell_begin_y, text)
+            # # print()
+            # ax.text(cell_x, cell_y, text, ha='left', wrap=True)
+
+        cell.set_facecolor(facecolor)
+        cell.set_height(cls.HEIGHTS[height_key])
+        # cell.set_width(0.26)
+
+        print(font_weight,font_size,font_family)
+        print(vertical_align, horizontal_align)
+
+        cell.set_text_props(
+            fontproperties=FontProperties(weight=font_weight, size=font_size, family=font_family),
+            va=vertical_align,
+            ha=horizontal_align
+        )
+        # if word_page_index > real_words_count:
+                # cell.visible_edges = ''
 
 
     @classmethod

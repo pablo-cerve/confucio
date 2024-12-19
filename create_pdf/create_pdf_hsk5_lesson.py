@@ -86,7 +86,10 @@ class CreatePDFHSK5Lesson:
             real_words_count = len(words_page)
             filename = cls._filename(lesson_number, page_number)
             filenames.append(filename)
-            HSK5Common.create_plot(
+            # HSK5Common.create_plot(
+            #     filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict
+            # )
+            HSK5Common.create_plot2(
                 filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict
             )
 
