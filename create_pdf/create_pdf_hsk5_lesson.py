@@ -1,9 +1,8 @@
 import sys
 sys.path.append('.')
 
-from create_pdf.hsk5_common import HSK5Common
-from pypdf import PdfWriter
-import os
+from create_pdf.create_pdf import CreatePDF
+from create_pdf.create_pdf_utils import CreatePDFUtils
 
 class CreatePDFHSK5Lesson:
     OUTPUT_PATH = '/Users/pablo/Documents/CHINO/repo/confucio/create_pdf/hsk5'
@@ -66,15 +65,19 @@ class CreatePDFHSK5Lesson:
     @classmethod
     def generate(cls, lesson_number):
         lesson_number = str(lesson_number)
-        filenames = cls._create_individual_pdfs(lesson_number)
-        cls._merge_pdfs(filenames, lesson_number)
-        cls._remove_pdfs(filenames)
+        pdf_filenames = cls._create_individual_pdfs(lesson_number)
+
+        new_pdf_filename = 'L' + str(lesson_number) + '.pdf'
+        new_pdf_filename = cls.OUTPUT_PATH + "/" + new_pdf_filename
+
+        CreatePDFUtils.merge_pdfs(pdf_filenames, new_pdf_filename)
+
 
     @classmethod
     def _create_individual_pdfs(cls, lesson_number):
         map_sizes = cls.MAP_SIZES.get(lesson_number, {})
-        words = HSK5Common.lesson_words(lesson_number)
-        word_pages = HSK5Common.split_words_in_pages(words)
+        words = CreatePDF.lesson_words(lesson_number)
+        word_pages = CreatePDF.split_words_in_pages(words)
 
         lesson_str = '7' if lesson_number in ['7a', '7b'] else lesson_number
         titles_dict = cls.TITLES[lesson_str]
@@ -89,7 +92,7 @@ class CreatePDFHSK5Lesson:
             # HSK5Common.create_plot(
             #     filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict
             # )
-            HSK5Common.create_plot2(
+            CreatePDF.create_plot2(
                 filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict
             )
 
@@ -100,19 +103,3 @@ class CreatePDFHSK5Lesson:
         filename = 'L' + str(lesson_number) + '-' + str(page_number) + '.pdf'
         filename = cls.OUTPUT_PATH + "/" + filename
         return filename
-
-    @classmethod
-    def _merge_pdfs(cls, filenames, lesson_number):
-        merger = PdfWriter()
-        for filename in filenames:
-            merger.append(filename)
-
-        filename = 'L' + str(lesson_number) + '.pdf'
-        filename = cls.OUTPUT_PATH + "/" + filename
-        merger.write(filename)
-        merger.close()
-
-    @classmethod
-    def _remove_pdfs(cls, filenames):
-        for filename in filenames:
-            os.remove(filename)

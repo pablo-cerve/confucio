@@ -25,6 +25,8 @@ class Reader:
                         assert(row == Common.FIRST_ROW_HSK4)
                     elif self.lesson_number == 'hsk3':
                         assert(row == Common.FIRST_ROW_HSK3)
+                    if self.lesson_number == 'hsk1':
+                        assert(row == Common.FIRST_ROW_HSK1)
                     else:
                         print(row)
                         print(Common.FIRST_ROW_LESSON)
@@ -38,11 +40,11 @@ class Reader:
     def __process_row(self, row, word_number):
         row_length = len(row)
         lesson_number = None
-        if self.lesson_number == 'hsk5':
+        if self.lesson_number == 'hsk1' or self.lesson_number == 'hsk5':
             assert(row_length == 9)
             hanzi, pinyin, word_type1, definition1, word_type2, definition2, lesson_number, word_number, featured = row
-            if hanzi == "":
-                return
+            # if hanzi == "":
+            #     return
             is_featured = len(featured) > 0
             lesson_number = str(lesson_number)
         elif self.lesson_number == 'hsk4':

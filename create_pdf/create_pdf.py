@@ -15,8 +15,7 @@ from classes.word import Word
 # from reportlab.lib.units import cm, inch
 
 
-class HSK5Common:
-    INPUT_FILE = 'hsk5.csv'
+class CreatePDF:
     ROWS = 5
     COLUMNS = 4
     WORDS_PER_PAGE = ROWS * COLUMNS
@@ -39,17 +38,17 @@ class HSK5Common:
     }
 
     @classmethod
-    def all_words(cls):
-        path = Common.HSK5_PATH + "hsk5.csv"
-        reader = Reader(path, 'hsk5')
+    def words(cls, key):
+        path = Common.hsk_csv_path(key)
+        reader = Reader(path, key)
         words = reader.generate_words()
         return words
 
     @classmethod
-    def lesson_words(cls, lesson_number):
-        words = cls.all_words()
-        filtered_words = [word for word in words if word.lesson_number == lesson_number]
-        return filtered_words
+    def lesson_words(cls, key, lesson_number):
+        words = cls.words(key)
+        lesson_words = [word for word in words if word.lesson_number == lesson_number]
+        return lesson_words
 
     @classmethod
     def split_words_in_pages(cls, words):
@@ -110,7 +109,7 @@ class HSK5Common:
 
     @classmethod
     def create_plot(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict):
-        data = HSK5Common.words_to_data(words_page)
+        data = CreatePDF.words_to_data(words_page)
         data = cls.add_empty_cols(data)
         # print(page_number)
         # print(data)
@@ -126,7 +125,7 @@ class HSK5Common:
         table.auto_set_font_size(False)
 
         for key, cell in table.get_celld().items():
-            HSK5Common.modify_cell(ax, key, cell, words, real_words_count, page_number, map_sizes)
+            CreatePDF.modify_cell(ax, key, cell, words, real_words_count, page_number, map_sizes)
 
         cls._page_title(plt, lesson_number, page_number, total_pages, titles_dict)
         plt.savefig(pdf_filename, bbox_inches='tight', edgecolor=None)
@@ -134,7 +133,7 @@ class HSK5Common:
 
     @classmethod
     def create_plot2(cls, pdf_filename, words, words_page, page_number, real_words_count, map_sizes, lesson_number, total_pages, titles_dict):
-        data = HSK5Common.words_to_data(words_page)
+        data = CreatePDF.words_to_data(words_page)
         # data = cls.add_empty_cols(data)
         # print(page_number)
         # print(data)
@@ -180,7 +179,7 @@ class HSK5Common:
         row_index = key[0]
 
         page_index = page_number - 1 # 0, 1, 2
-        word_index = HSK5Common.WORDS_PER_PAGE * page_index + word_page_index
+        word_index = CreatePDF.WORDS_PER_PAGE * page_index + word_page_index
 
         is_featured = word.is_featured
         linewidth = 0.6 # 1 if is_featured else 0.6
@@ -195,7 +194,7 @@ class HSK5Common:
             facecolor = "moccasin" if is_featured else "lemonchiffon" # "gainsboro" # "whitesmoke" # "lemonchiffon"
 
             font_weight = 'bold'
-            font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
+            font_size = CreatePDF.pinyin_font_size(word_index, map_sizes)
             font_family = 'serif'
 
         elif row_index == 1:
@@ -204,7 +203,7 @@ class HSK5Common:
             facecolor = "white" # "whitesmoke"
 
             font_weight = 'normal'
-            font_size = HSK5Common.chinese_font_size(word_index, map_sizes, word)
+            font_size = CreatePDF.chinese_font_size(word_index, map_sizes, word)
             # font_family = 'TC Xingkai', 'BiauKaiHK', 'Hei', 'Yuanti SC'
             font_family = 'Hiragino Sans GB'
 
@@ -297,11 +296,11 @@ class HSK5Common:
     def _modify_cell(cls, ax, page_number, cell, row_index, column_index, words, real_words_count, map_sizes):
         # print(cell.get_text())
         # print(type(cell.xy))
-        col_offset = int(row_index / 4) * HSK5Common.COLUMNS
+        col_offset = int(row_index / 4) * CreatePDF.COLUMNS
         map_column = {0: 0, 2: 1, 4: 2, 6: 3}
 
         word_page_index = col_offset + map_column[column_index] + 1
-        word_index = word_page_index + HSK5Common.WORDS_PER_PAGE * (page_number - 1) # 1, 2, ...
+        word_index = word_page_index + CreatePDF.WORDS_PER_PAGE * (page_number - 1) # 1, 2, ...
 
         is_featured = False
         word = None
@@ -343,7 +342,7 @@ class HSK5Common:
             facecolor = "white" # "whitesmoke"
 
             font_weight = 'normal'
-            font_size = HSK5Common.chinese_font_size(word_index, map_sizes, word)
+            font_size = CreatePDF.chinese_font_size(word_index, map_sizes, word)
             # font_family = 'TC Xingkai', 'BiauKaiHK', 'Hei', 'Yuanti SC'
             font_family = 'Hiragino Sans GB'
 
@@ -353,7 +352,7 @@ class HSK5Common:
             facecolor = "moccasin" if is_featured else "lemonchiffon" # "gainsboro" # "whitesmoke" # "lemonchiffon"
 
             font_weight = 'bold'
-            font_size = HSK5Common.pinyin_font_size(word_index, map_sizes)
+            font_size = CreatePDF.pinyin_font_size(word_index, map_sizes)
             font_family = 'serif'
 
 

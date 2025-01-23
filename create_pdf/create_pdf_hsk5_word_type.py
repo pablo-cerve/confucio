@@ -1,7 +1,7 @@
 import sys
 sys.path.append('.')
 
-from create_pdf.hsk5_common import HSK5Common
+from create_pdf.create_pdf import HSK5Common
 from classes.word_type import WordType
 
 
@@ -48,4 +48,3 @@ CreatePDFHSK5WordType.generate_key("CLA")
 CreatePDFHSK5WordType.generate_key("PRO")
 CreatePDFHSK5WordType.generate_misc_types("MISC")  # TODO: fix
 CreatePDFHSK5WordType.generate_featured("*****")
-
